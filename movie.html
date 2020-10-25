@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+        body{font-family: 'Kanit', sans-serif;
+            font-size: 1em;
+        }
+        a{
+            color: rgba(255, 255, 255, 0.945);
+        }
+        a:hover{
+            color: #94773f;
+        }
+        #s1:focus-within{
+            border: 1px solid #907137;
+        }
+        #s1{
+            background: #1d1e1f;
+        }
+
+        
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md" style="background-color: #000000;">
+        <a class="ml-3 mt-1 mb-1" href="#">
+            <img src="logo_20.svg" style="width: 65%;"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <strong class="navbar-toggler-icon"></strong>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link navf" href="#">Home<strong class="sr-only">(current)</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navf" href="#">Movies</a>
+              </li>
+            </ul>
+            <div class="input-group search-field col-3 d-flex ml-auto pt-2">
+                <span class="input-group-prepend">
+                  <div id="s1" class="input-group-text border-right-0">
+                    <a id="sch" href="#"><i class="fa fa-search"></i></a>
+                  </div>
+                </span>
+                <input class="form-control pt-4 pb-4 py-2 border-left-0 border" type="text" placeholder="Search" autocomplete="off" aria-label="Search" autocorrect="off" id="s1" />
+              </div>
+    </nav>
+</body>
+</html>
