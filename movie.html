@@ -10,28 +10,22 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
         body{font-family: 'Kanit', sans-serif;
-            font-size: 1em;
+            font-size: 1vw;
+            background-color: #f1f2f3;
         }
-        a{
+        #home,#movies{
             color: rgba(255, 255, 255, 0.945);
         }
-        a:hover{
-            color: #94773f;
+        #home:hover,#movies:hover,#category:hover{
+            color: #907137;
         }
         #s1:focus-within{
-            border: 1px solid #907137;
+            border: 1.2px solid #907137;
         }
         #s1,#s2{
             background: #1d1e1f;
         }
-        .nav-link:focus-within{
-            content: '';
-            position: relative;
-            display: block;
-            width: 100%;
-            height: 3px;
-            background-color: #907137;
-        }
+
         #s2{
           border: transparent;
         }
@@ -40,6 +34,43 @@
         }
         .icon{
           color: grey;
+        }
+        .footer{
+      background-color: #000;
+        }
+        #head{
+          margin: 30px 0px 30px 0px;
+        }
+        #category, .category{
+          font-size: 1.2vw;
+          text-decoration: none;
+          color: #000;
+          display: inline-block;
+          margin-right: 10px;
+        }
+        #category:focus-within,#home:focus-within,#movies:focus-within{
+          border-bottom: 3px solid #907137;
+        }
+        ul{
+          list-style: none;
+          padding-left: 0;
+        }
+        #name{
+          font-size: 1.2vw;
+        }
+        .foot,#foot{
+          margin-top: 30px;
+          margin-right: 50px;
+          color: white;
+          display: inline-block;
+          text-decoration: none;
+        }
+        #foot2{
+          margin-bottom: 40px;
+          margin-right: 40px;
+          color: white;
+          display: inline-block;
+          text-decoration: none;
         }
         
     </style>
@@ -57,10 +88,10 @@
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto" >
               <li class="nav-item active">
-                <a id="ss"class="nav-link navf" href="#"><span>Home</span></a>
+                <a id="home"class="nav-link navf" href="#"><span>Home</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link navf" href="#"><span>Movies</span></a>
+                <a id="movies"class="nav-link navf" href="#"><span>Movies</span></a>
               </li>
             </ul>
             <div class="input-group search-field col-3 d-flex ml-auto pt-2">
@@ -73,5 +104,100 @@
               </div>
     </nav>
     <!-------------------------Navigator-------------------------->
+    <!-----movies-->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm col-md">
+            <h2 id="head">
+              <strong>
+              20th Century Studios Movies
+            </strong>
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <ul style="list-style-type:none;">
+              <li class="category">
+                <a id="category"  href="#">Featured</a>
+              </li>
+              <li class="category">
+                <a id="category" href="#">Action/Adventure</a>
+              </li>
+              <li class="category">
+                <a id="category" href="#">Comedy</a>
+              </li>
+              <li class="category">
+                <a id="category" href="#">Crime/Mystery</a>
+              </li>
+              <li class="category">
+                <a id="category" href="#">Crime/Mystery</a>
+              </li>
+              <li class="category">
+                <a id="category" href="#">Horror</a>
+              </li>
+              <li class="category">
+                <a id="category" href="#">Romance</a>
+              </li>
+              <li class="category">
+                <a id="category" href="#">Science-Fiction</a>
+              </li>
+              <li class="category">
+                <a id="category" href="#">Suspense/Thriller</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row" id="song">
+          <script>
+            let requestURL = 'music.json'; 
+            let request = new XMLHttpRequest(); 
+            request.onreadystatechange = function () { 
+                if (request.readyState == 4 && request.status == 200) {             
+                    dataReportStatus(JSON.parse(request.responseText));            
+                } }; 
+            request.open("GET", requestURL, true); 
+            request.send(); 
+            
+            function dataReportStatus(data) { 
+                var song = "";
+                for(let i = 0; i < data.length ; i++){
+                    song += "<div class='col-2 m-3 mb-0'>";
+                    song += "<img class='img-fluid' src='"+ data[i].image +"' ;>" + "<br>";
+                    song += "<p id='name' style='color:#000'>" + data[i].song + "</p>";
+                    song += "</div>";
+    
+                    document.getElementById("song").innerHTML = song;
+                }
+            }
+        </script> 
+          </div>
+        </div>
+      </div>
+    <!-----movies-->
+    <!-----------------------footer---------------------------------->
+      <footer class="footer">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-xl-12 foot">
+              <a href="#" id="foot">Searchlight </a>
+              <a href="#" id="foot"> Blue Sky</a>
+              <a href="#" id="foot">Redeem Digital Codes</a>
+              <a href="#" id="foot">Contact Us </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-12 foot">
+              <a href="#" id="foot2">Terms of Use </a>
+              <a href="#" id="foot2"> Privacy Policy</a>
+              <a href="#" id="foot2">Your California Privacy Rights</a>
+              <a href="#" id="foot2">Children’s Online Privacy Policy</a>
+              <a href="#" id="foot2">Interest-Based Ads</a>
+              <a href="#" id="foot2">Do Not Sell My Info </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <!-----------------------footer---------------------------------->
 </body>
 </html>
