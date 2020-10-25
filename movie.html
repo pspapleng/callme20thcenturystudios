@@ -21,15 +21,36 @@
         #s1:focus-within{
             border: 1px solid #907137;
         }
-        #s1{
+        #s1,#s2{
             background: #1d1e1f;
         }
-
+        .nav-link:focus-within{
+            content: '';
+            position: relative;
+            top: 6px;
+            left: 50%;
+            display: block;
+            width: 100%;
+            height: 3px;
+            transform: translateX(-50%);
+            transition: all .3s ease-in-out;
+            background-color: #907137;
+        }
+        #s2{
+          border: transparent;
+        }
+        .input-group-text{
+          border: grey 1px solid;
+        }
+        .icon{
+          color: grey;
+        }
         
     </style>
     <title>Document</title>
 </head>
 <body>
+  <!----------------------------Navigator-------------------->
     <nav class="navbar navbar-expand-md" style="background-color: #000000;">
         <a class="ml-3 mt-1 mb-1" href="#">
             <img src="logo_20.svg" style="width: 65%;"/>
@@ -38,22 +59,23 @@
             <strong class="navbar-toggler-icon"></strong>
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto" >
               <li class="nav-item active">
-                <a class="nav-link navf" href="#">Home<strong class="sr-only">(current)</strong></a>
+                <a id="ss"class="nav-link navf" href="#"><span>Home</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link navf" href="#">Movies</a>
+                <a class="nav-link navf" href="#"><span>Movies</span></a>
               </li>
             </ul>
             <div class="input-group search-field col-3 d-flex ml-auto pt-2">
                 <span class="input-group-prepend">
-                  <div id="s1" class="input-group-text border-right-0">
-                    <a id="sch" href="#"><i class="fa fa-search"></i></a>
-                  </div>
+                  <div id="s1" class="input-group-text ">
+                    <a class="pr-2"id="sch" href="#"><i class="icon fa fa-search"></i></a>
+                  <input id="s2" class="form-control " type="text" placeholder="Search" autocomplete="off" aria-label="Search" autocorrect="off"/>
                 </span>
-                <input class="form-control pt-4 pb-4 py-2 border-left-0 border" type="text" placeholder="Search" autocomplete="off" aria-label="Search" autocorrect="off" id="s1" />
+              </div>
               </div>
     </nav>
+    <!-------------------------Navigator-------------------------->
 </body>
 </html>
