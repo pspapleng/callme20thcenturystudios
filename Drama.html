@@ -162,11 +162,14 @@
             function dataReportStatus(data) { 
                 var mov = "";
                 for(let i = 0; i < data.length ; i++){
-                    mov += "<div class='col-2 p-0 m-3 mb-0'>";
-                    mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
-                    mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
-                    mov += "</div>";
-    
+                    for(let j = 0; j < data[i].tag.length; j++){
+                        if(data[i].tag[j] == "Drama"){
+                            mov += "<div class='col-2 p-0 m-3 mb-0'>";
+                            mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
+                            mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
+                            mov += "</div>";
+                        }
+                    }
                     document.getElementById("mov").innerHTML = mov;
                 }
             }
