@@ -1,19 +1,42 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
-        body{font-family: 'Kanit', sans-serif;
-            font-size: 1vw;
-            background-color: #f1f2f3;
-        }
-        #home,#movies{
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>movie ref</title>
+  </head>
+  <style>
+    body {
+      font-family: "Montserrat", sans-serif;
+      font-weight: bolder;
+      font-size: 1vw;
+      background-color: #f1f2f3;
+    }
+    #home,#movies{
             color: rgba(255, 255, 255, 0.945);
         }
         #home:hover,#movies:hover,#category:hover{
@@ -73,11 +96,9 @@
           text-decoration: none;
         }
         
-    </style>
-    <title>Document</title>
-</head>
-<body>
-  <!----------------------------Navigator-------------------->
+  </style>
+  <body>
+      <!----------------------------Navigator-------------------->
     <nav class="navbar navbar-expand-md" style="background-color: #000000;">
         <a class="ml-3 mt-1 mb-1" href="#">
             <img src="logo_20.svg" style="width: 65%;"/>
@@ -104,8 +125,8 @@
               </div>
     </nav>
     <!-------------------------Navigator-------------------------->
-    <!-----movies-->
-      <div class="container">
+    <!----------------------------movies------------------------->
+     <div class="container">
         <div class="row">
           <div class="col-sm col-md">
             <h2 id="head">
@@ -119,37 +140,38 @@
           <div class="col-12">
             <ul style="list-style-type:none;">
               <li class="category">
-                <a id="category"  href="movie.html">Featured</a>
+                <a id="category" onclick="onclickNav(null)" >Featured</a>
               </li>
               <li class="category">
-                <a id="category" href="action.html">Action/Adventure</a>
+                <a id="category" onclick="onclickNav('Action')">Action/Adventure</a>
               </li>
               <li class="category">
-                <a id="category" href="Comedy.html">Comedy</a>
+                <a id="category" onclick="onclickNav('Comedy')">Comedy</a>
               </li>
               <li class="category">
-                <a id="category" href="Crime.html">Crime/Mystery</a>
+                <a id="category" onclick="onclickNav('Crime')">Crime/Mystery</a>
               </li>
               <li class="category">
-                <a id="category" href="Drama.html">Drama</a>
+                <a id="category" onclick="onclickNav('Drama')">Drama</a>
               </li>
               <li class="category">
-                <a id="category" href="horror.html">Horror</a>
+                <a id="category" onclick="onclickNav('Horror')">Horror</a>
               </li>
               <li class="category">
-                <a id="category" href="Romance.html">Romance</a>
+                <a id="category" onclick="onclickNav('Romance')">Romance</a>
               </li>
               <li class="category">
-                <a id="category" href="Science-Fiction.html">Science-Fiction</a>
+                <a id="category" onclick="onclickNav('Science-Fiction')">Science-Fiction</a>
               </li>
               <li class="category">
-                <a id="category" href="Thriller.html">Suspense/Thriller</a>
+                <a id="category" onclick="onclickNav('Suspense')">Suspense/Thriller</a>
               </li>
             </ul>
           </div>
         </div>
         <div class="row" id="mov">
           <script>
+            var categoryType = null;
             let requestURL = 'test20cen.json'; 
             let request = new XMLHttpRequest(); 
             request.onreadystatechange = function () { 
@@ -158,25 +180,81 @@
                 } }; 
             request.open("GET", requestURL, true); 
             request.send(); 
-            
-            function dataReportStatus(data) { 
+
+            function onclickNav(payload){
+                // console.log(payload);
+                categoryType = payload
+                request.onreadystatechange = function () { 
+                if (request.readyState == 4 && request.status == 200) {             
+                    dataReportStatus(JSON.parse(request.responseText));            
+                } }; 
+
+            request.open("GET", requestURL, true); 
+            request.send(); 
+              }
+              function dataReportStatus(data) { 
                 var mov = "";
                 for(let i = 0; i < data.length ; i++){
-                    mov += "<div class='col-2 p-0 m-3 mb-0'>";
-                    mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
-                    mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
-                    mov += "</div>";
-    
+                      if(categoryType == "Action"){
+                        if (data[i].tag.includes(categoryType)){ 
+                            mov += "<div class='col-2 p-0 m-3 mb-0'>";
+                            mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
+                            mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
+                            mov += "</div>";}
+                        else if (data[i].tag.includes("Adventure")){ 
+                            mov += "<div class='col-2 p-0 m-3 mb-0'>";
+                            mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
+                            mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
+                            mov += "</div>";
+                      }
+                      }
+                      else if(categoryType == "Crime"){
+                        if (data[i].tag.includes(categoryType)){ 
+                            mov += "<div class='col-2 p-0 m-3 mb-0'>";
+                            mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
+                            mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
+                            mov += "</div>";}
+                        else if (data[i].tag.includes("Mystery")){ 
+                            mov += "<div class='col-2 p-0 m-3 mb-0'>";
+                            mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
+                            mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
+                            mov += "</div>";
+                        }
+                      }
+                      else if(categoryType == "Suspense"){
+                        if (data[i].tag.includes(categoryType)){ 
+                            mov += "<div class='col-2 p-0 m-3 mb-0'>";
+                            mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
+                            mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
+                            mov += "</div>";}
+                        else if (data[i].tag.includes("Thriller")){ 
+                            mov += "<div class='col-2 p-0 m-3 mb-0'>";
+                            mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
+                            mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
+                            mov += "</div>";
+                        }
+                      }
+                      else if (data[i].tag.includes(categoryType)){ 
+                          mov += "<div class='col-2 p-0 m-3 mb-0'>";
+                          mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
+                          mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
+                          mov += "</div>";}
+                      else if(categoryType === null){
+                            mov += "<div class='col-2 p-0 m-3 mb-0'>";
+                            mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
+                            mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
+                            mov += "</div>";
+                        }
                     document.getElementById("mov").innerHTML = mov;
-                }
-            }
+                }}
+              
         </script> 
           </div>
         </div>
       </div>
-    <!-----movies-->
+    <!----------------------------movies------------------------->
     <!-----------------------footer---------------------------------->
-      <footer class="footer">
+    <footer class="footer">
         <div class="container text-center">
           <div class="row">
             <div class="col-xl-12 foot">
