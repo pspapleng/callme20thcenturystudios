@@ -27,6 +27,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>movie ref</title>
   </head>
   <style>
@@ -39,7 +40,7 @@
     #home,#movies{
             color: rgba(255, 255, 255, 0.945);
         }
-        #home:hover,#movies:hover,#category:hover{
+        #home:hover,#movies:hover,#category:hover,.icon:hover{
             color: #907137;
         }
         #s1:focus-within{
@@ -59,17 +60,18 @@
           color: grey;
         }
         .footer{
-      background-color: #000;
+        background-color: #000;
+        font-size: 0.9vw;
         }
         #head{
           margin: 30px 0px 30px 0px;
         }
         #category, .category{
-          font-size: 1.2vw;
+          font-size: 1.1vw;
           text-decoration: none;
           color: #000;
           display: inline-block;
-          margin-right: 10px;
+          margin-right: 15px;
         }
         #category:focus-within,#home:focus-within,#movies:focus-within{
           border-bottom: 3px solid #907137;
@@ -80,6 +82,11 @@
         }
         #name{
           font-size: 1.2vw;
+        }
+        .btn-gold{
+          font-size: 1.2vw;
+          background-color: #907137;
+          color: #f1f2f3;
         }
         .foot,#foot{
           margin-top: 30px;
@@ -118,7 +125,7 @@
             <div class="input-group search-field col-3 d-flex ml-auto pt-2">
                 <span class="input-group-prepend">
                   <div id="s1" class="input-group-text ">
-                    <a class="pr-2"id="sch" href="#"><i class="icon fa fa-search"></i></a>
+                    <a class="pr-2"id="sch" href="#"><i class="icon fa fa-search" aria-hidden="true"></i></a>
                   <input id="s2" class="form-control " type="text" placeholder="Search" autocomplete="off" aria-label="Search" autocorrect="off"/>
                 </span>
               </div>
@@ -161,7 +168,7 @@
                 <a id="category" onclick="onclickNav('Romance')">Romance</a>
               </li>
               <li class="category">
-                <a id="category" onclick="onclickNav('Science-Fiction')">Science-Fiction</a>
+                <a id="category" onclick="onclickNav('Science Fiction')">Science-Fiction</a>
               </li>
               <li class="category">
                 <a id="category" onclick="onclickNav('Suspense')">Suspense/Thriller</a>
@@ -172,7 +179,7 @@
         <div class="row" id="mov">
           <script>
             var categoryType = null;
-            let requestURL = 'test20cen.json'; 
+            let requestURL = '20cenData.json'; 
             let request = new XMLHttpRequest(); 
             request.onreadystatechange = function () { 
                 if (request.readyState == 4 && request.status == 200) {             
@@ -191,9 +198,15 @@
 
             request.open("GET", requestURL, true); 
             request.send(); 
+            
               }
               function dataReportStatus(data) { 
                 var mov = "";
+                data = data.sort((a, b) => {
+                if (a.title < b.title) { return -1; }
+                if (a.title > b.title) { return 1; }
+                return 0;
+                });
                 for(let i = 0; i < data.length ; i++){
                       if(categoryType == "Action"){
                         if (data[i].tag.includes(categoryType)){ 
@@ -234,21 +247,26 @@
                             mov += "</div>";
                         }
                       }
-                      else if (data[i].tag.includes(categoryType)){ 
-                          mov += "<div class='col-2 p-0 m-3 mb-0'>";
-                          mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
-                          mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
-                          mov += "</div>";}
-                      else if(categoryType === null){
+                        else if (data[i].tag.includes(categoryType)){ 
                             mov += "<div class='col-2 p-0 m-3 mb-0'>";
                             mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
                             mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
-                            mov += "</div>";
-                        }
+                            mov += "</div>";}
+                      else if (categoryType === null){ 
+                        if (data[i].tag.includes("Featured")){ 
+                            mov += "<div class='col-2 p-0 m-3 mb-0'>";
+                            mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
+                            mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
+                            mov += "</div>";}}
                     document.getElementById("mov").innerHTML = mov;
                 }}
               
         </script> 
+          </div>
+          <div class="row"> 
+            <div class="col-12 text-center ">
+              <button class="btn btn-gold pr-5 pl-5 pt-2 pb-2 mt-2 mb-5">Show more</button>
+            </div>
           </div>
         </div>
       </div>
