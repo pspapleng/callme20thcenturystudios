@@ -6,22 +6,319 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  
+    <!--VIDEO SLIDE PART-->
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!--VIDEO SLIDE PART-->
+
     <style>
         body{ background-color: #ffffff;
-            margin-left: 8%;
-            margin-right: 8%;
+            margin-left: 6%;
+            margin-right: 6%;
             margin-top: 3%;
             margin-bottom: 3%;
         }
         .text_style{
             margin-left: 8%;
         }
+
+        /*VIDEO SLIDE PART*/
+        /*.MultiCarousel {
+        float: left;
+        overflow: hidden;
+        padding: 15px;
+        width: 100%;
+        position: relative;
+        }
+        .MultiCarousel .MultiCarousel-inner {
+        transition: 1s ease all;
+        float: left;
+        }
+        .MultiCarousel .MultiCarousel-inner .item {
+        float: left;
+        }
+        .MultiCarousel .MultiCarousel-inner .item > div {
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        background: #f1f1f1;
+        color: #666;
+        }
+        .MultiCarousel .leftLst,
+        .MultiCarousel .rightLst {
+        position: absolute;
+        border-radius: 50%;
+        top: calc(50% - 20px);
+        }
+        .MultiCarousel .leftLst {
+        left: 0;
+        }
+        .MultiCarousel .rightLst {
+        right: 0;
+        }
+
+        .MultiCarousel .leftLst.over,
+        .MultiCarousel .rightLst.over {
+        pointer-events: none;
+        background: #ccc;
+        }*/
+        /*VIDEO SLIDE PART*/
+
+                                                    
+                                                        /*IMAGE SLIDE PART*/
+        * {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif; margin:0}
+        .mySlides {display: none}
+        img {vertical-align: middle;}
+
+        /* Slideshow container */
+        .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin-left: 50%;
+        margin-right: 50%;
+        }
+
+        /* Next & previous buttons */
+        .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        }
+
+        /* Caption text */
+        .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+        background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+        }
+
+        @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+        .prev, .next,.text {font-size: 11px}
+        }
+                                                    /*END OF IMAGE SLIDE PART*/
     </style>
 </head>
+
+<!-- THIS IS SLIDE ( VIDEO & IMAGE ) PART-->
+<!-- VIDEO SLIDE PART-->
+  <!--JS-->
+  <!--<script>
+    $(document).ready(function () {
+      var itemsMainDiv = ".MultiCarousel";
+      var itemsDiv = ".MultiCarousel-inner";
+      var itemWidth = "";
+
+      $(".leftLst, .rightLst").click(function () {
+        var condition = $(this).hasClass("leftLst");
+        if (condition) click(0, this);
+        else click(1, this);
+      });
+
+      ResCarouselSize();
+
+      $(window).resize(function () {
+        ResCarouselSize();
+      });
+
+      function ResCarouselSize() {
+        var incno = 0;
+        var dataItems = "data-items";
+        var itemClass = ".item";
+        var id = 0;
+        var btnParentSb = "";
+        var itemsSplit = "";
+        var sampwidth = $(itemsMainDiv).width();
+        var bodyWidth = $("body").width();
+        $(itemsDiv).each(function () {
+          id = id + 1;
+          var itemNumbers = $(this).find(itemClass).length;
+          btnParentSb = $(this).parent().attr(dataItems);
+          itemsSplit = btnParentSb.split(",");
+          $(this)
+            .parent()
+            .attr("id", "MultiCarousel" + id);
+
+          if (bodyWidth >= 1200) {
+            incno = itemsSplit[3];
+            itemWidth = sampwidth / incno;
+          } else if (bodyWidth >= 992) {
+            incno = itemsSplit[2];
+            itemWidth = sampwidth / incno;
+          } else if (bodyWidth >= 768) {
+            incno = itemsSplit[1];
+            itemWidth = sampwidth / incno;
+          } else {
+            incno = itemsSplit[0];
+            itemWidth = sampwidth / incno;
+          }
+          $(this).css({
+            transform: "translateX(0px)",
+            width: itemWidth * itemNumbers,
+          });
+          $(this)
+            .find(itemClass)
+            .each(function () {
+              $(this).outerWidth(itemWidth);
+            });
+
+          $(".leftLst").addClass("over");
+          $(".rightLst").removeClass("over");
+        });
+      }
+
+      function ResCarousel(e, el, s) {
+        var leftBtn = ".leftLst";
+        var rightBtn = ".rightLst";
+        var translateXval = "";
+        var divStyle = $(el + " " + itemsDiv).css("transform");
+        var values = divStyle.match(/-?[\d\.]+/g);
+        var xds = Math.abs(values[4]);
+        if (e == 0) {
+          translateXval = parseInt(xds) - parseInt(itemWidth * s);
+          $(el + " " + rightBtn).removeClass("over");
+
+          if (translateXval <= itemWidth / 2) {
+            translateXval = 0;
+            $(el + " " + leftBtn).addClass("over");
+          }
+        } else if (e == 1) {
+          var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+          translateXval = parseInt(xds) + parseInt(itemWidth * s);
+          $(el + " " + leftBtn).removeClass("over");
+
+          if (translateXval >= itemsCondition - itemWidth / 2) {
+            translateXval = itemsCondition;
+            $(el + " " + rightBtn).addClass("over");
+          }
+        }
+        $(el + " " + itemsDiv).css(
+          "transform",
+          "translateX(" + -translateXval + "px)"
+        );
+      }
+
+      function click(ell, ee) {
+        var Parent = "#" + $(ee).parent().attr("id");
+        var slide = $(Parent).attr("data-slide");
+        ResCarousel(ell, Parent, slide);
+      }
+    });
+  </script>-->
+  <!--VIDEO SLIDE PART-->
+
+                                                <!--IMAGE SLIDE PART-->
+        <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        }
+    </script>
+                                                <!--END OF IMAGE SLIDE PART-->
+
+
+
 <body>
-    <div class="row" id="info"></div>
+    <div class="row" id="info">
+    </div>
     <script>
-        let requestURL = '20cenData.json'; 
+        let requestURL = 'test20cen.json'; 
         let request = new XMLHttpRequest(); 
         request.onreadystatechange = function () { 
             if (request.readyState == 4 && request.status == 200) {             
@@ -31,7 +328,7 @@
         request.send(); 
                     
         function dataReportStatus(data) { 
-            var movie = data[0]; //CHANGE MOVIE HERE!!!
+            var movie = data[1]; //CHANGE MOVIE HERE!!!
             let text = "";
                 text += '<div class="col-5">';
                 text += '<img class="img-fluid" src="'+ movie.poster_url + '">'; 
@@ -63,18 +360,22 @@
                     text += '<img src="instra-icon.png" width="5.5%" style="margin-right:30px;">'
                     text += '</a>'
                 }
-
-                text += '</br></br><h5><b>' + 'DIRECTED BY' + '</b></h5>';
-                text += '<p>' + movie.directed_by + '</p></br>';
-
-                text += '<h5><b>' + 'WRITTEN BY' + '</b></h5>';
-                text += '<p>' + movie.written_by + '</p></br>';
-
-                text += '<h5><b>' + 'PRODUCED BY' + '</b></h5>';
-                text += '<p>' + movie.produced_by + '</p></br>';
-
-                text += '<h5><b>' + 'CAST' + '</b></h5>';
-                text += '<p>' + movie.cast + '</p></br>';
+                if(movie.directed_by != null){
+                    text += '</br></br><h5><b>' + 'DIRECTED BY' + '</b></h5>';
+                    text += '<p>' + movie.directed_by + '</p></br>';
+                }
+                if(movie.written_by != null){
+                    text += '<h5><b>' + 'WRITTEN BY' + '</b></h5>';
+                    text += '<p>' + movie.written_by + '</p></br>';
+                }
+                if(movie.produced_by != null){
+                    text += '<h5><b>' + 'PRODUCED BY' + '</b></h5>';
+                    text += '<p>' + movie.produced_by + '</p></br>';
+                }
+                if(movie.cast != null){
+                    text += '<h5><b>' + 'CAST' + '</b></h5>';
+                    text += '<p>' + movie.cast + '</p></br>';
+                }
                 
                 for(var logo=0; logo<movie.movie_class_logo_url.length; logo++){
                     text += '<img src="'+ movie.movie_class_logo_url[logo] + '" width="70px" style="margin-right:35px;">';
@@ -86,6 +387,53 @@
                 }
                 
                 text += '</div></div>';
+
+                text += '<div class= buttcontent></br></br></br>';
+                text += '<h2><b>VIDEOS</b></h2>';
+
+
+                if(movie.video != null){
+                /*text += '<div class="container">';
+                    text += '<div class="row">';
+                        text += '<div class="MultiCarousel" data-items="1,2,4,5" data-slide="5" id="MultiCarousel" data-interval="200">';
+                        text += '<div class="MultiCarousel-inner">';
+                            
+                            /*THIS IS VIDEO PRINT LOOP!!!
+                            for(var vdo=0; vdo<movie.video.length; vdo++){
+                            text += '<div class="item">';
+                            text += '<div class="pad15">';
+                            text += '<img src="'+ movie.video[vdo].video_image +'" class="lead" style="width: 20%;">';               
+                            text += '<h5 style="margin-top:5px;"><b>'+ movie.video[vdo].title + '</b></h5>';
+                            text += '</div></div>';
+                        } 
+
+                            THIS IS VIDEO PRINT LOOP!!!
+
+                        text += '</div>';
+                        text += '<button class="btn btn-primary leftLst"><</button>';
+                        text += '<button class="btn btn-primary rightLst">></button>';
+                        text += '</div>';
+                    text += '</div>';*/
+                }     
+
+
+                if(movie.slideshow_image_url != null){
+                    //text += '<div class="slideshow-container">';
+
+                        for(var ig=0; ig<movie.slideshow_image_url.length; ig++){
+                            //text += '<div class="mySlides fade">';
+                                text += '<img src="'+ movie.slideshow_image_url[ig] + '" style="width:60%">';
+                                text += '<div class="numbertext">' +  ig+1 + '/' + movie.slideshow_image_url.length+1 + '</div>';
+                            //text += '</div>';
+                        }
+                        
+                        //text += '<a class="prev" onclick="plusSlides(-1)">&#10094;</a>';
+                        //text += '<a class="next" onclick="plusSlides(1)">&#10095;</a>';
+
+                        //text += '</div>';
+                    //text += '</div>';
+                }
+                    
                 document.querySelector("#info").innerHTML += text;
                 }
             
