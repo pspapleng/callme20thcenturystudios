@@ -38,7 +38,7 @@
       background-color: #f1f2f3;
     }
     #home,#movies{
-            color: rgba(255, 255, 255, 0.945);
+            color: #fff;
         }
         #home:hover,#movies:hover,#category:hover,.icon:hover{
             color: #907137;
@@ -64,14 +64,15 @@
         font-size: 0.9vw;
         }
         #head{
+          font-size: 2vw;
           margin: 30px 0px 30px 0px;
         }
         #category, .category{
-          font-size: 1.1vw;
+          font-size: 1vw;
           text-decoration: none;
           color: #000;
           display: inline-block;
-          margin-right: 15px;
+          margin-right: 19px;
         }
         #category:focus-within,#home:focus-within,#movies:focus-within{
           border-bottom: 3px solid #907137;
@@ -103,14 +104,17 @@
           text-decoration: none;
         }
         .poster{
-          height: 320px;
+          height: 315px;
+        }
+        .mll{
+          margin-left: 20px;
         }
         
   </style>
   <body>
       <!----------------------------Navigator-------------------->
     <nav class="navbar navbar-expand-md" style="background-color: #000000;">
-        <a class="ml-3 mt-1 mb-1" href="#">
+        <a class="mll mt-1 mb-1" href="#">
             <img src="logo_20.svg" style="width: 65%;"/>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -122,14 +126,14 @@
                 <a id="home"class="nav-link navf" href="#"><span>Home</span></a>
               </li>
               <li class="nav-item">
-                <a id="movies"class="nav-link navf" href="#"><span>Movies</span></a>
+                <a id="movies"class="nav-link navf pl-3" href="#"><span>Movies</span></a>
               </li>
             </ul>
-            <div class="input-group search-field col-3 d-flex ml-auto pt-2">
+            <div class="input-group search-field col-3 d-flex ml-auto pt-1">
                 <span class="input-group-prepend">
                   <div id="s1" class="input-group-text ">
                     <a class="pr-2"id="sch" href="#"><i class="icon fa fa-search" aria-hidden="true"></i></a>
-                  <input id="s2" class="form-control " type="text" placeholder="Search" autocomplete="off" aria-label="Search" autocorrect="off"/>
+                  <input id="s2" class="form-control" type="text" placeholder="Search" autocomplete="off" aria-label="Search" autocorrect="off"/>
                 </span>
               </div>
               </div>
@@ -256,7 +260,7 @@
                             mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
                             mov += "</div>";}
                       else if (categoryType === null){ 
-                        if (data[i].tag.includes("Featured")){ 
+                        if (data[i].feat.includes("Featured")){ 
                             mov += "<div class='col-2 p-0 m-3 mb-0'>";
                             mov += "<img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;>" + "<br>";
                             mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
