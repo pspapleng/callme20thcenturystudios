@@ -10,32 +10,16 @@
     <title>Document</title>
 </head>
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
-        body{font-family: 'Kanit', sans-serif;
-            font-size: 1vw;
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');        
+		body {
+			font-family: 'Montserrat', sans-serif;
             background-color: #f1f2f3;
         }
-    #head{
-          margin: 30px 0px 30px 0px;
-        }
-    .footer{
-      background-color: #000;
-    }
-    .foot,#foot{
-          margin-top: 30px;
-          margin-right: 50px;
-          color: white;
-          display: inline-block;
-          text-decoration: none;
-        }
-        #foot2{
-          margin-bottom: 40px;
-          margin-right: 40px;
-          color: white;
-          display: inline-block;
-          text-decoration: none;
-        }
         #home,#movies{
+			font-size: 16px;
+			font-weight: 600;
+			font-style: normal;
+            font-display: swap;
             color: rgba(255, 255, 255, 0.945);
         }
         #home:hover,#movies:hover,#category:hover{
@@ -49,155 +33,305 @@
         }
 
         #s2{
-          border: transparent;
+            border: transparent;
         }
-        #moviename, #status {
-            text-align: left;
+        .input-group-text{
+          	border: grey 1px solid;
         }
-        #moviename {
-            font-size: 60px;
+        .icon{
+          	color: grey;
+        }
+        .footer	{
+      		background-color: #000;
+        }
+        #head {
+          	margin: 30px 0px 30px 0px;
+        }
+        #category, .category {
+            font-size: 1.2vw;
+          	text-decoration: none;
+          	color: #000;
+          	display: inline-block;
+          	margin-right: 10px;
+        }
+        #category:focus-within,#home:focus-within,#movies:focus-within {
+          	border-bottom: 3px solid #907137;
+        }
+        ul {
+          	list-style: none;
+          	padding-left: 0;
+        }
+        #name {
+          	font-size: 1.2vw;
+        }
+        .foot,#foot {
+          	margin-top: 30px;
+          	margin-right: 50px;
+          	color: white;
+          	display: inline-block;
+          	text-decoration: none;
+        }
+        #foot2 {
+          	margin-bottom: 40px;
+          	margin-right: 40px;
+          	color: white;
+          	display: inline-block;
+          	text-decoration: none;
         }
         #firstbutton {
+			float: left;
+			display: inline;
+			padding: 15px 70px;
+			margin: 0 0 30 0;
+			font-size: 17px;
+			font-weight: 700;
             color: white;
             background-color: #907137;
             border: #907137;
         }
         #secondbutton {
+			float: left;
+			display: inline;
+			padding: 15px 45px;
+			margin: 0 0 0 30;
+			font-size: 17px;
+			font-weight: 700;
             color: black;
             background-color: white;
             border: white;
         }
-
+		h5 {
+			text-align: left;
+			font-size: 50px;
+			font-weight: 900;
+			font-style: normal;
+            font-display: swap;
+		}
+		#status {
+			text-align: left;
+			font-size: 15px;
+			font-weight: 700;
+			font-style: normal;
+            font-display: swap;
+		}
+		.carousel-indicators li {
+			height: 4px;
+        	width: 42px;
+		}
+		.carousel-indicators .active {
+    		background-color: #907137;
+		}
+		.carousel-control-prev-icon, .carousel-control-next-icon {
+  			height: 50px;
+  			width: 50px;
+  			background-color: black;
+  			background-size: 40%, 40%;
+  			border-radius: 100%;
+		}
 </style>
 <body>
     <!----------------------------Navigator-------------------->
     <nav class="navbar navbar-expand-md" style="background-color: #000000;">
         <a class="ml-3 mt-1 mb-1" href="#">
-            <img src="logo_20.svg" style="width: 65%;"/>
+            <img src="logo_20.svg" style="width: 73%;"/>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <strong class="navbar-toggler-icon"></strong>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto" >
-              <li class="nav-item active">
-                <a id="home"class="nav-link navf" href="#"><span>Home</span></a>
-              </li>
-              <li class="nav-item">
-                <a id="movies"class="nav-link navf" href="#"><span>Movies</span></a>
-              </li>
+              	<li class="nav-item active">
+                	<a id="home"class="nav-link navf" href="#"><span>Home</span></a>
+              	</li>
+              	<li class="nav-item">
+                	<a id="movies"class="nav-link navf" href="#"><span>Movies</span></a>
+              	</li>
             </ul>
             <div class="input-group search-field col-3 d-flex ml-auto pt-2">
                 <span class="input-group-prepend">
-                  <div id="s1" class="input-group-text ">
-                    <a class="pr-2"id="sch" href="#"><i class="icon fa fa-search"></i></a>
-                  <input id="s2" class="form-control " type="text" placeholder="Search" autocomplete="off" aria-label="Search" autocorrect="off"/>
-                </span>
-              </div>
-              </div>
+                  	<div id="s1" class="input-group-text ">
+                    	<a class="pr-2"id="sch" href="#"><i class="icon fa fa-search"></i></a>
+						  <input id="s2" class="form-control " type="text" placeholder="Search" autocomplete="off" aria-label="Search" autocorrect="off"/>
+					</div>
+                </span>       
+            </div>
     </nav>
     <!-------------------------Navigator-------------------------->
     <!-------------------------Carousel--------------------------->
     <div class="bd-example">
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="https://i.pinimg.com/564x/ba/28/7d/ba287d2fc8fa9a5e0bd73a30a2a62902.jpg" class="d-block w-100" alt="Responsive image" style="width: 100%; height: 720px;">
-              <div class="carousel-caption d-none d-md-block">
-                <h5 id="moviename">First slide label</h5>
-                <p id="status">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                <button type="button" id="firstbutton" class="btn btn-primary btn-lg">Large button</button>
-                <button type="button" id="secondbutton" class="btn btn-primary btn-lg">Large button</button>
-              </div>
+      	<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        	<ol class="carousel-indicators">
+          		<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          		<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          		<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          		<li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+          		<li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+          		<li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+        	</ol>
+        <div class="carousel-inner">
+          	<div class="carousel-item active">
+            	<img src="https://lumiere-a.akamaihd.net/v1/images/hb_20cs_theemptyman_20320_95844c46.jpeg?region=0,0,2048,878" class="d-block w-100" alt="Responsive image" style="width: 100%; height: 720px;">
+            	<div class="carousel-caption d-none d-md-block">
+              		<h5 id="moviename">THE EMPTY MAN</h5>
+              		<p id="status">In Theaters Now</p>
+              		<button type="button" id="firstbutton" class="btn btn-primary btn-lg">GET TICKETS</button>
+              		<button type="button" id="secondbutton" class="btn btn-primary btn-lg">VISIT OFFICIAL SITE</button>
+            	</div>
+          	</div>
+          	<div class="carousel-item">
+            	<img src="https://lumiere-a.akamaihd.net/v1/images/hb_20cs_thenewmutants_36b7cb6f.jpeg?region=0,0,2048,878" class="d-block w-100" alt="..." style="width: 100%; height: 720px;">
+            	<div class="carousel-caption d-none d-md-block">
+              		<h5 id="moviename">THE NEW MUTANTS</h5>
+              		<p id="status">In Theaters Now</p>
+              		<button type="button" id="firstbutton" class="btn btn-primary btn-lg">GET TICKETS</button>
+              		<button type="button" id="secondbutton" class="btn btn-primary btn-lg">VISIT OFFICIAL SITE</button>
+            	</div>
+          	</div>
+          	<div class="carousel-item">
+            	<img src="https://lumiere-a.akamaihd.net/v1/images/hb_20cs_freeguy_20091_4208baba.jpeg?region=0,0,2048,878" class="d-block w-100" alt="..." style="width: 100%; height: 720px;">
+            	<div class="carousel-caption d-none d-md-block">
+              		<h5 id="moviename">FREE GUY</h5>
+              		<p id="status">In Theaters December 11, 2020</p>
+              		<button type="button" id="firstbutton" class="btn btn-primary btn-lg">WATCH TRAILER</button>
+              		<button type="button" id="secondbutton" class="btn btn-primary btn-lg">VISIT OFFICIAL SITE</button>
+            	</div>
+          	</div>
+          	<div class="carousel-item">
+              	<img src="https://lumiere-a.akamaihd.net/v1/images/hb_20cs_deathonthenile_19923_2_cb3d7374.jpeg?region=0,0,2048,878" class="d-block w-100" alt="..." style="width: 100%; height: 720px;">
+              	<div class="carousel-caption d-none d-md-block">
+                		<h5 id="moviename">DEATH ON THE NILE</h5>
+                		<p id="status">In Theaters December 18, 2020</p>
+                		<button type="button" id="firstbutton" class="btn btn-primary btn-lg">WATCH TRAILER</button>
+                		<button type="button" id="secondbutton" class="btn btn-primary btn-lg">VISIT OFFICIAL SITE</button>
+              	</div>
             </div>
             <div class="carousel-item">
-              <img src="https://i.pinimg.com/564x/34/8b/59/348b5987812d685a8399c94f8fbc0789.jpg" class="d-block w-100" alt="..." style="width: 100%; height: 720px;">
-              <div class="carousel-caption d-none d-md-block">
-                <h5 id="moviename">Second slide label</h5>
-                <p id="status">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button type="button" id="firstbutton" class="btn btn-primary btn-lg">Large button</button>
-                <button type="button" id="secondbutton" class="btn btn-primary btn-lg">Large button</button>
-              </div>
+              	<img src="https://lumiere-a.akamaihd.net/v1/images/hb_20cs_thekingsman_20186_0b945a3b.jpeg?region=0,0,2048,878" class="d-block w-100" alt="..." style="width: 100%; height: 720px;">
+              	<div class="carousel-caption d-none d-md-block">
+                		<h5 id="moviename">THE KING'S MAN</h5>
+                		<p id="status">In Theaters February 12, 2021</p>
+                		<button type="button" id="firstbutton" class="btn btn-primary btn-lg">WATCH TRAILER</button>
+                		<button type="button" id="secondbutton" class="btn btn-primary btn-lg">VISIT OFFICIAL SITE</button>
+              	</div>
             </div>
             <div class="carousel-item">
-              <img src="https://i.pinimg.com/564x/ab/fd/34/abfd34fe0bdb15f55ff3c96b4e93e8b6.jpg" class="d-block w-100" alt="..." style="width: 100%; height: 720px;">
-              <div class="carousel-caption d-none d-md-block">
-                <h5 id="moviename">Third slide label</h5>
-                <p id="status">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                <button type="button" id="firstbutton" class="btn btn-primary btn-lg">Large button</button>
-                <button type="button" id="secondbutton" class="btn btn-primary btn-lg">Large button</button>
-              </div>
+              	<img src="https://lumiere-a.akamaihd.net/v1/images/hb_20cs_rockyhorrorpictureshow_20044_4d49493f.jpeg?region=0,0,2048,878" class="d-block w-100" alt="..." style="width: 100%; height: 720px;">
+              	<div class="carousel-caption d-none d-md-block">
+                	<h5 id="moviename">The Rocky Horror Picture Show</h5>
+                	<p id="status">On Digital</p>
+                	<button type="button" id="firstbutton" class="btn btn-primary btn-lg">WATCH TRAILER</button>
+                	<button type="button" id="secondbutton" class="btn btn-primary btn-lg">VISIT OFFICIAL SITE</button>
+              	</div>
             </div>
-            <div class="carousel-item">
-                <img src="https://i.pinimg.com/564x/ab/fd/34/abfd34fe0bdb15f55ff3c96b4e93e8b6.jpg" class="d-block w-100" alt="..." style="width: 100%; height: 720px;">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 id="moviename">Third slide label</h5>
-                  <p id="status">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                  <button type="button" id="firstbutton" class="btn btn-primary btn-lg">Large button</button>
-                  <button type="button" id="secondbutton" class="btn btn-primary btn-lg">Large button</button>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://i.pinimg.com/564x/ab/fd/34/abfd34fe0bdb15f55ff3c96b4e93e8b6.jpg" class="d-block w-100" alt="..." style="width: 100%; height: 720px;">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 id="moviename">Third slide label</h5>
-                  <p id="status">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                  <button type="button" id="firstbutton" class="btn btn-primary btn-lg">Large button</button>
-                  <button type="button" id="secondbutton" class="btn btn-primary btn-lg">Large button</button>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://i.pinimg.com/564x/ab/fd/34/abfd34fe0bdb15f55ff3c96b4e93e8b6.jpg" class="d-block w-100" alt="..." style="width: 100%; height: 720px;">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 id="moviename">Third slide label</h5>
-                  <p id="status">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                  <button type="button" id="firstbutton" class="btn btn-primary btn-lg">Large button</button>
-                  <button type="button" id="secondbutton" class="btn btn-primary btn-lg">Large button</button>
-                </div>
-              </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        	<span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+          	<span class="sr-only">Next</span>
+        </a>
       </div>
-    <!-------------------------Carousel--------------------------->
-    <!-----------------------footer---------------------------------->
-    <footer class="footer">
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-xl-12 foot">
-              <a href="#" id="foot">Searchlight </a>
-              <a href="#" id="foot"> Blue Sky</a>
-              <a href="#" id="foot">Redeem Digital Codes</a>
-              <a href="#" id="foot">Contact Us </a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xl-12 foot">
-              <a href="#" id="foot2">Terms of Use </a>
-              <a href="#" id="foot2"> Privacy Policy</a>
-              <a href="#" id="foot2">Your California Privacy Rights</a>
-              <a href="#" id="foot2">Children’s Online Privacy Policy</a>
-              <a href="#" id="foot2">Interest-Based Ads</a>
-              <a href="#" id="foot2">Do Not Sell My Info </a>
-            </div>
-          </div>
-        </div>
-      </footer>
-    <!-----------------------footer---------------------------------->
+    </div>
+	<!-------------------------Carousel--------------------------->
+	<!-----------------------featured titles---------------------------------->
+	<div class="container">
+		<div class="row">
+			<div class="row">
+				<h3 class="mt-4 mb-1">FEATURED TITLES</h3>
+			</div>
+			<div class="row" id="song">
+				<script>
+					let requestURL = '20cenData.json'; 
+				  	let request = new XMLHttpRequest(); 
+				  		request.onreadystatechange = function () { 
+					  		if (request.readyState == 4 && request.status == 200) {             
+						  		dataReportStatus(JSON.parse(request.responseText));            
+					  	} }; 
+				  	request.open("GET", requestURL, true); 
+				  	request.send(); 
+				  
+				  	function dataReportStatus(data) { 
+					  	var song = "";
+					  	for(let i = 0; i < data.length ; i++) {
+						  	song += "<div class='col-2 m-3 mb-0'>";
+						  	song += "<img class='img-fluid' src='"+ data[i].image_cover_url +"' ;>" + "<br>";
+						  	song += "<p id='name' style='color:#000'>" + data[i].title + "</p>";		  
+						  	song += "</div>";
+							document.getElementById("song").innerHTML = song;
+					  }
+				  }
+			  	</script>
+			</div>
+		</div>
+		<div class="row">
+			<h3 class="mb-3">ON BLU-RAY, DVD & DIGITAL</h3>
+		</div>
+		<div class="row" id="bluray">
+			<div>
+				<img style="width: 150px; height: 200px;" src="https://i.pinimg.com/564x/3e/d1/1f/3ed11f0e7b3fdf053874a5c09ef86beb.jpg" alt="">
+				<p>jenokub</p>
+			</div>
+			<div>
+				<img style="width: 150px; height: 200px;" src="https://i.pinimg.com/564x/3e/d1/1f/3ed11f0e7b3fdf053874a5c09ef86beb.jpg" alt="">
+				<p>jenokub</p>
+			</div>
+			<div>
+				<img style="width: 150px; height: 200px;" src="https://i.pinimg.com/564x/3e/d1/1f/3ed11f0e7b3fdf053874a5c09ef86beb.jpg" alt="">
+				<p>jenokub</p>
+			</div>
+			<div>
+				<img style="width: 150px; height: 200px;" src="https://i.pinimg.com/564x/3e/d1/1f/3ed11f0e7b3fdf053874a5c09ef86beb.jpg" alt="">
+				<p>jenokub</p>
+			</div>
+		</div>
+		<div class="row">
+			<h3 class="mb-3"> VIDEOS</h3>
+		</div>
+		<div class="row" id="videos">
+			<div>
+				<img style="width: 150px; height: 200px;" src="https://i.pinimg.com/564x/3e/d1/1f/3ed11f0e7b3fdf053874a5c09ef86beb.jpg" alt="">
+				<p>jenokub</p>
+			</div>
+			<div>
+				<img style="width: 150px; height: 200px;" src="https://i.pinimg.com/564x/3e/d1/1f/3ed11f0e7b3fdf053874a5c09ef86beb.jpg" alt="">
+				<p>jenokub</p>
+			</div>
+			<div>
+				<img style="width: 150px; height: 200px;" src="https://i.pinimg.com/564x/3e/d1/1f/3ed11f0e7b3fdf053874a5c09ef86beb.jpg" alt="">
+				<p>jenokub</p>
+			</div>
+			<div>
+				<img style="width: 150px; height: 200px;" src="https://i.pinimg.com/564x/3e/d1/1f/3ed11f0e7b3fdf053874a5c09ef86beb.jpg" alt="">
+				<p>jenokub</p>
+			</div>
+		</div>
+	</div>
+	<!-----------------------featured titles---------------------------------->
+  	<!-----------------------footer---------------------------------->
+  	<footer class="footer">
+      	<div class="container text-center">
+        	<div class="row">
+          		<div class="col-xl-12 foot">
+            		<a href="#" id="foot">Searchlight </a>
+            		<a href="#" id="foot"> Blue Sky</a>
+            		<a href="#" id="foot">Redeem Digital Codes</a>
+            		<a href="#" id="foot">Contact Us </a>
+          		</div>
+        	</div>
+        	<div class="row">
+          		<div class="col-xl-12 foot">
+            		<a href="#" id="foot2">Terms of Use </a>
+            		<a href="#" id="foot2"> Privacy Policy</a>
+            		<a href="#" id="foot2">Your California Privacy Rights</a>
+            		<a href="#" id="foot2">Children’s Online Privacy Policy</a>
+            		<a href="#" id="foot2">Interest-Based Ads</a>
+            		<a href="#" id="foot2">Do Not Sell My Info </a>
+          		</div>
+        	</div>
+      	</div>
+    </footer>
+	<!-----------------------footer---------------------------------->
 </body>
 </html>
