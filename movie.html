@@ -102,6 +102,9 @@
           display: inline-block;
           text-decoration: none;
         }
+        .poster{
+          height: 320px;
+        }
         
   </style>
   <body>
@@ -211,12 +214,12 @@
                       if(categoryType == "Action"){
                         if (data[i].tag.includes(categoryType)){ 
                             mov += "<div class='col-2 p-0 m-3 mb-0'>";
-                            mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
+                            mov += "<img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;>" + "<br>";
                             mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
                             mov += "</div>";}
                         else if (data[i].tag.includes("Adventure")){ 
                             mov += "<div class='col-2 p-0 m-3 mb-0'>";
-                            mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
+                            mov += "<img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;>" + "<br>";
                             mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
                             mov += "</div>";
                       }
@@ -224,12 +227,12 @@
                       else if(categoryType == "Crime"){
                         if (data[i].tag.includes(categoryType)){ 
                             mov += "<div class='col-2 p-0 m-3 mb-0'>";
-                            mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
+                            mov += "<img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;>" + "<br>";
                             mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
                             mov += "</div>";}
                         else if (data[i].tag.includes("Mystery")){ 
                             mov += "<div class='col-2 p-0 m-3 mb-0'>";
-                            mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
+                            mov += "<img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;>" + "<br>";
                             mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
                             mov += "</div>";
                         }
@@ -237,25 +240,25 @@
                       else if(categoryType == "Suspense"){
                         if (data[i].tag.includes(categoryType)){ 
                             mov += "<div class='col-2 p-0 m-3 mb-0'>";
-                            mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
+                            mov += "<img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;>" + "<br>";
                             mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
                             mov += "</div>";}
                         else if (data[i].tag.includes("Thriller")){ 
                             mov += "<div class='col-2 p-0 m-3 mb-0'>";
-                            mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
+                            mov += "<img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;>" + "<br>";
                             mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
                             mov += "</div>";
                         }
                       }
                         else if (data[i].tag.includes(categoryType)){ 
                             mov += "<div class='col-2 p-0 m-3 mb-0'>";
-                            mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
+                            mov += "<img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;>" + "<br>";
                             mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
                             mov += "</div>";}
                       else if (categoryType === null){ 
                         if (data[i].tag.includes("Featured")){ 
                             mov += "<div class='col-2 p-0 m-3 mb-0'>";
-                            mov += "<img class='img-fluid' src='"+ data[i].poster_url +"' ;>" + "<br>";
+                            mov += "<img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;>" + "<br>";
                             mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
                             mov += "</div>";}}
                     document.getElementById("mov").innerHTML = mov;
