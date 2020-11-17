@@ -1,0 +1,141 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+      font-family: "Montserrat", sans-serif;
+      font-weight: bolder;
+      font-size: 1vw;
+      background-color: #f1f2f3;
+    }
+    #home,#movies{
+            color: #fff;
+        }
+        #home:hover, #category:hover,.icon:hover{
+            color: #907137;
+        }
+        #s1,#s2{
+            background: #1d1e1f;
+        }
+        #s2{
+          border: transparent;
+        }
+        .input-group-text{
+          border: grey 1px solid;
+        }
+        .icon{
+          color: grey;
+        }
+        .footer{
+        background-color: #000;
+        font-size: 0.9vw;
+        }
+        ul{
+          list-style: none;
+          padding-left: 0;
+        }
+        .btn-gold{
+          font-size: 1.2vw;
+          background-color: #907137;
+          color: #f1f2f3;
+        }
+        .foot,#foot{
+          margin-top: 30px;
+          margin-right: 50px;
+          color: white;
+          display: inline-block;
+          text-decoration: none;
+        }
+        #foot2{
+          margin-bottom: 40px;
+          margin-right: 40px;
+          color: white;
+          display: inline-block;
+          text-decoration: none;
+        }
+        .cov{
+          overflow: hidden; 
+        }
+        .mll{
+          margin-left: 20px;
+        }
+        a:hover{
+          border-bottom:none;
+          text-decoration: none;
+          
+        }
+        .button-clicked{
+          border-bottom: 3px solid #907137;
+        }
+        
+  </style>
+<body>
+    <nav class="navbar navbar-expand-md sticky-top" style="background-color: #000000;">
+        <a class="mll mt-1 mb-1" href="#">
+            <img src="logo_20.svg" style="width: 65%;"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <strong class="navbar-toggler-icon"></strong>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto" >
+              <li class="nav-item navhome">
+                <a id="home"class="nav-link navf" href="index.html"><span>Home</span></a>
+              </li>
+              <li class="nav-item navmov">
+                <a id="home"class="nav-link navf pl-3" href="movie.html"><span>Movies</span></a>
+              </li>
+            </ul>
+            <div class="input-group search-field col-3 d-flex ml-auto pt-1">
+                <span class="input-group-prepend">
+                  <div id="s1" class="input-group-text ">
+                    <a class="pr-2"id="sch" href="#"><i class="icon fa fa-search" aria-hidden="true"></i></a>
+                  <input id="s2" class="form-control" type="text" placeholder="Search" autocomplete="off" aria-label="Search" autocorrect="off"/>
+                </span>
+              </div>
+              </div>
+              <script>
+                $(".navhome").click(function() {
+                $(".navhome").addClass('button-clicked');
+                $(".navmov").removeClass('button-clicked');
+                });
+                $(".navmov").click(function() {
+                $(".navmov").addClass('button-clicked');
+                $(".navhome").removeClass('button-clicked');
+                });
+                $(".category").click(function() {
+                $(".category").addClass('button-clicked');
+                });
+              </script>
+    </nav>
+    <!--nav-->
+        <!-----------------------footer---------------------------------->
+        <footer class="footer">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-xl-12 foot">
+                  <a href="#" id="foot">Searchlight </a>
+                  <a href="#" id="foot"> Blue Sky</a>
+                  <a href="#" id="foot">Redeem Digital Codes</a>
+                  <a href="#" id="foot">Contact Us </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-12 foot">
+                  <a href="#" id="foot2">Terms of Use </a>
+                  <a href="#" id="foot2"> Privacy Policy</a>
+                  <a href="#" id="foot2">Your California Privacy Rights</a>
+                  <a href="#" id="foot2">Children’s Online Privacy Policy</a>
+                  <a href="#" id="foot2">Interest-Based Ads</a>
+                  <a href="#" id="foot2">Do Not Sell My Info </a>
+                </div>
+              </div>
+            </div>
+          </footer>
+        <!-----------------------footer---------------------------------->
+    </body>
+</body>
+</html>
