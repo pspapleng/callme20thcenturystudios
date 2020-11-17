@@ -28,6 +28,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <title>movie ref</title>
   </head>
   <style>
@@ -40,11 +41,8 @@
     #home,#movies{
             color: #fff;
         }
-        #home:hover,#movies:hover,#category:hover,.icon:hover{
+        #home:hover, #category:hover,.icon:hover{
             color: #907137;
-        }
-        #s1:focus-within{
-            border: 1.2px solid #907137;
         }
         #s1,#s2{
             background: #1d1e1f;
@@ -74,9 +72,6 @@
           display: inline-block;
           margin-right: 19px;
         }
-        #category:focus-within,#home:focus-within,#movies:focus-within{
-          border-bottom: 3px solid #907137;
-        }
         ul{
           list-style: none;
           padding-left: 0;
@@ -104,16 +99,38 @@
           text-decoration: none;
         }
         .poster{
+          margin-bottom: 7px;
           height: 315px;
+          display: inline-block;
+        }
+        .cov{
+          overflow: hidden; 
+        }
+        .poster:hover{
+          transition: transform .3s ease-out;
+          transform: scale(1.03);
+          filter: contrast(1.08);
         }
         .mll{
           margin-left: 20px;
         }
+        a:hover{
+          border-bottom:none;
+          text-decoration: none;
+          
+        }
+        .button-clicked{
+          border-bottom: 3px solid #907137;
+        }
+        #category::after{
+          border-bottom: 3px solid #907137;
+        }
         
   </style>
   <body>
+
       <!----------------------------Navigator-------------------->
-    <nav class="navbar navbar-expand-md" style="background-color: #000000;">
+    <nav class="navbar navbar-expand-md sticky-top" style="background-color: #000000;">
         <a class="mll mt-1 mb-1" href="#">
             <img src="logo_20.svg" style="width: 65%;"/>
         </a>
@@ -122,11 +139,11 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto" >
-              <li class="nav-item active">
+              <li class="nav-item navhome">
                 <a id="home"class="nav-link navf" href="#"><span>Home</span></a>
               </li>
-              <li class="nav-item">
-                <a id="movies"class="nav-link navf pl-3" href="#"><span>Movies</span></a>
+              <li class="nav-item navmov">
+                <a id="home"class="nav-link navf pl-3" href="#"><span>Movies</span></a>
               </li>
             </ul>
             <div class="input-group search-field col-3 d-flex ml-auto pt-1">
@@ -137,7 +154,21 @@
                 </span>
               </div>
               </div>
+              <script>
+                $(".navhome").click(function() {
+                $(".navhome").addClass('button-clicked');
+                $(".navmov").removeClass('button-clicked');
+                });
+                $(".navmov").click(function() {
+                $(".navmov").addClass('button-clicked');
+                $(".navhome").removeClass('button-clicked');
+                });
+                $(".category").click(function() {
+                $(".category").addClass('button-clicked');
+                });
+              </script>
     </nav>
+    
     <!-------------------------Navigator-------------------------->
     <!----------------------------movies------------------------->
      <div class="container">
@@ -183,7 +214,7 @@
             </ul>
           </div>
         </div>
-        <div class="row" id="mov">
+        <div class="mov row" id="mov"></div>
           <script>
             var categoryType = null;
             let requestURL = '20cenData.json'; 
@@ -217,64 +248,81 @@
                 for(let i = 0; i < data.length ; i++){
                       if(categoryType == "Action"){
                         if (data[i].tag.includes(categoryType)){ 
-                            mov += "<div class='col-2 p-0 m-3 mb-0'>";
-                            mov += "<img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;>" + "<br>";
-                            mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
+                            mov += "<div class='cov col-2 p-0 m-3 mb-0'>";
+                            mov += "<a href='#' id='poster'><img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;></a>" + "<br>";
+                            mov += "<a href='#' id='name' style='color:#000'>" + data[i].title + "</a>";
                             mov += "</div>";}
+
                         else if (data[i].tag.includes("Adventure")){ 
-                            mov += "<div class='col-2 p-0 m-3 mb-0'>";
-                            mov += "<img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;>" + "<br>";
-                            mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
+                            mov += "<div class='cov col-2 p-0 m-3 mb-0'>";
+                            mov += "<a href='#' id='poster'><img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;></a>" + "<br>";
+                            mov += "<a href='#' id='name' style='color:#000'>" + data[i].title + "</a>";
                             mov += "</div>";
-                      }
+                        }
                       }
                       else if(categoryType == "Crime"){
                         if (data[i].tag.includes(categoryType)){ 
-                            mov += "<div class='col-2 p-0 m-3 mb-0'>";
-                            mov += "<img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;>" + "<br>";
-                            mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
+                            mov += "<div class='cov col-2 p-0 m-3 mb-0'>";
+                            mov += "<a href='#' id='poster'><img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;></a>" + "<br>";
+                            mov += "<a href='#' id='name' style='color:#000'>" + data[i].title + "</a>";
                             mov += "</div>";}
+
                         else if (data[i].tag.includes("Mystery")){ 
-                            mov += "<div class='col-2 p-0 m-3 mb-0'>";
-                            mov += "<img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;>" + "<br>";
-                            mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
+                            mov += "<div class='cov col-2 p-0 m-3 mb-0'>";
+                            mov += "<a href='#' id='poster'><img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;></a>" + "<br>";
+                            mov += "<a href='#' id='name' style='color:#000'>" + data[i].title + "</a>";
                             mov += "</div>";
                         }
                       }
                       else if(categoryType == "Suspense"){
                         if (data[i].tag.includes(categoryType)){ 
-                            mov += "<div class='col-2 p-0 m-3 mb-0'>";
-                            mov += "<img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;>" + "<br>";
-                            mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
+                            mov += "<div class='cov col-2 p-0 m-3 mb-0'>";
+                            mov += "<ul id='cover' style='list-style-type:none;'>";
+                            mov += "<li >";
+                            mov += "<a href='#' id='poster'><img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;></a>" + "<br>";
+                            mov += "<a href='#' id='name' style='color:#000'>" + data[i].title + "</a>";
                             mov += "</div>";}
+
                         else if (data[i].tag.includes("Thriller")){ 
-                            mov += "<div class='col-2 p-0 m-3 mb-0'>";
-                            mov += "<img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;>" + "<br>";
-                            mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
+                            mov += "<div class='cov col-2 p-0 m-3 mb-0'>";
+                            mov += "<a href='#' id='poster'><img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;></a>" + "<br>";
+                            mov += "<a href='#' id='name' style='color:#000'>" + data[i].title + "</a>";
                             mov += "</div>";
                         }
                       }
                         else if (data[i].tag.includes(categoryType)){ 
-                            mov += "<div class='col-2 p-0 m-3 mb-0'>";
-                            mov += "<img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;>" + "<br>";
-                            mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
+                            mov += "<div class='cov col-2 p-0 m-3 mb-0'>";
+                            mov += "<a href='#' id='poster'><img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;></a>" + "<br>";
+                            mov += "<a href='#' id='name' style='color:#000'>" + data[i].title + "</a>";
                             mov += "</div>";}
+
                       else if (categoryType === null){ 
                         if (data[i].feat.includes("Featured")){ 
-                            mov += "<div class='col-2 p-0 m-3 mb-0'>";
-                            mov += "<img class='img-fluid poster' src='"+ data[i].poster_url  +"' ;>" + "<br>";
-                            mov += "<p id='name' style='color:#000'>" + data[i].title + "</p>";
-                            mov += "</div>";}}
+                            mov += "<div class='cov col-2 p-0 m-3 mb-0'>";
+                            mov += "<a href='#' id='poster'><img class='img-fluid  poster' src='"+ data[i].poster_url  +"' ;></a>" + "<br>";
+                            mov += "<a href='#' id='name' style='color:#000'>" + data[i].title + "</a>";
+                            mov += "</div>";}
+                            }
+                            
                     document.getElementById("mov").innerHTML = mov;
-                }}
-              
-        </script> 
-          </div>
-          <div class="row"> 
-            <div class="col-12 text-center ">
-              <button class="btn btn-gold pr-5 pl-5 pt-2 pb-2 mt-2 mb-5">Show more</button>
-            </div>
-          </div>
+                    
+                    jQuery(document).ready(function(){
+                    var $this = $('.mov');
+                    if ($this.find('div').length >= 20) {
+                        $('.mov').append('<div class="container" ><div class="col-12 text-center" id="pum"><button id="showMore" class="showMore btn btn-gold pr-5 pl-5 pt-2 pb-2 mt-2 mb-5 ">Show more</button></div></div>');
+                    }
+
+                    $('.mov .cov').slice(0,20).addClass('shown');
+                    $('.mov .cov').not('.shown').hide();
+                    $('.mov .showMore').on('click',function(){
+                      $('.mov .cov').not('.shown').toggle(100);
+                      $(this).replaceAll('<div class="container"></div>');
+                    });
+                    });
+                  }
+                }
+
+            </script> 
         </div>
       </div>
     <!----------------------------movies------------------------->
