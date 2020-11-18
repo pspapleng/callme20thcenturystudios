@@ -87,8 +87,12 @@
         .d-block{
             margin-left: 2%;
             margin-bottom: 5%;
-
+            
         }
+
+    
+
+        
     </style>
     
     <!--END OF VIDEO SLIDE PART-->
@@ -115,7 +119,7 @@
         
         function dataReportStatus(data) { 
 
-            var movie = data[1]; //CHANGE MOVIE HERE!!!
+            var movie = data[4]; //CHANGE MOVIE HERE!!!
 
 
             let text = "";
@@ -127,7 +131,7 @@
 
                 text += '<h2><b>'+ movie.title +'</b></h2>'; 
                 text += '<p>' + movie.rate + '<b> . </b>' + movie.year + '<b> . </b>'; 
-                for(var tp=1; tp<(movie.tag.length-1); tp++){
+                for(var tp=0; tp<(movie.tag.length-1); tp++){
                         text += movie.tag[tp] + ', ';
                 }
                 text += movie.tag[movie.tag.length-1];
@@ -168,7 +172,7 @@
                 }
                 
                 for(var logo=0; logo<movie.movie_class_logo_url.length; logo++){
-                    text += '<img src="'+ movie.movie_class_logo_url[logo] + '" width="70px" style="margin-right:35px;">';
+                    text += '<img src="'+ movie.movie_class_logo_url[logo] + '" width="95px" style="margin-right:35px; margin-bottom:10px;">';
                 }
                 text += '</br></br>';
 
@@ -181,7 +185,7 @@
                 document.querySelector("#info").innerHTML += text;
 
 
-                if(movie.video != null){
+                if(movie.video.length != 0){
                     let vdoSelect = "";
 
                     vdoSelect += '<div class= buttcontent></br>';
@@ -247,26 +251,26 @@
                 }
 
 
-                if(movie.slideshow_image_url != null || movie.slideshow_image_url){
+                if(movie.slideshow_image_url.length != 0){
                     let imgSelect = "";
+                    
                     imgSelect += '<div class="row">';
-                    imgSelect += '<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">';
-                    imgSelect += '<div class="carousel-inner">';
+                        imgSelect += '<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 100%;">';
+                            imgSelect += '<div class="carousel-inner">';
+                    
+                                imgSelect += '<div class="carousel-item active">';
+                                imgSelect += '<img class="d-block" src="' + movie.slideshow_image_url[0] + '" style="width: 100%;">';
+                                imgSelect += '</div>';
 
-                    imgSelect += '<div class="carousel-item active">';
-                    imgSelect += '<img class="d-block" src="' + movie.slideshow_image_url[0] + '" width="1450px" >';
-                    imgSelect += '</div>';
-
-
-                    for(var ig=1; ig<movie.slideshow_image_url.length; ig++){
-                      imgSelect += '<div class="carousel-item">';
-                      imgSelect += '<img class="d-block" src="' + movie.slideshow_image_url[ig] + '" width="1450px" >';
-                      imgSelect += '</div>';
-                  }
+                                for(var ig=1; ig<movie.slideshow_image_url.length; ig++){
+                                imgSelect += '<div class="carousel-item">';
+                                imgSelect += '<img class="d-block" src="' + movie.slideshow_image_url[ig] + '" style="width: 100%;">';
+                                imgSelect += '</div>';
+                                }
+                    
+                            imgSelect += '</div>';
                   
-                  imgSelect += '</div>';
-                  
-                    imgSelect += '<div class="imgstyle">';
+                    imgSelect += '<div class="col">';
                         imgSelect += '<div class="col" style="margin-bottom:-40%;">';
                         imgSelect += '<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">';
                         imgSelect += '<i class="fa fa-angle-left iconim"></i>';
@@ -275,11 +279,12 @@
                         imgSelect += '<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">';
                         imgSelect += '<i class="fa fa-angle-right iconim"></i>';
                         imgSelect += '</a>';
-                    imgSelect += '</div></div>';
+                    imgSelect += '</div>';
 
 
+                    imgSelect += '</div>';
                   imgSelect += '</div>';
-                  imgSelect += '</div>';
+                
   
                   document.querySelector("#imageslide").innerHTML += imgSelect;
         
