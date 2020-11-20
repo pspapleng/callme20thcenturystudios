@@ -66,11 +66,13 @@
           margin: 30px 0px 30px 0px;
         }
         #category, .category{
+          cursor: pointer;
           font-size: 1vw;
           text-decoration: none;
           color: #000;
           display: inline-block;
-          margin-right: 19px;
+          margin-left: 9px;
+          margin-right: 9px;
         }
         ul{
           list-style: none;
@@ -122,9 +124,6 @@
         .button-clicked{
           border-bottom: 3px solid #907137;
         }
-        #category::after{
-          border-bottom: 3px solid #907137;
-        }
         .input-group-text:focus-within{
           border: #907137 solid 1px;
         }
@@ -142,10 +141,10 @@
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto" >
               <li class="nav-item navhome">
-                <a id="home"class="nav-link navf" href="index.html"><span>Home</span></a>
+                <a id="home"class="nav-link navf" onclick="window.location.href='movie.html'"><span>Home</span></a>
               </li>
               <li class="nav-item navmov">
-                <a id="home"class="nav-link navf pl-3" href="movie.html"><span>Movies</span></a>
+                <a id="home"class="nav-link navf pl-3" onclick="window.location.href='movie.html'"><span>Movies</span></a>
               </li>
             </ul>
             <div class="input-group search-field col-3 d-flex ml-auto pt-1">
@@ -157,16 +156,13 @@
               </div>
               </div>
               <script>
-                $(".navhome").click(function() {
+                $(".navhome").(function() {
                 $(".navhome").addClass('button-clicked');
                 $(".navmov").removeClass('button-clicked');
                 });
-                $(".navmov").click(function() {
+                $(".navmov").after(function() {
                 $(".navmov").addClass('button-clicked');
                 $(".navhome").removeClass('button-clicked');
-                });
-                $(".category").click(function() {
-                $(".category").addClass('button-clicked');
                 });
               </script>
     </nav>
@@ -186,36 +182,74 @@
         <div class="row">
           <div class="col-12">
             <ul style="list-style-type:none;">
-              <li class="category">
+              <li class="category c1">
                 <a id="category" onclick="onclickNav(null)" >Featured</a>
               </li>
-              <li class="category">
+              <li class="category c2">
                 <a id="category" onclick="onclickNav('Action')">Action/Adventure</a>
               </li>
-              <li class="category">
+              <li class="category c3">
                 <a id="category" onclick="onclickNav('Comedy')">Comedy</a>
               </li>
-              <li class="category">
+              <li class="category c4">
                 <a id="category" onclick="onclickNav('Crime')">Crime/Mystery</a>
               </li>
-              <li class="category">
+              <li class="category c5">
                 <a id="category" onclick="onclickNav('Drama')">Drama</a>
               </li>
-              <li class="category">
+              <li class="category c6">
                 <a id="category" onclick="onclickNav('Horror')">Horror</a>
               </li>
-              <li class="category">
+              <li class="category c7">
                 <a id="category" onclick="onclickNav('Romance')">Romance</a>
               </li>
-              <li class="category">
+              <li class="category c8">
                 <a id="category" onclick="onclickNav('Science Fiction')">Science-Fiction</a>
               </li>
-              <li class="category">
+              <li class="category c9">
                 <a id="category" onclick="onclickNav('Suspense')">Suspense/Thriller</a>
               </li>
             </ul>
           </div>
         </div>
+        <script>
+          $(".c1").click(function() {
+          $(".c1").addClass('button-clicked');
+          $(".category").not(".c1").removeClass('button-clicked');
+          });
+          $(".c2").click(function() {
+          $(".c2").addClass('button-clicked');
+          $(".category").not(".c2").removeClass('button-clicked');
+          });
+          $(".c3").click(function() {
+          $(".c3").addClass('button-clicked');
+          $(".category").not(".c3").removeClass('button-clicked');
+          });
+          $(".c4").click(function() {
+          $(".c4").addClass('button-clicked');
+          $(".category").not(".c4").removeClass('button-clicked');
+          });
+          $(".c5").click(function() {
+          $(".c5").addClass('button-clicked');
+          $(".category").not(".c5").removeClass('button-clicked');
+          });
+          $(".c6").click(function() {
+          $(".c6").addClass('button-clicked');
+          $(".category").not(".c6").removeClass('button-clicked');
+          });
+          $(".c7").click(function() {
+          $(".c7").addClass('button-clicked');
+          $(".category").not(".c7").removeClass('button-clicked');
+          });
+          $(".c8").click(function() {
+          $(".c8").addClass('button-clicked');
+          $(".category").not(".c8").removeClass('button-clicked');
+          });
+          $(".c9").click(function() {
+          $(".c9").addClass('button-clicked');
+          $(".category").not(".c9").removeClass('button-clicked');
+          });
+        </script>
         <div class="mov row" id="mov"></div>
           <script>
             var categoryType = null;
@@ -317,7 +351,7 @@
                     $('.mov .cov').slice(0,20).addClass('shown');
                     $('.mov .cov').not('.shown').hide();
                     $('.mov .showMore').on('click',function(){
-                      $('.mov .cov').not('.shown').toggle(100);
+                      $('.mov .cov').not('.shown').toggle(0);
                       $(this).replaceAll('<div class="container"></div>');
                     });
                     });
