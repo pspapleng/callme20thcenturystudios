@@ -146,7 +146,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto" >
-              <li class="nav-item navhome" onclick="window.location.href='movie.html'">
+              <li class="nav-item navhome" onclick="window.location.href='index.html'">
                 <a id="home"class="nav-link navf"><span>Home</span></a>
               </li>
               <li class="nav-item navmov" onclick="window.location.href='movie.html'">
@@ -162,11 +162,7 @@
               </div>
               </div>
               <script>
-                $(".navhome").mouseenter(function() {
-                $(".navhome").addClass('button-clicked');
-                $(".navmov").addClass('button-clicked1');
-                });
-                $(".navmov").mouseenter(function() {
+                $(".navmov").after(function() {
                 $(".navmov").addClass('button-clicked');
                 $(".navhome").addClass('button-clicked1');
                 });
