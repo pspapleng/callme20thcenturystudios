@@ -124,8 +124,14 @@
         .button-clicked{
           border-bottom: 3px solid #907137;
         }
+        .button-clicked1{
+          border-bottom: 3px solid #000;
+        }
         .input-group-text:focus-within{
           border: #907137 solid 1px;
+        }
+        .nav-item{
+          cursor: pointer;
         }
   </style>
   <body>
@@ -140,11 +146,11 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto" >
-              <li class="nav-item navhome">
-                <a id="home"class="nav-link navf" onclick="window.location.href='movie.html'"><span>Home</span></a>
+              <li class="nav-item navhome" onclick="window.location.href='movie.html'">
+                <a id="home"class="nav-link navf"><span>Home</span></a>
               </li>
-              <li class="nav-item navmov">
-                <a id="home"class="nav-link navf pl-3" onclick="window.location.href='movie.html'"><span>Movies</span></a>
+              <li class="nav-item navmov" onclick="window.location.href='movie.html'">
+                <a id="home"class="nav-link navf pl-3"><span>Movies</span></a>
               </li>
             </ul>
             <div class="input-group search-field col-3 d-flex ml-auto pt-1">
@@ -158,11 +164,11 @@
               <script>
                 $(".navhome").mouseenter(function() {
                 $(".navhome").addClass('button-clicked');
-                $(".navmov").removeClass('button-clicked');
+                $(".navmov").addClass('button-clicked1');
                 });
                 $(".navmov").mouseenter(function() {
                 $(".navmov").addClass('button-clicked');
-                $(".navhome").removeClass('button-clicked');
+                $(".navhome").addClass('button-clicked1');
                 });
               </script>
     </nav>
