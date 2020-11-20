@@ -156,11 +156,11 @@
               </div>
               </div>
               <script>
-                $(".navhome").(function() {
+                $(".navhome").mouseenter(function() {
                 $(".navhome").addClass('button-clicked');
                 $(".navmov").removeClass('button-clicked');
                 });
-                $(".navmov").after(function() {
+                $(".navmov").mouseenter(function() {
                 $(".navmov").addClass('button-clicked');
                 $(".navhome").removeClass('button-clicked');
                 });
