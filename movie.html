@@ -79,7 +79,7 @@
           padding-left: 0;
         }
         #name{
-          font-size: 1.2vw;
+          font-size: 1vw;
         }
         .btn-gold{
           font-size: 1.2vw;
@@ -102,10 +102,12 @@
         }
         .poster{
           margin-bottom: 7px;
-          height: 300px;
+          height: 295px;
           display: inline-block;
         }
         .cov{
+          width: 225px;
+          margin-right: 0px;
           overflow: hidden; 
         }
         .poster:hover{
@@ -137,6 +139,28 @@
           white-space: nowrap;
           overflow: auto;
         }
+        @media screen and (max-width:2400px) {
+          .cov{
+            width: 225px;
+            margin-right: 0px;
+          }
+        }
+        @media screen and (max-width:1200px) {
+          .cov{
+            width: 240px;
+            margin: 0px;}
+        }
+        @media screen and (max-width:769px) {
+          .mov{
+              justify-content: space-around;
+              display: flex;
+        }
+          .cov{
+            margin: 0px;
+          }
+        }
+
+</style>
   </style>
   <body>
 
@@ -179,7 +203,7 @@
     <!----------------------------movies------------------------->
      <div class="container">
         <div class="row">
-          <div class="col-sm col-md">
+          <div class="col-12">
             <h2 id="head">
               <strong>
               20th Century Studios Movies
@@ -187,8 +211,8 @@
             </h2>
           </div>
         </div>
-        <div class="row">
-          <div class="menu col-xl-12 col-lg-12 col-md-10">
+        <div class="row d-flex justify-content-around">
+          <div class="menu col-12">
             <ul style="list-style-type:none;">
               <li class="category c1">
                 <a id="category" onclick="onclickNav(null)" >Featured</a>
@@ -292,59 +316,59 @@
                 for(let i = 0; i < data.length ; i++){
                       if(categoryType == "Action"){
                         if (data[i].tag.includes(categoryType)){ 
-                            mov += "<div class='cov col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4  p-0 m-3 mb-0'>";
-                            mov += "<a href='#' id='poster'><img class='img-fluid poster' src='"+ data[i].poster_url  +"';></a>" + "<br>";
-                            mov += "<a href='#' id='name' style='color:#000'>" + data[i].title + "</a>";
+                            mov += "<div class='cov  p-0'>";
+                            mov += "<a href='#' id='poster'><img class='img-fluid m-3 poster' src='"+ data[i].poster_url  +"';></a>" + "<br>";
+                            mov += "<a href='#' class='ml-3' id='name' style='color:#000'>" + data[i].title + "</a>";
                             mov += "</div>";}
 
                         else if (data[i].tag.includes("Adventure")){ 
-                            mov += "<div class='cov col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4 p-0 m-3 mb-0'>";
-                            mov += "<a href='#' id='poster'><img class='img-fluid poster' src='"+ data[i].poster_url  +"';></a>" + "<br>";
-                            mov += "<a href='#' id='name' style='color:#000'>" + data[i].title + "</a>";
+                            mov += "<div class='cov p-0'>";
+                            mov += "<a href='#' id='poster'><img class='img-fluid m-3 poster' src='"+ data[i].poster_url  +"';></a>" + "<br>";
+                            mov += "<a href='#' class='ml-3' id='name' style='color:#000'>" + data[i].title + "</a>";
                             mov += "</div>";
                         }
                       }
                       else if(categoryType == "Crime"){
                         if (data[i].tag.includes(categoryType)){ 
-                            mov += "<div class='cov col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4 p-0 m-3 mb-0'>";
-                            mov += "<a href='#' id='poster'><img class='img-fluid poster' src='"+ data[i].poster_url  +"';></a>" + "<br>";
-                            mov += "<a href='#' id='name' style='color:#000'>" + data[i].title + "</a>";
+                            mov += "<div class='cov p-0'>";
+                            mov += "<a href='#' id='poster'><img class='img-fluid m-3 poster' src='"+ data[i].poster_url  +"';></a>" + "<br>";
+                            mov += "<a href='#' class='ml-3' id='name' style='color:#000'>" + data[i].title + "</a>";
                             mov += "</div>";}
 
                         else if (data[i].tag.includes("Mystery")){ 
-                            mov += "<div class='cov col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4 p-0 m-3 mb-0'>";
-                            mov += "<a href='#' id='poster'><img class='img-fluid poster' src='"+ data[i].poster_url  +"';></a>" + "<br>";
-                            mov += "<a href='#' id='name' style='color:#000'>" + data[i].title + "</a>";
+                            mov += "<div class='cov p-0'>";
+                            mov += "<a href='#' id='poster'><img class='img-fluid m-3 poster' src='"+ data[i].poster_url  +"';></a>" + "<br>";
+                            mov += "<a href='#' class='ml-3' id='name' style='color:#000'>" + data[i].title + "</a>";
                             mov += "</div>";
                         }
                       }
                       else if(categoryType == "Suspense"){
                         if (data[i].tag.includes(categoryType)){ 
-                            mov += "<div class='cov col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4 p-0 m-3 mb-0'>";
+                            mov += "<div class='cov p-0'>";
                             mov += "<ul id='cover' style='list-style-type:none;'>";
                             mov += "<li >";
-                            mov += "<a href='#' id='poster'><img class='img-fluid poster' src='"+ data[i].poster_url  +"';></a>" + "<br>";
-                            mov += "<a href='#' id='name' style='color:#000'>" + data[i].title + "</a>";
+                            mov += "<a href='#' id='poster'><img class='img-fluid m-3 poster' src='"+ data[i].poster_url  +"';></a>" + "<br>";
+                            mov += "<a href='#' class='ml-3' id='name' style='color:#000'>" + data[i].title + "</a>";
                             mov += "</div>";}
 
                         else if (data[i].tag.includes("Thriller")){ 
-                            mov += "<div class='cov col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4 p-0 m-3 mb-0'>";
-                            mov += "<a href='#' id='poster'><img class='img-fluid poster' src='"+ data[i].poster_url  +"';></a>" + "<br>";
-                            mov += "<a href='#' id='name' style='color:#000'>" + data[i].title + "</a>";
+                            mov += "<div class='cov p-0'>";
+                            mov += "<a href='#' id='poster'><img class='img-fluid m-3 poster' src='"+ data[i].poster_url  +"';></a>" + "<br>";
+                            mov += "<a href='#' class='ml-3' id='name' style='color:#000'>" + data[i].title + "</a>";
                             mov += "</div>";
                         }
                       }
                         else if (data[i].tag.includes(categoryType)){ 
-                            mov += "<div class='cov col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4 p-0 m-3 mb-0'>";
-                            mov += "<a href='#' id='poster'><img class='img-fluid poster' src='"+ data[i].poster_url  +"';></a>" + "<br>";
-                            mov += "<a href='#' id='name' style='color:#000'>" + data[i].title + "</a>";
+                            mov += "<div class='cov p-0'>";
+                            mov += "<a href='#' id='poster'><img class='img-fluid m-3 poster' src='"+ data[i].poster_url  +"';></a>" + "<br>";
+                            mov += "<a href='#' class='ml-3' id='name' style='color:#000'>" + data[i].title + "</a>";
                             mov += "</div>";}
 
                       else if (categoryType === null){ 
                         if (data[i].feat.includes("featured")){ 
-                            mov += "<div class='cov col-xl-2 col-lg-2 col-md-3 col-sm-4 col-4 p-0 m-3 mb-0'>";
-                            mov += "<a href='#' id='poster'><img class='img-fluid  poster' src='"+ data[i].poster_url  +"';></a>" + "<br>";
-                            mov += "<a href='#' id='name' style='color:#000'>" + data[i].title + "</a>";
+                            mov += "<div class='cov p-0'>";
+                            mov += "<a href='#' id='poster'><img class='img-fluid m-3 poster' src='"+ data[i].poster_url  +"';></a>" + "<br>";
+                            mov += "<a href='#' class='ml-3' id='name' style='color:#000'>" + data[i].title + "</a>";
                             mov += "</div>";}
                             }
                             
@@ -373,7 +397,7 @@
     <!-----------------------footer---------------------------------->
     <footer class="footer">
         <div class="container text-center">
-          <div class="row">
+          <div class="row d-flex justify-content-around">
             <div class="col-xl-12  col-sm-6 foot">
               <a href="#" id="foot">Searchlight </a>
               <a href="#" id="foot"> Blue Sky</a>
@@ -381,7 +405,7 @@
               <a href="#" id="foot">Contact Us </a>
             </div>
           </div>
-          <div class="row">
+          <div class="row d-flex justify-content-around">
             <div class="col-xl-12 col-sm-6 foot">
               <a href="#" id="foot2">Terms of Use </a>
               <a href="#" id="foot2"> Privacy Policy</a>
