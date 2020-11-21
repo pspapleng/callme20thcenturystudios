@@ -90,13 +90,44 @@
             
         }
 
-    
+        .titlestyle{
+            color: black;
+            display: flex;
+            align-items: right;
+            text-align: left;
+            margin-left: 5%;
+            margin-top: -28%;
+        }
 
+        .numslide{
+            text-align: right;
+            margin-top: -4%;
+            margin-bottom: 3%;
+        }
         
-    </style>
-    
-    <!--END OF VIDEO SLIDE PART-->
+        /*VIDEP POPUP PART*/
+        .modal-dialog {
+        max-width: 800px;
+        margin: 30px auto;
+        }
 
+        .modal-body {
+        position:relative;
+        padding:0px;
+        }
+
+        .close {
+        position:absolute;
+        right:-30px;
+        top:0;
+        z-index:999;
+        font-size:2rem;
+        font-weight: normal;
+        color:#fff;
+        opacity:1;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -105,7 +136,34 @@
   <div class="slide-offsite">
     <div id="vdoslide"></div>
     <div id="imageslide"></div>
-  </div>
+    <div id="recommend"></div>
+  </div></div>
+
+
+  <div class="container">
+  
+   <!-- Modal -->
+   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog" role="document">
+       <div class="modal-content">
+   
+         
+         <div class="modal-body">
+   
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+             <span aria-hidden="true">&times;</span>
+           </button>        
+           <!-- 16:9 aspect ratio -->
+   <div class="embed-responsive embed-responsive-16by9">
+     <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+   </div>
+           
+         </div>
+   
+       </div>
+     </div>
+   </div>     
+   
 
     <script>
         let requestURL = '20cenData.json'; 
@@ -206,27 +264,34 @@
                                 for(var vdo=0; vdo<3; vdo++){
                                 vdoSelect += '<div class="col-md-4">';
 								    vdoSelect += '<div class="img-box">';
-									    vdoSelect += '<img src="'+ movie.video[vdo].video_image +'">';						
-								vdoSelect += '</div></div>';						
+									    vdoSelect += '<img src="'+ movie.video[vdo].video_image +'" type="button" class=" video-btn" data-toggle="modal" data-src="' + movie.video[vdo].video_url +'" data-target="#myModal">';	
+								vdoSelect += '</div>';	
+                                vdoSelect += '<div class="card-body">'
+                                    vdoSelect += '<h5 class="titlestyle"><b>'+ movie.video[vdo].title +'</b></h5>';
+                                vdoSelect += '</div></div>';						
 
                                 }
                                 vdoSelect += '</div></div>';
-                                
+                                console.log(movie.video[vdo].video_url)
                             //next page video
 
                             var loopvalue = Math.ceil((movie.video.length)/3);
-                            var counter = 1;
                             var vdo = 3;
                             
                             for(var vdo2=1; vdo2<loopvalue; vdo2++){
+                                var counter = 1;
                                 vdoSelect += '<div class="item carousel-item">';
                                 vdoSelect += '<div class="row">';
 
                                 while(vdo != movie.video.length){
                                         vdoSelect += '<div class="col-md-4">';
-                                        vdoSelect += '<div class="img-box">';
-                                            vdoSelect += '<img src="'+ movie.video[vdo].video_image +'">';
-                                        vdoSelect += '</div></div>';
+
+                                            vdoSelect += '<div class="img-box">';
+                                                vdoSelect += '<img src="'+ movie.video[vdo].video_image +'" type="button" class="video-btn" data-toggle="modal" data-src="' + movie.video[vdo].video_url +'" data-target="#myModal" >';
+                                            vdoSelect += '</div>';
+                                            vdoSelect += '<div class="card-body">';
+                                                vdoSelect += '<h5 class="titlestyle"><b>'+ movie.video[vdo].title +'</b></h5>';							
+                                            vdoSelect += '</div></div>';	
                                         vdo++;
 
                                         if(counter == 3){
@@ -260,12 +325,16 @@
                     
                                 imgSelect += '<div class="carousel-item active">';
                                 imgSelect += '<img class="d-block" src="' + movie.slideshow_image_url[0] + '" style="width: 100%;">';
-                                imgSelect += '</div>';
+                                imgSelect += '<div class="numslide">';
+                                imgSelect += 1 + '/' + movie.slideshow_image_url.length;
+                                imgSelect += '</div></div>';
 
                                 for(var ig=1; ig<movie.slideshow_image_url.length; ig++){
                                 imgSelect += '<div class="carousel-item">';
                                 imgSelect += '<img class="d-block" src="' + movie.slideshow_image_url[ig] + '" style="width: 100%;">';
-                                imgSelect += '</div>';
+                                imgSelect += '<div class="numslide">';
+                                imgSelect += ig+1 + '/' + movie.slideshow_image_url.length;
+                                imgSelect += '</div></div>';
                                 }
                     
                             imgSelect += '</div>';
@@ -291,8 +360,43 @@
                 }
             }
 
-            
+            let recom = "";
+
+            recom += '<div class= buttcontent></br>';
+            recom += '<h2><b>VIDEOS</b></h2></br>';
+            recom += '</div>';
+
+
     </script> 
+
+<script>
+    $(document).ready(function() {
+
+    // Gets the video src from the data-src on each button
+
+    var $videoSrc;  
+    $('.video-btn').click(function() {
+        $videoSrc = $(this).data( "src" );
+    });
+    console.log($videoSrc);
+
+    // when the modal is opened autoplay it  
+    $('#myModal').on('shown.bs.modal', function (e) {
+        
+    // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+    $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
+    })
+    
+    // stop playing the youtube video when I close the modal
+    $('#myModal').on('hide.bs.modal', function (e) {
+        // a poor man's stop video
+        $("#video").attr('src',$videoSrc); 
+    }) 
+        
+    // document ready  
+    });
+
+</script>
 
 </body>
 </html>
