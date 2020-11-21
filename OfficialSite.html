@@ -29,6 +29,10 @@
             margin-top: 3%;
             width: 100%;
         }
+
+        .buttcontent{
+            margin-left: 2%;
+        }
         /*VIDEO SLIDE PART*/
         
         .carousel .item {
@@ -87,12 +91,63 @@
         .d-block{
             margin-left: 2%;
             margin-bottom: 5%;
-
+            
         }
-    </style>
-    
-    <!--END OF VIDEO SLIDE PART-->
 
+        .titlestyle{
+            color: black;
+            display: flex;
+            align-items: right;
+            text-align: left;
+            margin-left: 5%;
+            margin-top: -28%;
+        }
+        .titlestyle-recom{
+            color: black;
+            display: flex;
+            align-items: right;
+            text-align: left;
+            margin-left: 6%;
+            margin-top: -2%;
+            font-size:18px
+        }
+
+        .numslide{
+            text-align: right;
+            margin-top: -4%;
+            margin-bottom: 3%;
+        }
+        
+        /*VIDEP POPUP PART*/
+        .modal-dialog {
+        max-width: 800px;
+        margin: 30px auto;
+        }
+
+        .modal-body {
+        position:relative;
+        padding:0px;
+        }
+
+        .close {
+        position:absolute;
+        right:-30px;
+        top:0;
+        z-index:999;
+        font-size:2rem;
+        font-weight: normal;
+        color:#fff;
+        opacity:1;
+        }
+
+        /*RECOMMENDED*/
+        .no-gutters{
+            width:100%;
+            margin-left: 10%;
+        }
+
+        
+    </style>
 </head>
 
 <body>
@@ -101,7 +156,62 @@
   <div class="slide-offsite">
     <div id="vdoslide"></div>
     <div id="imageslide"></div>
-  </div>
+    <div id="recommend" style="width:100%;">
+        
+        <div class= buttcontent></br>
+            <h2><b>RECOMMENDED MOVIES</b></h2></br>
+        </div>
+
+        <div class="container my-3">
+            <div id="recipeCarousel" class="carousel slide" data-ride="carousel" style="width: 115%;">
+                <div class="carousel-inner"  style="width: 150%; margin-left:-27%;">
+                    <div class="carousel-item row no-gutters active" id="col-recom1" style="width: 90%;"></div>
+                    <div class="carousel-item row no-gutters" id="col-recom2" style="width: 90%;"></div>
+                    <div class="carousel-item row no-gutters" id="col-recom3" style="width: 90%;"></div>
+                    <div class="carousel-item row no-gutters" id="col-recom4" style="width: 90%;"></div>
+                </div>
+                
+                <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev" style="margin-top: 14%; margin-left: -12%;">
+                    <i class="fa fa-angle-left"></i>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next" style="margin-top: 14%;">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+
+
+            </div>       
+        </div>
+
+    </div>
+  </div></div>
+  
+<!--POPUP-->
+
+  <div class="container">
+  
+   <!-- Modal -->
+   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog" role="document">
+       <div class="modal-content">
+   
+         
+         <div class="modal-body">
+   
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+             <span aria-hidden="true">&times;</span>
+           </button>        
+           <!-- 16:9 aspect ratio -->
+   <div class="embed-responsive embed-responsive-16by9">
+     <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+   </div>
+           
+         </div>
+   
+       </div>
+     </div>
+   </div>     
+   
 
     <script>
         let requestURL = '20cenData.json'; 
@@ -115,19 +225,19 @@
         
         function dataReportStatus(data) { 
 
-            var movie = data[1]; //CHANGE MOVIE HERE!!!
+            var movie = data[4]; //CHANGE MOVIE HERE!!!
 
 
             let text = "";
                 text += '<div class="col-5">';
-                text += '<img  src="'+ movie.poster_url + '">'; 
+                text += '<img  src="'+ movie.poster_url + '" width="100%">'; 
                 text += '</div>';
                 text += '<div class="col-7">';
                 text += '<div class="text_style">'
 
                 text += '<h2><b>'+ movie.title +'</b></h2>'; 
                 text += '<p>' + movie.rate + '<b> . </b>' + movie.year + '<b> . </b>'; 
-                for(var tp=1; tp<(movie.tag.length-1); tp++){
+                for(var tp=0; tp<(movie.tag.length-1); tp++){
                         text += movie.tag[tp] + ', ';
                 }
                 text += movie.tag[movie.tag.length-1];
@@ -168,7 +278,7 @@
                 }
                 
                 for(var logo=0; logo<movie.movie_class_logo_url.length; logo++){
-                    text += '<img src="'+ movie.movie_class_logo_url[logo] + '" width="70px" style="margin-right:35px;">';
+                    text += '<img src="'+ movie.movie_class_logo_url[logo] + '" width="95px" style="margin-right:35px; margin-bottom:10px;">';
                 }
                 text += '</br></br>';
 
@@ -181,7 +291,7 @@
                 document.querySelector("#info").innerHTML += text;
 
 
-                if(movie.video != null){
+                if(movie.video.length != 0){
                     let vdoSelect = "";
 
                     vdoSelect += '<div class= buttcontent></br>';
@@ -202,27 +312,35 @@
                                 for(var vdo=0; vdo<3; vdo++){
                                 vdoSelect += '<div class="col-md-4">';
 								    vdoSelect += '<div class="img-box">';
-									    vdoSelect += '<img src="'+ movie.video[vdo].video_image +'">';						
-								vdoSelect += '</div></div>';						
+                                        vdoSelect += '<img src="'+ movie.video[vdo].video_image +'">';
+									    //vdoSelect += '<img src="'+ movie.video[vdo].video_image +'" type="button" class=" video-btn" data-toggle="modal" data-src="' + movie.video[vdo].video_url +'" data-target="#myModal">';	
+								vdoSelect += '</div>';	
+                                vdoSelect += '<div class="card-body">'
+                                    vdoSelect += '<h5 class="titlestyle"><b>'+ movie.video[vdo].title +'</b></h5>';
+                                vdoSelect += '</div></div>';						
 
                                 }
                                 vdoSelect += '</div></div>';
-                                
+                                //console.log(movie.video[vdo].video_url)
                             //next page video
 
                             var loopvalue = Math.ceil((movie.video.length)/3);
-                            var counter = 1;
                             var vdo = 3;
                             
                             for(var vdo2=1; vdo2<loopvalue; vdo2++){
+                                var counter = 1;
                                 vdoSelect += '<div class="item carousel-item">';
                                 vdoSelect += '<div class="row">';
 
                                 while(vdo != movie.video.length){
                                         vdoSelect += '<div class="col-md-4">';
-                                        vdoSelect += '<div class="img-box">';
-                                            vdoSelect += '<img src="'+ movie.video[vdo].video_image +'">';
-                                        vdoSelect += '</div></div>';
+
+                                            vdoSelect += '<div class="img-box">';
+                                                vdoSelect += '<img src="'+ movie.video[vdo].video_image +'" type="button" class="video-btn" data-toggle="modal" data-src="' + movie.video[vdo].video_url +'" data-target="#myModal" >';
+                                            vdoSelect += '</div>';
+                                            vdoSelect += '<div class="card-body">';
+                                                vdoSelect += '<h5 class="titlestyle"><b>'+ movie.video[vdo].title +'</b></h5>';							
+                                            vdoSelect += '</div></div>';	
                                         vdo++;
 
                                         if(counter == 3){
@@ -247,26 +365,30 @@
                 }
 
 
-                if(movie.slideshow_image_url != null || movie.slideshow_image_url){
+                if(movie.slideshow_image_url.length != 0){
                     let imgSelect = "";
-                    imgSelect += '<div class="row">';
-                    imgSelect += '<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">';
-                    imgSelect += '<div class="carousel-inner">';
+                    
+                    imgSelect += '<div class="row" style="margin-bottom:40%;">';
+                        imgSelect += '<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 100%;">';
+                            imgSelect += '<div class="carousel-inner">';
+                    
+                                imgSelect += '<div class="carousel-item active">';
+                                imgSelect += '<img class="d-block" src="' + movie.slideshow_image_url[0] + '" style="width: 100%;">';
+                                imgSelect += '<div class="numslide">';
+                                imgSelect += 1 + '/' + movie.slideshow_image_url.length;
+                                imgSelect += '</div></div>';
 
-                    imgSelect += '<div class="carousel-item active">';
-                    imgSelect += '<img class="d-block" src="' + movie.slideshow_image_url[0] + '" width="1450px" >';
-                    imgSelect += '</div>';
-
-
-                    for(var ig=1; ig<movie.slideshow_image_url.length; ig++){
-                      imgSelect += '<div class="carousel-item">';
-                      imgSelect += '<img class="d-block" src="' + movie.slideshow_image_url[ig] + '" width="1450px" >';
-                      imgSelect += '</div>';
-                  }
+                                for(var ig=1; ig<movie.slideshow_image_url.length; ig++){
+                                imgSelect += '<div class="carousel-item">';
+                                imgSelect += '<img class="d-block" src="' + movie.slideshow_image_url[ig] + '" style="width: 100%;">';
+                                imgSelect += '<div class="numslide">';
+                                imgSelect += ig+1 + '/' + movie.slideshow_image_url.length;
+                                imgSelect += '</div></div>';
+                                }
+                    
+                            imgSelect += '</div>';
                   
-                  imgSelect += '</div>';
-                  
-                    imgSelect += '<div class="imgstyle">';
+                    imgSelect += '<div class="col">';
                         imgSelect += '<div class="col" style="margin-bottom:-40%;">';
                         imgSelect += '<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">';
                         imgSelect += '<i class="fa fa-angle-left iconim"></i>';
@@ -275,19 +397,86 @@
                         imgSelect += '<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">';
                         imgSelect += '<i class="fa fa-angle-right iconim"></i>';
                         imgSelect += '</a>';
-                    imgSelect += '</div></div>';
+                    imgSelect += '</div>';
 
 
+                    imgSelect += '</div>';
                   imgSelect += '</div>';
-                  imgSelect += '</div>';
+                
   
                   document.querySelector("#imageslide").innerHTML += imgSelect;
-        
                 }
-            }
 
-            
+                var num = Math.random;
+                let recom = "";
+                for(var i=0; i<5; i++){
+                    recom += '<div class="col-2 float-left"><img src="'+ data[i].poster_url +'" height="400px;" width="95%;" style="margin-left:6%;"></div>'; 
+                }  
+                document.querySelector("#col-recom1").innerHTML += recom;  
+
+                recom = ""; 
+                for(var i=5; i<10; i++){
+                    recom += '<div class="col-2 float-left"><img src="'+ data[i].poster_url +'" height="400px;" width="95%;" style="margin-left:6%;"></div>'; 
+                }
+                document.querySelector("#col-recom2").innerHTML += recom;  
+
+                recom = ""; 
+                for(var i=10; i>5; i--){
+                    recom += '<div class="col-2 float-left"><img src="'+ data[i].poster_url +'" height="400px;" width="95%;" style="margin-left:6%;"></div>'; 
+                    console.log(data[i].poster_url)
+                }
+                document.querySelector("#col-recom3").innerHTML += recom;  
+
+                recom = ""; 
+                for(var i=5; i>0; i--){
+                    recom += '<div class="col-2 float-left"><img src="'+ data[i].poster_url +'" height="400px;" width="95%;" style="margin-left:6%;"></div>'; 
+                    console.log(data[i].poster_url)
+                }
+                document.querySelector("#col-recom4").innerHTML += recom;  
+
+
+
+
+
+
+
+
+
+
+
+
+
+            }
     </script> 
+
+<script>
+    $(document).ready(function() {
+
+    // Gets the video src from the data-src on each button
+
+    var $videoSrc;  
+    $('.video-btn').click(function() {
+        $videoSrc = $(this).data( "src" );
+    });
+    console.log($videoSrc);
+
+    // when the modal is opened autoplay it  
+    $('#myModal').on('shown.bs.modal', function (e) {
+        
+    // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+    $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
+    })
+    
+    // stop playing the youtube video when I close the modal
+    $('#myModal').on('hide.bs.modal', function (e) {
+        // a poor man's stop video
+        $("#video").attr('src',$videoSrc); 
+    }) 
+        
+    // document ready  
+    });
+
+</script>
 
 </body>
 </html>
