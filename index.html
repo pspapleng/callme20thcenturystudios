@@ -220,6 +220,28 @@
             border-radius: 100%;
             /*margin-top: 20vh;*/
         }
+        #carousel-control-prev-3  {
+            height: 54px;
+            width: 50px;
+            background: #ffffff;
+            left: -3.5vw;
+            top: -8vh;
+            /*margin-right: 20px;
+            padding-top: 2vh;*/
+            border-radius: 100%;
+            /*margin-top: 20vh;*/
+        }
+        #carousel-control-next-3  {
+            height: 54px;
+            width: 50px;
+            background: #ffffff;
+            right: -12vw;
+            top: -8vh;
+            /*margin-right: 20px;
+            padding-top: 2vh;*/
+            border-radius: 100%;
+            /*margin-top: 20vh;*/
+        }
         #carousel-control-prev-3, #carousel-control-next-3 {
             height: 54px;
             width: 50px;
@@ -274,7 +296,7 @@
           filter: contrast(1.08);
         }
         #videos {
-            width: 40vw;
+            max-width: 21.75vw;
         }
         /*.col-3 {
             padding: 20 20;
@@ -473,7 +495,7 @@
     
                     recom = "";
                     for(var i=5; i<10; i++){
-                        recom += '<div id="poster"  class="col-2 float-left"><img src="'+ data[i].poster_url +'" height="400px;" width="90%;" style="margin-left:6%;">';
+                        recom += '<div id="poster" class="col-2 float-left"><img src="'+ data[i].poster_url +'" height="400px;" width="90%;" style="margin-left:6%;">';
 						recom += '<h6><b>' + data[i].title + '</b></h6>';
 						recom += '<h6>' + data[i].status + '</h6>';
 						recom += '</div>'; 
@@ -482,7 +504,7 @@
     
                     recom = ""; 
                     for(var i=10; i < 11; i++){
-                        recom += '<div id="poster"  class="col-2 float-left"><img src="'+ data[i].poster_url +'" height="400px;" width="90%;" style="margin-left:6%;">';
+                        recom += '<div id="poster" class="col-2 float-left"><img src="'+ data[i].poster_url +'" height="400px;" width="90%;" style="margin-left:6%;">';
 						recom += '<h6><b>' + data[i].title + '</b></h6>';
 						recom += '<h6>' + data[i].status + '</h6>';
 						recom += '</div>'; 
@@ -494,7 +516,7 @@
             let recom1 = ""
                     for(var i=0; i<10; i++){
                         if (data[i].status == "ON BLU-RAY, DVD & DIGITAL") {
-                            recom1 += '<div id="poster"  class="col-2 float-left"><img src="'+ data[i].poster_url +'" height="400px;" width="95%;" style="margin-left:6%;">';
+                            recom1 += '<div id="poster" class="col-2 float-left"><img src="'+ data[i].poster_url +'" height="400px;" width="95%;" style="margin-left:6%;">';
 						    recom1 += '<h6><b>' + data[i].title + '</b></h6>';
 						    recom1 += '<h6>' + data[i].status + '</h6>';
 						    recom1 += '</div>';
