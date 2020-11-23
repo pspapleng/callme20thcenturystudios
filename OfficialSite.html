@@ -21,16 +21,51 @@
     <!--VIDEO SLIDE PART-->
 
     <link rel="stylesheet" href="officialsite.css">
-
+    <title id="head-title"></title>
 </head>
 
 <body>
+    <!----------------------------Navigator-------------------->
+    <nav class="navbar navbar-expand sticky-top" style="background-color: #000000;">
+        <a class="mll mt-1 mb-1" href="#">
+            <img src="logo_20.svg" style="width: 65%;" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <strong class="navbar-toggler-icon"></strong>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item" onclick="window.location.href='index.html'">
+                    <a id="home" class="nav-link navf"><span>Home<span class="navhome"></span></a>
+                </li>
+                <li class="nav-item " onclick="window.location.href='movie.html'">
+                    <a id="home" class="nav-link navf  pl-3"><span>Movies<span class="navmov"></span></a>
+                </li>
+            </ul>
+            <div class="input-group search-field col-3 d-flex ml-auto pt-1">
+                <span class="input-group-prepend">
+                    <div id="s1" class="input-group-text ">
+                        <a class="pr-2" id="sch" href="#"><i class="icon fa fa-search" aria-hidden="true"></i></a>
+                        <input id="s2" class="form-control" type="text" placeholder="Search" autocomplete="off"
+                            aria-label="Search" autocorrect="off" disabled />
+                </span>
+            </div>
+        </div>
+        <script>
+            $(".navmov").after(function () {
+                $(".navmov").addClass('button-clicked');
+                $(".navhome").addClass('button-clicked1');
+            });
+        </script>
+
+    </nav>
+    <!-------------------------Navigator-------------------------->
     <!-- Cover -->
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" id="cover"></div>
         </div>
-
         <div class="row" id="info"></div>
 
         <!--Shop Modal -->
@@ -100,7 +135,7 @@
                                     </button>
                                 </div>
                             </div>
-                            <div class="text-center pb-4 pt-2">
+                            <div class="text-center pb-4 pt-1">
                                 The links above will take you directly to the retailer site to
                                 purchase.
                             </div>
@@ -119,14 +154,13 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
-                        <div class="embed-responsive embed-responsive-16by9" id="inwatch-modal">
-
-                        </div>
+                        <div class="embed-responsive embed-responsive-16by9" id="inwatch-modal"></div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="content-offsite">
+
+        <div class="container">
             <div class="row" id="info"></div>
             <div class="slide-offsite">
                 <div id="vdoslide"></div>
@@ -146,7 +180,7 @@
                     <div class="carousel-inner" style="margin-left:5%;">
                         <div class="carousel-item row no-gutters active" id="col-recom1" style="width: 1500px;"></div>
                         <div class="carousel-item row no-gutters" id="col-recom2" style="width: 1500px;"></div>
-                        
+
                     </div>
 
                     <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev"
@@ -188,7 +222,9 @@
                 // case to lower case is sure and easy
                 var movie = data.find(e => e.title.toLowerCase() === movieName.toLowerCase())
 
-
+                // head title
+                let tt = movie.title + ' | 20th Century Studios';
+                document.querySelector("#head-title").innerHTML += tt;
 
                 //   cover part
                 let cov = "";
@@ -297,7 +333,7 @@
                 document.querySelector("#info").innerHTML += text;
 
                 /*VIDEO PART*/
-                 if (movie.video.length != 0) {
+                if (movie.video.length != 0) {
                     let vdoSelect = "";
 
                     vdoSelect += '<div class= buttcontent></br>';
@@ -632,8 +668,30 @@
 
             }
         </script>
-
-
+        <!-----------------------footer---------------------------------->
+        <footer class="footer">
+            <div class="container text-center">
+                <div class="row d-flex justify-content-around">
+                    <div class="col-xl-12  col-sm-10 col-5 foot pt-4">
+                        <a class="p-3" href="#" id="foot">Searchlight </a>
+                        <a class="p-3" href="#" id="foot"> Blue Sky</a>
+                        <a class="p-3" href="#" id="foot">Redeem Digital Codes</a>
+                        <a class="p-3" href="#" id="foot">Contact Us </a>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-around">
+                    <div class="col-xl-12 col-sm-10 col-5 foot pb-4">
+                        <a class="p-3" href="#" id="foot2">Terms of Use </a>
+                        <a class="p-3" href="#" id="foot2"> Privacy Policy</a>
+                        <a class="p-3" href="#" id="foot2">Your California Privacy Rights</a>
+                        <a class="p-3" href="#" id="foot2">Children’s Online Privacy Policy</a>
+                        <a class="p-3" href="#" id="foot2">Interest-Based Ads</a>
+                        <a class="p-3" href="#" id="foot2">Do Not Sell My Info </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-----------------------footer---------------------------------->
 </body>
 
 </html>
