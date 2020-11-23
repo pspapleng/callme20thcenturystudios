@@ -4,7 +4,7 @@
       "title_logo_url": "https://lumiere-a.akamaihd.net/v1/images/pp_20cs_theemptyman_logo_20221_e81d9872.png?region=0,0,400,170",
       "title": "The Empty Man",
       "status": "IN THEATERS NOW",
-      "trailer_url": "https://youtu.be/tk6u9X1bW30",
+      "trailer_url": "https://www.youtube.com/embed/tk6u9X1bW30",
       "rate": "R",
       "year": "2020",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/p_20cs_theemptyman_20221_d498011e.jpeg?region=0,0,540,810&width=320",
@@ -34,7 +34,7 @@
       "title_logo_url": "https://lumiere-a.akamaihd.net/v1/images/pp_freeguy_logo_updated_20091_24f81074.png?region=0,0,400,89",
       "title": "Free Guy",
       "status": "IN THEATERS DECEMBER 11, 2020",
-      "trailer_url": "https://youtu.be/JORN2hkXLyM",
+      "trailer_url": "https://www.youtube.com/embed/JORN2hkXLyM",
       "rate": "Not Yet Rated",
       "year": "2020",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/p_20cs_freeguy_newposter_20218_55fb4bf2.jpeg?region=0,0,540,810&width=320",
@@ -59,22 +59,22 @@
         {
           "title": "Free Guy Official Trailer",
           "video_image": "https://img.youtube.com/vi/X2m-08cOAbc/maxresdefault.jpg",
-          "video_url": "https://youtu.be/X2m-08cOAbc"
+          "video_url": "https://www.youtube.com/embed/X2m-08cOAbc"
         },
         {
           "title": "The Craft of Free Guy",
           "video_image": "https://img.youtube.com/vi/VfsXE_H-Cl4/maxresdefault.jpg",
-          "video_url": "https://youtu.be/VfsXE_H-Cl4"
+          "video_url": "https://www.youtube.com/embed/VfsXE_H-Cl4"
         },
         {
           "title": "Free Guy - New York Comic Con 2019",
           "video_image": "https://img.youtube.com/vi/72CNMy7h2Z8/maxresdefault.jpg",
-          "video_url": "https://youtu.be/72CNMy7h2Z8"
+          "video_url": "https://www.youtube.com/embed/72CNMy7h2Z8"
         },
         {
           "title": "Meet the Cast of Free Guy",
           "video_image": "https://img.youtube.com/vi/KYBlWFFZFVo/maxresdefault.jpg",
-          "video_url": "https://youtu.be/KYBlWFFZFVo"
+          "video_url": "https://www.youtube.com/embed/KYBlWFFZFVo"
         }
       ],
       "slideshow_image_url": [
@@ -94,7 +94,7 @@
       "title_logo_url": "https://lumiere-a.akamaihd.net/v1/images/l_20cs_deathonthenile_19878_b2691f27.png?region=0,0,1016,530",
       "title": "Death on The Nile",
       "status": "IN THEATERS DECEMBER 18, 2020",
-      "trailer_url": "https://youtu.be/JM1U-Whb-P0",
+      "trailer_url": "https://www.youtube.com/embed/JM1U-Whb-P0",
       "rate": "Not Yet Rated",
       "year": "2020",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/p_20cs_deathonthenile_19878_bea140f2.jpeg?region=0,0,540,810&width=320",
@@ -131,7 +131,7 @@
       "title_logo_url": "https://lumiere-a.akamaihd.net/v1/images/sman_logo_20092_44bd6c57.png?region=0,0,400,118",
       "title": "The King's Man",
       "status": "IN THEATERS FEBRUARY 12, 2021",
-      "trailer_url": "https://youtu.be/e82JHkkPw54",
+      "trailer_url": "https://www.youtube.com/embed/e82JHkkPw54",
       "rate": "NR",
       "year": "2021",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/p_thekingsman_20186_77fae315.jpeg?region=0,0,540,810&width=320",
@@ -156,17 +156,17 @@
         {
           "title": "The King's Man Official Teaser Trailer",
           "video_image": "https://img.youtube.com/vi/e82JHkkPw54/maxresdefault.jpg",
-          "video_url": "https://youtu.be/e82JHkkPw54"
+          "video_url": "https://www.youtube.com/embed/e82JHkkPw54"
         },
         {
           "title": "The King's Man Official Trailer 2",
           "video_image": "https://img.youtube.com/vi/0pbLPOrTSsI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/0pbLPOrTSsI"
+          "video_url": "https://www.youtube.com/embed/0pbLPOrTSsI"
         },
         {
           "title": "The King’s Man - New York Comic Con 2019",
           "video_image": "https://img.youtube.com/vi/qBZ6R6mxx-g/maxresdefault.jpg",
-          "video_url": "https://youtu.be/qBZ6R6mxx-g"
+          "video_url": "https://www.youtube.com/embed/qBZ6R6mxx-g"
         }
       ],
       "slideshow_image_url": [
@@ -190,7 +190,7 @@
       "title_logo_url": "https://lumiere-a.akamaihd.net/v1/images/pp_thenewmutants_logo_19999_cebf50e5.png?region=0,0,500,275",
       "title": "The New Mutants",
       "status": "ON DIGITAL, BLU-RAY™, AND 4K ULTRA HD™ 11/17",
-      "trailer_url": "https://youtu.be/s7JdB-TiQTM",
+      "trailer_url": "https://www.youtube.com/embed/s7JdB-TiQTM",
       "rate": "PG-13",
       "year": "2020",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/p_thenewmutants_19999_9ae6e819.jpeg?region=0,0,540,810&width=320",
@@ -215,32 +215,32 @@
         {
           "title": "The New Mutants - Attitude",
           "video_image": "https://img.youtube.com/vi/NYVAjVVzyvk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/NYVAjVVzyvk"
+          "video_url": "https://www.youtube.com/embed/NYVAjVVzyvk"
         },
         {
           "title": "The New Mutants - Escape",
           "video_image": "https://img.youtube.com/vi/_m600RZ27Rk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/_m600RZ27Rk"
+          "video_url": "https://www.youtube.com/embed/_m600RZ27Rk"
         },
         {
           "title": "The New Mutants - Comic-Con@Home 2020",
           "video_image": "https://img.youtube.com/vi/jGcU0JKAL5U/maxresdefault.jpg",
-          "video_url": "https://youtu.be/jGcU0JKAL5U"
+          "video_url": "https://www.youtube.com/embed/jGcU0JKAL5U"
         },
         {
           "title": "The New Mutants - Awaken",
           "video_image": "https://img.youtube.com/vi/ob9SfDW-t-U/maxresdefault.jpg",
-          "video_url": "https://youtu.be/ob9SfDW-t-U"
+          "video_url": "https://www.youtube.com/embed/ob9SfDW-t-U"
         },
         {
           "title": "The New Mutants Official Trailer",
           "video_image": "https://img.youtube.com/vi/W_vJhUAOFpI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/W_vJhUAOFpI"
+          "video_url": "https://www.youtube.com/embed/W_vJhUAOFpI"
         },
         {
           "title": "The New Mutants Teaser Trailer",
           "video_image": "https://img.youtube.com/vi/bu9e410C__I/maxresdefault.jpg",
-          "video_url": "https://youtu.be/bu9e410C__I"
+          "video_url": "https://www.youtube.com/embed/bu9e410C__I"
         },
         {
           "title": "The New Mutants - The CW Roundtable",
@@ -261,7 +261,7 @@
       "title_logo_url": "https://lumiere-a.akamaihd.net/v1/images/pp_ahiddenlife_logo_update_20096_230f35ce.png?region=0,0,254,183",
       "title": "A Hidden Life",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/aR0CJexLft0",
+      "trailer_url": "https://www.youtube.com/embed/aR0CJexLft0",
       "rate": "PG-13",
       "year": "2019",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/p_ahiddenlife_20096_229e464f.jpeg?region=0,0,540,810&width=320",
@@ -284,12 +284,12 @@
         {
           "title": "A Hidden Life - On Digital and Blu-ray",
           "video_image": "https://img.youtube.com/vi/aR0CJexLft0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/aR0CJexLft0"
+          "video_url": "https://www.youtube.com/embed/aR0CJexLft0"
         },
         {
           "title": "A Hidden Life Official Trailer",
           "video_image": "https://img.youtube.com/vi/qJXmdY4lVR0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/qJXmdY4lVR0"
+          "video_url": "https://www.youtube.com/embed/qJXmdY4lVR0"
         }
       ],
       "slideshow_image_url": [],
@@ -302,7 +302,7 @@
       "title_logo_url": "https://lumiere-a.akamaihd.net/v1/images/pp_adastra_logo_updated_2_20097_bfdd0e7f.png?region=0,0,667,95",
       "title": "Ad Astra",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/JrVonfOmbcg",
+      "trailer_url": "https://www.youtube.com/embed/JrVonfOmbcg",
       "rate": "PG-13",
       "year": "2019",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/p_adastra_20097_040ab0d1.jpeg?region=0,0,540,810&width=320",
@@ -333,152 +333,152 @@
         {
           "title": "Ad Astra - Fight",
           "video_image": "https://img.youtube.com/vi/JrVonfOmbcg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/JrVonfOmbcg"
+          "video_url": "https://www.youtube.com/embed/JrVonfOmbcg"
         },
         {
           "title": "Ad Astra - On Digital & Blu-ray",
           "video_image": "https://img.youtube.com/vi/PDGvIbJytIg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/PDGvIbJytIg"
+          "video_url": "https://www.youtube.com/embed/PDGvIbJytIg"
         },
         {
           "title": "Ad Astra - IMAX Trailer",
           "video_image": "https://img.youtube.com/vi/BsCNKuB93BA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/BsCNKuB93BA"
+          "video_url": "https://www.youtube.com/embed/BsCNKuB93BA"
         },
         {
           "title": "Space-to-earth call with astronaut Nick Hague & Brad Pitt",
           "video_image": "https://img.youtube.com/vi/Q8LYn1KtfOA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Q8LYn1KtfOA"
+          "video_url": "https://www.youtube.com/embed/Q8LYn1KtfOA"
         },
         {
           "title": "Ad Astra - Antenna",
           "video_image": "https://img.youtube.com/vi/ykC_wu6ffOU/maxresdefault.jpg",
-          "video_url": "https://youtu.be/ykC_wu6ffOU"
+          "video_url": "https://www.youtube.com/embed/ykC_wu6ffOU"
         },
         {
           "title": "Ad Astra - Mayday Call",
           "video_image": "https://img.youtube.com/vi/p1tSHWc2kHw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/p1tSHWc2kHw"
+          "video_url": "https://www.youtube.com/embed/p1tSHWc2kHw"
         },
         {
           "title": "Ad Astra - Sounds of Space: Scored by Dev Hynes",
           "video_image": "https://img.youtube.com/vi/ZCNg5XXRjsU/maxresdefault.jpg",
-          "video_url": "https://youtu.be/ZCNg5XXRjsU"
+          "video_url": "https://www.youtube.com/embed/ZCNg5XXRjsU"
         },
         {
           "title": "Ad Astra - Good Luck",
           "video_image": "https://img.youtube.com/vi/uiEYJ0gTcLY/maxresdefault.jpg",
-          "video_url": "https://youtu.be/uiEYJ0gTcLY"
+          "video_url": "https://www.youtube.com/embed/uiEYJ0gTcLY"
         },
         {
           "title": "Ad Astra Official Trailer 2",
           "video_image": "https://img.youtube.com/vi/nxi6rtBtBM0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/nxi6rtBtBM0"
+          "video_url": "https://www.youtube.com/embed/nxi6rtBtBM0"
         },
         {
           "title": "Ad Astra Official Trailer",
           "video_image": "https://img.youtube.com/vi/P6AaSMfXHbA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/P6AaSMfXHbA"
+          "video_url": "https://www.youtube.com/embed/P6AaSMfXHbA"
         },
         {
           "title": "Ad Astra - Lima Project",
           "video_image": "https://img.youtube.com/vi/Nvb9cDDFHtk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Nvb9cDDFHtk"
+          "video_url": "https://www.youtube.com/embed/Nvb9cDDFHtk"
         },
         {
           "title": "Ad Astra - Moon Rover",
           "video_image": "https://img.youtube.com/vi/stOVFXuyyWQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/stOVFXuyyWQ"
+          "video_url": "https://www.youtube.com/embed/stOVFXuyyWQ"
         },
         {
           "title": "\"Secret\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/943J2t60bcE/maxresdefault.jpg",
-          "video_url": "https://youtu.be/943J2t60bcE"
+          "video_url": "https://www.youtube.com/embed/943J2t60bcE"
         },
         {
           "title": "\"Love\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/YD_75aBb0Lg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/YD_75aBb0Lg"
+          "video_url": "https://www.youtube.com/embed/YD_75aBb0Lg"
         },
         {
           "title": "\"Disappear\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/nWKC5btBSyw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/nWKC5btBSyw"
+          "video_url": "https://www.youtube.com/embed/nWKC5btBSyw"
         },
         {
           "title": "\"Highly Classified\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/y8CWj85P2cc/maxresdefault.jpg",
-          "video_url": "https://youtu.be/y8CWj85P2cc"
+          "video_url": "https://www.youtube.com/embed/y8CWj85P2cc"
         },
         {
           "title": "\"Are You Ready?\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/2__aaBehE78/maxresdefault.jpg",
-          "video_url": "https://youtu.be/2__aaBehE78"
+          "video_url": "https://www.youtube.com/embed/2__aaBehE78"
         },
         {
           "title": "Ad Astra - How Far",
           "video_image": "https://img.youtube.com/vi/amHz0sz8e4s/maxresdefault.jpg",
-          "video_url": "https://youtu.be/amHz0sz8e4s"
+          "video_url": "https://www.youtube.com/embed/amHz0sz8e4s"
         },
         {
           "title": "Ad Astra - An Epic Journey",
           "video_image": "https://img.youtube.com/vi/QILhK03oNlY/maxresdefault.jpg",
-          "video_url": "https://youtu.be/QILhK03oNlY"
+          "video_url": "https://www.youtube.com/embed/QILhK03oNlY"
         },
         {
           "title": "\"Out There\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/K-lEOmqCSBc/maxresdefault.jpg",
-          "video_url": "https://youtu.be/K-lEOmqCSBc"
+          "video_url": "https://www.youtube.com/embed/K-lEOmqCSBc"
         },
         {
           "title": "Ad Astra | Look For It On Digital",
           "video_image": "https://img.youtube.com/vi/pV3LgHEZXnE/maxresdefault.jpg",
-          "video_url": "https://youtu.be/pV3LgHEZXnE"
+          "video_url": "https://www.youtube.com/embed/pV3LgHEZXnE"
         },
         {
           "title": "Ad Astra - We're Counting On You",
           "video_image": "https://img.youtube.com/vi/LDNP-Fo--O8/maxresdefault.jpg",
-          "video_url": "https://youtu.be/LDNP-Fo--O8"
+          "video_url": "https://www.youtube.com/embed/LDNP-Fo--O8"
         },
         {
           "title": "Ad Astra - Blast Off",
           "video_image": "https://img.youtube.com/vi/R6zRBXJlKAo/maxresdefault.jpg",
-          "video_url": "https://youtu.be/R6zRBXJlKAo"
+          "video_url": "https://www.youtube.com/embed/R6zRBXJlKAo"
         },
         {
           "title": "Ad Astra - Disappear",
           "video_image": "https://img.youtube.com/vi/voiRy0LrXqI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/voiRy0LrXqI"
+          "video_url": "https://www.youtube.com/embed/voiRy0LrXqI"
         },
         {
           "title": "Ad Astra - Disappear",
           "video_image": "https://img.youtube.com/vi/x4S1xP_0YVA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/x4S1xP_0YVA"
+          "video_url": "https://www.youtube.com/embed/x4S1xP_0YVA"
         },
         {
           "title": "Ad Astra - Fight",
           "video_image": "https://img.youtube.com/vi/8VgJbymWha4/maxresdefault.jpg",
-          "video_url": "https://youtu.be/8VgJbymWha4"
+          "video_url": "https://www.youtube.com/embed/8VgJbymWha4"
         },
         {
           "title": "Ad Astra - On DVD & Blu-ray",
           "video_image": "https://img.youtube.com/vi/eNRsWb0Rlyg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/eNRsWb0Rlyg"
+          "video_url": "https://www.youtube.com/embed/eNRsWb0Rlyg"
         },
         {
           "title": "Ad Astra - Moon Rover",
           "video_image": "https://img.youtube.com/vi/X5vH5kAJxMo/maxresdefault.jpg",
-          "video_url": "https://youtu.be/X5vH5kAJxMo"
+          "video_url": "https://www.youtube.com/embed/X5vH5kAJxMo"
         },
         {
           "title": "Ad Astra - \"Epilogue\" Deleted Scene",
           "video_image": "https://img.youtube.com/vi/z05anb6POLs/maxresdefault.jpg",
-          "video_url": "https://youtu.be/z05anb6POLs"
+          "video_url": "https://www.youtube.com/embed/z05anb6POLs"
         },
         {
           "title": "Ad Astra - Making of Moon Rover Scene",
           "video_image": "https://img.youtube.com/vi/iIYHnhcKACo/maxresdefault.jpg",
-          "video_url": "https://youtu.be/iIYHnhcKACo"
+          "video_url": "https://www.youtube.com/embed/iIYHnhcKACo"
         }
       ],
       "slideshow_image_url": [],
@@ -491,7 +491,7 @@
       "title_logo_url": "",
       "title": "Bohemian Rhapsody",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/mP0VHJYFOAU",
+      "trailer_url": "https://www.youtube.com/embed/mP0VHJYFOAU",
       "rate": "PG-13",
       "year": "2018",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/bohemianrhapsody_feature-poster_584x800_af0e9e00.jpeg?region=0,0,584,800&width=320",
@@ -516,127 +516,127 @@
         {
           "title": "\"We're All Legends\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/QLguM83wDQM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/QLguM83wDQM"
+          "video_url": "https://www.youtube.com/embed/QLguM83wDQM"
         },
         {
           "title": "Bohemian Rhapsody - Live Aid Side by Side: \"We Will Rock You\"",
           "video_image": "https://img.youtube.com/vi/wfSt8Sxyyrg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/wfSt8Sxyyrg"
+          "video_url": "https://www.youtube.com/embed/wfSt8Sxyyrg"
         },
         {
           "title": "Bohemian Rhapsody - Live Aid Side by Side: \"Crazy Little Thing Called Love\"",
           "video_image": "https://img.youtube.com/vi/LsIxVD6mX7Y/maxresdefault.jpg",
-          "video_url": "https://youtu.be/LsIxVD6mX7Y"
+          "video_url": "https://www.youtube.com/embed/LsIxVD6mX7Y"
         },
         {
           "title": "Bohemian Rhapsody Final Trailer",
           "video_image": "https://img.youtube.com/vi/27zlBpzdOZg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/27zlBpzdOZg"
+          "video_url": "https://www.youtube.com/embed/27zlBpzdOZg"
         },
         {
           "title": "Bohemian Rhapsody - Sofar Sounds",
           "video_image": "https://img.youtube.com/vi/_asle0p9cKs/maxresdefault.jpg",
-          "video_url": "https://youtu.be/_asle0p9cKs"
+          "video_url": "https://www.youtube.com/embed/_asle0p9cKs"
         },
         {
           "title": "Panic! At The Disco - Bohemian Rhapsody - Live from Sydney",
           "video_image": "https://img.youtube.com/vi/cyc-a-DOKwk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/cyc-a-DOKwk"
+          "video_url": "https://www.youtube.com/embed/cyc-a-DOKwk"
         },
         {
           "title": "Bohemian Rhapsody - A Tribute to Queen: JaQuel Knight",
           "video_image": "https://img.youtube.com/vi/_NZa8ZP3TPw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/_NZa8ZP3TPw"
+          "video_url": "https://www.youtube.com/embed/_NZa8ZP3TPw"
         },
         {
           "title": "Bohemian Rhapsody - A Tribute to Queen: Garth Brooks",
           "video_image": "https://img.youtube.com/vi/yn6wgUalDQE/maxresdefault.jpg",
-          "video_url": "https://youtu.be/yn6wgUalDQE"
+          "video_url": "https://www.youtube.com/embed/yn6wgUalDQE"
         },
         {
           "title": "Bohemian Rhapsody - A Tribute to Queen: Zac Posen",
           "video_image": "https://img.youtube.com/vi/Uk-1yzQniyw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Uk-1yzQniyw"
+          "video_url": "https://www.youtube.com/embed/Uk-1yzQniyw"
         },
         {
           "title": "Bohemian Rhapsody Teaser Trailer",
           "video_image": "https://img.youtube.com/vi/6S9c5nnDd_s/maxresdefault.jpg",
-          "video_url": "https://youtu.be/6S9c5nnDd_s"
+          "video_url": "https://www.youtube.com/embed/6S9c5nnDd_s"
         },
         {
           "title": "Bohemian Rhapsody - Lily Allen \"I Want To Break Free\" Cover",
           "video_image": "https://img.youtube.com/vi/MpMPkfOXP84/maxresdefault.jpg",
-          "video_url": "https://youtu.be/MpMPkfOXP84"
+          "video_url": "https://www.youtube.com/embed/MpMPkfOXP84"
         },
         {
           "title": "Bohemian Rhapsody - A Tribute to Queen",
           "video_image": "https://img.youtube.com/vi/FxUQ-LyoR98/maxresdefault.jpg",
-          "video_url": "https://youtu.be/FxUQ-LyoR98"
+          "video_url": "https://www.youtube.com/embed/FxUQ-LyoR98"
         },
         {
           "title": "“Put Me In Bohemian” - Mixing in the Vocals",
           "video_image": "https://img.youtube.com/vi/Ijxu2EHV5XA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Ijxu2EHV5XA"
+          "video_url": "https://www.youtube.com/embed/Ijxu2EHV5XA"
         },
         {
           "title": "Bohemian Rhapsody - We Will Rock You",
           "video_image": "https://img.youtube.com/vi/7954xNZcRUI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/7954xNZcRUI"
+          "video_url": "https://www.youtube.com/embed/7954xNZcRUI"
         },
         {
           "title": "Bohemian Rhapsody - Becoming Freddie",
           "video_image": "https://img.youtube.com/vi/NWFG0M-7QJo/maxresdefault.jpg",
-          "video_url": "https://youtu.be/NWFG0M-7QJo"
+          "video_url": "https://www.youtube.com/embed/NWFG0M-7QJo"
         },
         {
           "title": "Bohemian Rhapsody - Happy Birthday Freddie Mercury",
           "video_image": "https://img.youtube.com/vi/0b_rO4oekSc/maxresdefault.jpg",
-          "video_url": "https://youtu.be/0b_rO4oekSc"
+          "video_url": "https://www.youtube.com/embed/0b_rO4oekSc"
         },
         {
           "title": "Bohemian Rhapsody - Can You Go a Bit Higher",
           "video_image": "https://img.youtube.com/vi/l3iIJu08t-Y/maxresdefault.jpg",
-          "video_url": "https://youtu.be/l3iIJu08t-Y"
+          "video_url": "https://www.youtube.com/embed/l3iIJu08t-Y"
         },
         {
           "title": "Bohemian Rhapsody - PutMeInBohemian.com",
           "video_image": "https://img.youtube.com/vi/TzxC2uFNT5g/maxresdefault.jpg",
-          "video_url": "https://youtu.be/TzxC2uFNT5g"
+          "video_url": "https://www.youtube.com/embed/TzxC2uFNT5g"
         },
         {
           "title": "\"Fearless Lives Forever\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/lb3PYSFrjEM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/lb3PYSFrjEM"
+          "video_url": "https://www.youtube.com/embed/lb3PYSFrjEM"
         },
         {
           "title": "Bohemian Rhapsody - Becoming Queen",
           "video_image": "https://img.youtube.com/vi/Zuq_ssl0xvo/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Zuq_ssl0xvo"
+          "video_url": "https://www.youtube.com/embed/Zuq_ssl0xvo"
         },
         {
           "title": "Bohemian Rhapsody - #StompforQueen",
           "video_image": "https://img.youtube.com/vi/C_GRmgmFz4I/maxresdefault.jpg",
-          "video_url": "https://youtu.be/C_GRmgmFz4I"
+          "video_url": "https://www.youtube.com/embed/C_GRmgmFz4I"
         },
         {
           "title": "\"Royalty\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/wj2JBcoKIt0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/wj2JBcoKIt0"
+          "video_url": "https://www.youtube.com/embed/wj2JBcoKIt0"
         },
         {
           "title": "\"Dreamers\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/a9k5o2MZi4I/maxresdefault.jpg",
-          "video_url": "https://youtu.be/a9k5o2MZi4I"
+          "video_url": "https://www.youtube.com/embed/a9k5o2MZi4I"
         },
         {
           "title": "\"Unleash Your Inner Freddie\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/ybDrrIWBETg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/ybDrrIWBETg"
+          "video_url": "https://www.youtube.com/embed/ybDrrIWBETg"
         },
         {
           "title": "\"You Know\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/tVewv0ZZjDA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/tVewv0ZZjDA"
+          "video_url": "https://www.youtube.com/embed/tVewv0ZZjDA"
         }
       ],
       "slideshow_image_url": [
@@ -660,7 +660,7 @@
       "title_logo_url": "https://lumiere-a.akamaihd.net/v1/images/pp_downhill_logo_updated_20093_de6e44fd.png?region=0,0,644,198",
       "title": "Downhill",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/AY5SrKf_2ic",
+      "trailer_url": "https://www.youtube.com/embed/AY5SrKf_2ic",
       "rate": "R",
       "year": "2020",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/p_downhill_20093_65f687b6.jpeg?region=0,0,540,810&width=320",
@@ -683,12 +683,12 @@
         {
           "title": "On Digital Now",
           "video_image": "https://img.youtube.com/vi/q83VEWF2iF8/maxresdefault.jpg",
-          "video_url": "https://youtu.be/q83VEWF2iF8"
+          "video_url": "https://www.youtube.com/embed/q83VEWF2iF8"
         },
         {
           "title": "Downhill | Official Trailer",
           "video_image": "https://img.youtube.com/vi/AY5SrKf_2ic/maxresdefault.jpg",
-          "video_url": "https://youtu.be/AY5SrKf_2ic"
+          "video_url": "https://www.youtube.com/embed/AY5SrKf_2ic"
         }
       ],
       "slideshow_image_url": [],
@@ -701,7 +701,7 @@
       "title_logo_url": "",
       "title": "Ford v Ferrari",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/I3h9Z89U9ZA",
+      "trailer_url": "https://www.youtube.com/embed/I3h9Z89U9ZA",
       "rate": "PG-13",
       "year": "2019",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_a39a0e25.jpeg?region=0,0,800,1200&width=320",
@@ -730,82 +730,82 @@
         {
           "title": "Ford v Ferrari - On Digital",
           "video_image": "https://img.youtube.com/vi/dXaKf-Ssfdk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/dXaKf-Ssfdk"
+          "video_url": "https://www.youtube.com/embed/dXaKf-Ssfdk"
         },
         {
           "title": "Ford v Ferrari Official Trailer 2",
           "video_image": "https://img.youtube.com/vi/I3h9Z89U9ZA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/I3h9Z89U9ZA"
+          "video_url": "https://www.youtube.com/embed/I3h9Z89U9ZA"
         },
         {
           "title": "Ford v Ferrari Official Trailer",
           "video_image": "https://img.youtube.com/vi/zyYgDtY2AMY/maxresdefault.jpg",
-          "video_url": "https://youtu.be/zyYgDtY2AMY"
+          "video_url": "https://www.youtube.com/embed/zyYgDtY2AMY"
         },
         {
           "title": "Ford v Ferrari - Special Look",
           "video_image": "https://img.youtube.com/vi/EVexhbWr548/maxresdefault.jpg",
-          "video_url": "https://youtu.be/EVexhbWr548"
+          "video_url": "https://www.youtube.com/embed/EVexhbWr548"
         },
         {
           "title": "Ford v Ferrari - Run Free",
           "video_image": "https://img.youtube.com/vi/InXHFPzAEEM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/InXHFPzAEEM"
+          "video_url": "https://www.youtube.com/embed/InXHFPzAEEM"
         },
         {
           "title": "Ford v Ferrari - Wait For It",
           "video_image": "https://img.youtube.com/vi/UZHXhyXAvKU/maxresdefault.jpg",
-          "video_url": "https://youtu.be/UZHXhyXAvKU"
+          "video_url": "https://www.youtube.com/embed/UZHXhyXAvKU"
         },
         {
           "title": "Ford v Ferrari - AMC Exclusive",
           "video_image": "https://img.youtube.com/vi/xAkCqox_MhE/maxresdefault.jpg",
-          "video_url": "https://youtu.be/xAkCqox_MhE"
+          "video_url": "https://www.youtube.com/embed/xAkCqox_MhE"
         },
         {
           "title": "Ford v Ferrari - NCM Exclusive",
           "video_image": "https://img.youtube.com/vi/QZk7QlNqKLo/maxresdefault.jpg",
-          "video_url": "https://youtu.be/QZk7QlNqKLo"
+          "video_url": "https://www.youtube.com/embed/QZk7QlNqKLo"
         },
         {
           "title": "Ford v Ferrari - Happy Bill",
           "video_image": "https://img.youtube.com/vi/pNn8rK1VtIA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/pNn8rK1VtIA"
+          "video_url": "https://www.youtube.com/embed/pNn8rK1VtIA"
         },
         {
           "title": "Ford v Ferrari - You Know Your Cars",
           "video_image": "https://img.youtube.com/vi/rSKcwgjZXAg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/rSKcwgjZXAg"
+          "video_url": "https://www.youtube.com/embed/rSKcwgjZXAg"
         },
         {
           "title": "Ford v Ferrari - Perfect Lap",
           "video_image": "https://img.youtube.com/vi/pLHmFnim1Ws/maxresdefault.jpg",
-          "video_url": "https://youtu.be/pLHmFnim1Ws"
+          "video_url": "https://www.youtube.com/embed/pLHmFnim1Ws"
         },
         {
           "title": "Ford v Ferrari - In 10 Days",
           "video_image": "https://img.youtube.com/vi/Lr8EpVIdfNQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Lr8EpVIdfNQ"
+          "video_url": "https://www.youtube.com/embed/Lr8EpVIdfNQ"
         },
         {
           "title": "Ford v Ferrari - Meet Leo Beebe",
           "video_image": "https://img.youtube.com/vi/9-tQpL5R_Jo/maxresdefault.jpg",
-          "video_url": "https://youtu.be/9-tQpL5R_Jo"
+          "video_url": "https://www.youtube.com/embed/9-tQpL5R_Jo"
         },
         {
           "title": "Ford v Ferrari - Meet Mollie Miles",
           "video_image": "https://img.youtube.com/vi/IcnE9B26rBw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/IcnE9B26rBw"
+          "video_url": "https://www.youtube.com/embed/IcnE9B26rBw"
         },
         {
           "title": "Ford v Ferrari - Meet Lee Iacocca",
           "video_image": "https://img.youtube.com/vi/V8n7UPUtIMg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/V8n7UPUtIMg"
+          "video_url": "https://www.youtube.com/embed/V8n7UPUtIMg"
         },
         {
           "title": "Ford v Ferrari - Misfits",
           "video_image": "https://img.youtube.com/vi/eK4x8HiWe08/maxresdefault.jpg",
-          "video_url": "https://youtu.be/eK4x8HiWe08"
+          "video_url": "https://www.youtube.com/embed/eK4x8HiWe08"
         }
       ],
       "slideshow_image_url": [],
@@ -818,7 +818,7 @@
       "title_logo_url": "",
       "title": "Jojo Rabbit",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/tL4McUzXfFI",
+      "trailer_url": "https://www.youtube.com/embed/tL4McUzXfFI",
       "rate": "PG-13",
       "year": "2019",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_a094a4bd.jpeg?region=0,0,800,1200&width=320",
@@ -841,16 +841,16 @@
         {
           "title": "Jojo Rabbit - Shouldn't Work",
           "video_image": "https://img.youtube.com/vi/bd01I5MW4Jc/maxresdefault.jpg",
-          "video_url": "https://youtu.be/n-jxjnXzHpg"
+          "video_url": "https://www.youtube.com/embed/n-jxjnXzHpg"
         },
         {
           "title": "Jojo Rabbit - On Blu-ray",
           "video_image": "https://img.youtube.com/vi/tL4McUzXfFI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/bd01I5MW4Jc"
+          "video_url": "https://www.youtube.com/embed/bd01I5MW4Jc"
         },
         {
           "title": "Jojo Rabbit Official Trailer",
-          "video_url": "https://youtu.be/tL4McUzXfFI"
+          "video_url": "https://www.youtube.com/embed/tL4McUzXfFI"
         }
       ],
       "slideshow_image_url": [],
@@ -863,7 +863,7 @@
       "title_logo_url": "",
       "title": "Lucy in the Sky",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/SSIJSYkIfvM",
+      "trailer_url": "https://www.youtube.com/embed/SSIJSYkIfvM",
       "rate": "R",
       "year": "2019",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/lucyinthesky_feature-poster_584x800_41e9fbb3.jpeg?region=0,0,521,800&width=320",
@@ -893,7 +893,7 @@
       "title_logo_url": "",
       "title": "Ready or Not",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/LBwfO9Hj6oQ",
+      "trailer_url": "https://www.youtube.com/embed/LBwfO9Hj6oQ",
       "rate": "R",
       "year": "2019",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_e594749b.jpeg?region=0,0,800,1200&width=320",
@@ -923,7 +923,7 @@
       "title_logo_url": "",
       "title": "The Aftermath",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/FPv3e2FZOgo",
+      "trailer_url": "https://www.youtube.com/embed/FPv3e2FZOgo",
       "rate": "R",
       "year": "2019",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_e9b1245e.jpeg?region=0,0,800,1200&width=320",
@@ -946,12 +946,12 @@
         {
           "title": "The Aftermath - Look For It on Digital",
           "video_image": "https://img.youtube.com/vi/r3W3HH1C_PM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/r3W3HH1C_PM"
+          "video_url": "https://www.youtube.com/embed/r3W3HH1C_PM"
         },
         {
           "title": "The Aftermath Official Trailer",
           "video_image": "https://img.youtube.com/vi/FPv3e2FZOgo/maxresdefault.jpg",
-          "video_url": "https://youtu.be/FPv3e2FZOgo"
+          "video_url": "https://www.youtube.com/embed/FPv3e2FZOgo"
         }
       ],
       "slideshow_image_url": [
@@ -970,7 +970,7 @@
       "title_logo_url": "https://lumiere-a.akamaihd.net/v1/images/pp_underwater_logo_updated_4_20095_52dc255a.png?region=0,0,765,92",
       "title": "Underwater",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/ksXBcWV4nsE",
+      "trailer_url": "https://www.youtube.com/embed/ksXBcWV4nsE",
       "rate": "PG-13",
       "year": "2020",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/p_underwater_20095_c773c46f.jpeg?region=0,0,540,810&width=320",
@@ -995,12 +995,12 @@
         {
           "title": "Underwater - On Digital & Blu-ray",
           "video_image": "https://img.youtube.com/vi/ksXBcWV4nsE/maxresdefault.jpg",
-          "video_url": "https://youtu.be/ksXBcWV4nsE"
+          "video_url": "https://www.youtube.com/embed/ksXBcWV4nsE"
         },
         {
           "title": "Underwater Official Trailer",
           "video_image": "https://img.youtube.com/vi/jCFWEzIVILc/maxresdefault.jpg",
-          "video_url": "https://youtu.be/jCFWEzIVILc"
+          "video_url": "https://www.youtube.com/embed/jCFWEzIVILc"
         }
       ],
       "slideshow_image_url": [
@@ -1016,7 +1016,7 @@
       "title_logo_url": "https://lumiere-a.akamaihd.net/v1/images/pp_wendy_logo_updated_2_20094_96bd3dd6.png?region=0,0,466,280",
       "title": "Wendy",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/KKktQFFcXL0",
+      "trailer_url": "https://www.youtube.com/embed/KKktQFFcXL0",
       "rate": "PG-13",
       "year": "2020",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/p_wendy_20094_9f2c7d4e.jpeg?region=0,0,540,810&width=320",
@@ -1039,12 +1039,12 @@
         {
           "title": "Now On Digital",
           "video_image": "https://img.youtube.com/vi/Dm7MNHzscbc/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Dm7MNHzscbc"
+          "video_url": "https://www.youtube.com/embed/Dm7MNHzscbc"
         },
         {
           "title": "Wendy | Official Trailer",
           "video_image": "https://img.youtube.com/vi/KKktQFFcXL0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/KKktQFFcXL0"
+          "video_url": "https://www.youtube.com/embed/KKktQFFcXL0"
         }
       ],
       "slideshow_image_url": [],
@@ -1117,7 +1117,7 @@
       "title_logo_url": "",
       "title": "Alien vs. Predator",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/c02eQqMbIBg",
+      "trailer_url": "https://www.youtube.com/embed/c02eQqMbIBg",
       "rate": "PG-13",
       "year": "2004",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_8c471554.jpeg?region=0,0,1400,2100&width=320",
@@ -1147,7 +1147,7 @@
       "title_logo_url": "",
       "title": "Alien: Covenant",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/0R0dWKTeCGw",
+      "trailer_url": "https://www.youtube.com/embed/0R0dWKTeCGw",
       "rate": "R",
       "year": "2017",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_f9126949.jpeg?region=0,0,1400,2100&width=320",
@@ -1180,201 +1180,201 @@
         {
           "title": "\"There's More To Fear\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/0R0dWKTeCGw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/0R0dWKTeCGw"
+          "video_url": "https://www.youtube.com/embed/0R0dWKTeCGw"
         },
         {
           "title": "\"Origin\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/I4kYM8e6Tt0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/I4kYM8e6Tt0"
+          "video_url": "https://www.youtube.com/embed/I4kYM8e6Tt0"
         },
         {
           "title": "Alien: Covenant Official Trailer",
           "video_image": "https://img.youtube.com/vi/svnAD0TApb8/maxresdefault.jpg",
-          "video_url": "https://youtu.be/svnAD0TApb8"
+          "video_url": "https://www.youtube.com/embed/svnAD0TApb8"
         },
         {
           "title": "In Utero - A 360 Virtual Reality Experience",
           "video_image": "https://img.youtube.com/vi/cKw1_l3htvA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/cKw1_l3htvA"
+          "video_url": "https://www.youtube.com/embed/cKw1_l3htvA"
         },
         {
           "title": "Secrets of David’s Lab - The Xenomorph",
           "video_image": "https://img.youtube.com/vi/D-RyzRSkeRY/maxresdefault.jpg",
-          "video_url": "https://youtu.be/D-RyzRSkeRY"
+          "video_url": "https://www.youtube.com/embed/D-RyzRSkeRY"
         },
         {
           "title": "Secrets of David’s Lab - The Neomorph",
           "video_image": "https://img.youtube.com/vi/K6dF99kuzgU/maxresdefault.jpg",
-          "video_url": "https://youtu.be/K6dF99kuzgU"
+          "video_url": "https://www.youtube.com/embed/K6dF99kuzgU"
         },
         {
           "title": "Secrets of David’s Lab - The Ovomorph and the Facehugger",
           "video_image": "https://img.youtube.com/vi/uXswcGUNai0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/uXswcGUNai0"
+          "video_url": "https://www.youtube.com/embed/uXswcGUNai0"
         },
         {
           "title": "Secrets of David’s Lab - The Engineers",
           "video_image": "https://img.youtube.com/vi/xFP2wFHWqfM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/xFP2wFHWqfM"
+          "video_url": "https://www.youtube.com/embed/xFP2wFHWqfM"
         },
         {
           "title": "Secrets of David's Lab - My Name Is David",
           "video_image": "https://img.youtube.com/vi/6bjk9g5xj20/maxresdefault.jpg",
-          "video_url": "https://youtu.be/6bjk9g5xj20"
+          "video_url": "https://www.youtube.com/embed/6bjk9g5xj20"
         },
         {
           "title": "\"Creation\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/dFjmFZZB-Yw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/dFjmFZZB-Yw"
+          "video_url": "https://www.youtube.com/embed/dFjmFZZB-Yw"
         },
         {
           "title": "\"Thrill Ride\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/yc_V07W25yM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/yc_V07W25yM"
+          "video_url": "https://www.youtube.com/embed/yc_V07W25yM"
         },
         {
           "title": "Secrets of David’s Lab - Flora And Fauna",
           "video_image": "https://img.youtube.com/vi/6V9c7cb3w8E/maxresdefault.jpg",
-          "video_url": "https://youtu.be/6V9c7cb3w8E"
+          "video_url": "https://www.youtube.com/embed/6V9c7cb3w8E"
         },
         {
           "title": "\"Begin Fear Test\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/eoErf6_z9lY/maxresdefault.jpg",
-          "video_url": "https://youtu.be/eoErf6_z9lY"
+          "video_url": "https://www.youtube.com/embed/eoErf6_z9lY"
         },
         {
           "title": "\"Fight for Your Life\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/tfJtk-H65jk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/tfJtk-H65jk"
+          "video_url": "https://www.youtube.com/embed/tfJtk-H65jk"
         },
         {
           "title": "Adam Savage Puts On Alien: Covenant's Spacesuit",
           "video_image": "https://img.youtube.com/vi/hcBMnlPte9Y/maxresdefault.jpg",
-          "video_url": "https://youtu.be/hcBMnlPte9Y"
+          "video_url": "https://www.youtube.com/embed/hcBMnlPte9Y"
         },
         {
           "title": "Alien: Covenant - David's Lab Teaser",
           "video_image": "https://img.youtube.com/vi/BC4vOycX1hM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/BC4vOycX1hM"
+          "video_url": "https://www.youtube.com/embed/BC4vOycX1hM"
         },
         {
           "title": "Adam Savage Behind the Scenes of Alien: Covenant",
           "video_image": "https://img.youtube.com/vi/f5gxApaRczQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/f5gxApaRczQ"
+          "video_url": "https://www.youtube.com/embed/f5gxApaRczQ"
         },
         {
           "title": "Unlock the Secrets of the Alien Universe",
           "video_image": "https://img.youtube.com/vi/twK0ymaSQa4/maxresdefault.jpg",
-          "video_url": "https://youtu.be/twK0ymaSQa4"
+          "video_url": "https://www.youtube.com/embed/twK0ymaSQa4"
         },
         {
           "title": "Alien: Covenant - Story Sneak Peek",
           "video_image": "https://img.youtube.com/vi/7mUi_MxFdtc/maxresdefault.jpg",
-          "video_url": "https://youtu.be/7mUi_MxFdtc"
+          "video_url": "https://www.youtube.com/embed/7mUi_MxFdtc"
         },
         {
           "title": "The Creature and Special Effects of Alien: Covenant!",
           "video_image": "https://img.youtube.com/vi/i_kr8mAM5Dg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/i_kr8mAM5Dg"
+          "video_url": "https://www.youtube.com/embed/i_kr8mAM5Dg"
         },
         {
           "title": "Alien: Covenant - On Blu-ray",
           "video_image": "https://img.youtube.com/vi/PvgB7mtqTWY/maxresdefault.jpg",
-          "video_url": "https://youtu.be/PvgB7mtqTWY"
+          "video_url": "https://www.youtube.com/embed/PvgB7mtqTWY"
         },
         {
           "title": "Alien Covenant's Armor",
           "video_image": "https://img.youtube.com/vi/nhJQSUwcHEs/maxresdefault.jpg",
-          "video_url": "https://youtu.be/nhJQSUwcHEs"
+          "video_url": "https://www.youtube.com/embed/nhJQSUwcHEs"
         },
         {
           "title": "Alien: Covenant - James's New Girlfriend Is the Alien Xenomorph",
           "video_image": "https://img.youtube.com/vi/jOgytf0ZwI0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/l9YlatOiGnU"
+          "video_url": "https://www.youtube.com/embed/l9YlatOiGnU"
         },
         {
           "title": "Alien: Covenant - Billy Crudup on Fracturing Rib in Australia",
           "video_image": "https://img.youtube.com/vi/aAC2FEqrLqg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/jOgytf0ZwI0"
+          "video_url": "https://www.youtube.com/embed/jOgytf0ZwI0"
         },
         {
           "title": "Alien: Covenant - Pancake Art",
           "video_image": "https://img.youtube.com/vi/HBvbmCPZ0vg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/aAC2FEqrLqg"
+          "video_url": "https://www.youtube.com/embed/aAC2FEqrLqg"
         },
         {
           "title": "Alien: Covenant - My Face",
           "video_image": "https://img.youtube.com/vi/d8LJSuO4aXA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/HBvbmCPZ0vg"
+          "video_url": "https://www.youtube.com/embed/HBvbmCPZ0vg"
         },
         {
           "title": "Alien: Covenant - She Won’t Go Quietly",
           "video_image": "https://img.youtube.com/vi/2S_kGEY_WkE/maxresdefault.jpg",
-          "video_url": "https://youtu.be/d8LJSuO4aXA"
+          "video_url": "https://www.youtube.com/embed/d8LJSuO4aXA"
         },
         {
           "title": "Alien: Covenant x Audi Lunar Quattro",
           "video_image": "https://img.youtube.com/vi/0Xbyl6Djzfk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/2S_kGEY_WkE"
+          "video_url": "https://www.youtube.com/embed/2S_kGEY_WkE"
         },
         {
           "title": "Alien Day 2017",
           "video_image": "https://img.youtube.com/vi/1XQHZSGJuJQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/0Xbyl6Djzfk"
+          "video_url": "https://www.youtube.com/embed/0Xbyl6Djzfk"
         },
         {
           "title": "Alien Day",
           "video_image": "https://img.youtube.com/vi/jBTGCNx0144/maxresdefault.jpg",
-          "video_url": "https://youtu.be/1XQHZSGJuJQ"
+          "video_url": "https://www.youtube.com/embed/1XQHZSGJuJQ"
         },
         {
           "title": "In Utero - A Virtual Reality Experience",
           "video_image": "https://img.youtube.com/vi/VLmtyhSV3Ss/maxresdefault.jpg",
-          "video_url": "https://youtu.be/jBTGCNx0144"
+          "video_url": "https://www.youtube.com/embed/jBTGCNx0144"
         },
         {
           "title": "Alien: Covenant - Crew Messages: Tennessee",
           "video_image": "https://img.youtube.com/vi/4QB2az9Gpe8/maxresdefault.jpg",
-          "video_url": "https://youtu.be/VLmtyhSV3Ss"
+          "video_url": "https://www.youtube.com/embed/VLmtyhSV3Ss"
         },
         {
           "title": "Alien: Covenant - Crew Messages: Lope",
           "video_image": "https://img.youtube.com/vi/YEC188LMcDw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/4QB2az9Gpe8"
+          "video_url": "https://www.youtube.com/embed/4QB2az9Gpe8"
         },
         {
           "title": "Alien: Covenant - Crew Messages: Rosenthal",
           "video_image": "https://img.youtube.com/vi/icNG-g3pl_I/maxresdefault.jpg",
-          "video_url": "https://youtu.be/YEC188LMcDw"
+          "video_url": "https://www.youtube.com/embed/YEC188LMcDw"
         },
         {
           "title": "Alien: Covenant - Crew Messages: Oram",
           "video_image": "https://img.youtube.com/vi/6iQFWAaVAzM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/icNG-g3pl_I"
+          "video_url": "https://www.youtube.com/embed/icNG-g3pl_I"
         },
         {
           "title": "Alien: Covenant - Crew Messages: Daniels",
           "video_image": "https://img.youtube.com/vi/nvrilPDKVLI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/6iQFWAaVAzM"
+          "video_url": "https://www.youtube.com/embed/6iQFWAaVAzM"
         },
         {
           "title": "Alien: Covenant - Hide",
           "video_image": "https://img.youtube.com/vi/lNgzx_IbMqw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/nvrilPDKVLI"
+          "video_url": "https://www.youtube.com/embed/nvrilPDKVLI"
         },
         {
           "title": "Alien: Covenant - Pray",
           "video_image": "https://img.youtube.com/vi/dlOU5InhDSU/maxresdefault.jpg",
-          "video_url": "https://youtu.be/lNgzx_IbMqw"
+          "video_url": "https://www.youtube.com/embed/lNgzx_IbMqw"
         },
         {
           "title": "Alien: Covenant - Run",
           "video_image": "https://img.youtube.com/vi/B4Cmf4BuNgg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/dlOU5InhDSU"
+          "video_url": "https://www.youtube.com/embed/dlOU5InhDSU"
         },
         {
           "title": "Alien: Covenant - Meet Walter",
-          "video_url": "https://youtu.be/B4Cmf4BuNgg"
+          "video_url": "https://www.youtube.com/embed/B4Cmf4BuNgg"
         }
       ],
       "slideshow_image_url": [
@@ -1394,7 +1394,7 @@
       "title_logo_url": "",
       "title": "Aliens",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/Wv8ts3KgmL0",
+      "trailer_url": "https://www.youtube.com/embed/Wv8ts3KgmL0",
       "rate": "R",
       "year": "1986",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/aiiens_584x800_ka_4dc69825.jpeg",
@@ -1424,37 +1424,37 @@
         {
           "title": "The Power Loader - Aliens 30th Anniversary Edition",
           "video_image": "https://img.youtube.com/vi/Wv8ts3KgmL0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Wv8ts3KgmL0"
+          "video_url": "https://www.youtube.com/embed/Wv8ts3KgmL0"
         },
         {
           "title": "Aliens (1986) - It's War",
           "video_image": "https://img.youtube.com/vi/gUsuFgZ6lJI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/gUsuFgZ6lJI"
+          "video_url": "https://www.youtube.com/embed/gUsuFgZ6lJI"
         },
         {
           "title": "Aliens - 30th Anniversary: SD Comic-Con Announcement",
           "video_image": "https://img.youtube.com/vi/TJyZzXsXByA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/TJyZzXsXByA"
+          "video_url": "https://www.youtube.com/embed/TJyZzXsXByA"
         },
         {
           "title": "Aliens - 30th Anniversary: Live Fan Q&A Highlights",
           "video_image": "https://img.youtube.com/vi/dvb3vvbMsww/maxresdefault.jpg",
-          "video_url": "https://youtu.be/dvb3vvbMsww"
+          "video_url": "https://www.youtube.com/embed/dvb3vvbMsww"
         },
         {
           "title": "Aliens - 30th Anniversary: James Cameron",
           "video_image": "https://img.youtube.com/vi/YVNGp2W58LE/maxresdefault.jpg",
-          "video_url": "https://youtu.be/YVNGp2W58LE"
+          "video_url": "https://www.youtube.com/embed/YVNGp2W58LE"
         },
         {
           "title": "Aliens - 30th Anniversary: Sigourney Weaver Interview",
           "video_image": "https://img.youtube.com/vi/IiZBI2Mzkzo/maxresdefault.jpg",
-          "video_url": "https://youtu.be/IiZBI2Mzkzo"
+          "video_url": "https://www.youtube.com/embed/IiZBI2Mzkzo"
         },
         {
           "title": "Aliens - 30th Anniversary | Live Fan Q&A Highlights",
           "video_image": "https://img.youtube.com/vi/0Oj2jCBMbzs/maxresdefault.jpg",
-          "video_url": "https://youtu.be/0Oj2jCBMbzs"
+          "video_url": "https://www.youtube.com/embed/0Oj2jCBMbzs"
         }
       ],
       "slideshow_image_url": [
@@ -1473,7 +1473,7 @@
       "title_logo_url": "",
       "title": "Aliens vs. Predator - Requiem",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/k_gBqL_YSU4",
+      "trailer_url": "https://www.youtube.com/embed/k_gBqL_YSU4",
       "rate": "R",
       "year": "2007",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_8ef8cd0b.jpeg",
@@ -1503,7 +1503,7 @@
       "title_logo_url": "",
       "title": "Assassin's Creed",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/rWpHbwFKZfU",
+      "trailer_url": "https://www.youtube.com/embed/rWpHbwFKZfU",
       "rate": "PG-13",
       "year": "2016",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_cf3e5a4d.jpeg?region=0,0,1400,2100&width=320",
@@ -1526,7 +1526,7 @@
         {
           "title": "Assassin's Creed - PXL Sizzle Reel Summer 2018",
           "video_image": "https://img.youtube.com/vi/dqxHxf1Z1DI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/dqxHxf1Z1DI"
+          "video_url": "https://www.youtube.com/embed/dqxHxf1Z1DI"
         }
       ],
       "slideshow_image_url": [
@@ -1580,7 +1580,7 @@
       "title_logo_url": "",
       "title": "Battle for the Planet of the Apes",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/HBksGv_agGU",
+      "trailer_url": "https://www.youtube.com/embed/HBksGv_agGU",
       "rate": "G",
       "year": "1973",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_4fecc1d4.jpeg?region=0,0,800,1200&width=320",
@@ -1610,7 +1610,7 @@
       "title_logo_url": "",
       "title": "Beneath the Planet of the Apes",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/8dJvL1vlMXA",
+      "trailer_url": "https://www.youtube.com/embed/8dJvL1vlMXA",
       "rate": "G",
       "year": "1970",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_8e36b827.jpeg?region=0,0,800,1200&width=320",
@@ -1670,7 +1670,7 @@
       "title_logo_url": "",
       "title": "Conquest of the Planet of the Apes",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/lKoE0v-YMA8",
+      "trailer_url": "https://www.youtube.com/embed/lKoE0v-YMA8",
       "rate": "PG",
       "year": "1972",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_b8a93b13.jpeg?region=0,0,800,1200&width=320",
@@ -1730,7 +1730,7 @@
       "title_logo_url": "",
       "title": "Dark Phoenix",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/azvR__GRQic",
+      "trailer_url": "https://www.youtube.com/embed/azvR__GRQic",
       "rate": "PG-13",
       "year": "2019",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/20cs_xmen_dark_phoenix_poster-keyart_2de4ace2.jpeg?region=0,0,1400,2100&width=320",
@@ -1758,77 +1758,77 @@
         {
           "title": "Dark Phoenix - Count It Down",
           "video_image": "https://img.youtube.com/vi/_SKi_62c7Rw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/_SKi_62c7Rw"
+          "video_url": "https://www.youtube.com/embed/_SKi_62c7Rw"
         },
         {
           "title": "Dark Phoenix Final Trailer",
           "video_image": "https://img.youtube.com/vi/azvR__GRQic/maxresdefault.jpg",
-          "video_url": "https://youtu.be/azvR__GRQic"
+          "video_url": "https://www.youtube.com/embed/azvR__GRQic"
         },
         {
           "title": "Dark Phoenix - X-Men Celebration",
           "video_image": "https://img.youtube.com/vi/HLnSGbwf50Q/maxresdefault.jpg",
-          "video_url": "https://youtu.be/HLnSGbwf50Q"
+          "video_url": "https://www.youtube.com/embed/HLnSGbwf50Q"
         },
         {
           "title": "Dark Phoenix - Sophie Turner Interview",
           "video_image": "https://img.youtube.com/vi/b9zHpcJS4Gg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/b9zHpcJS4Gg"
+          "video_url": "https://www.youtube.com/embed/b9zHpcJS4Gg"
         },
         {
           "title": "Dark Phoenix - Chopper Fight",
           "video_image": "https://img.youtube.com/vi/w_6gkkZeGe0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/w_6gkkZeGe0"
+          "video_url": "https://www.youtube.com/embed/w_6gkkZeGe0"
         },
         {
           "title": "Dark Phoenix - New York Standoff",
           "video_image": "https://img.youtube.com/vi/Z77uZCW6fOE/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Z77uZCW6fOE"
+          "video_url": "https://www.youtube.com/embed/Z77uZCW6fOE"
         },
         {
           "title": "Sophie Turner Reveals Her Costars' Real Mutant Powers",
           "video_image": "https://img.youtube.com/vi/3n6E8VU5OlU/maxresdefault.jpg",
-          "video_url": "https://youtu.be/3n6E8VU5OlU"
+          "video_url": "https://www.youtube.com/embed/3n6E8VU5OlU"
         },
         {
           "title": "Dark Phoenix - Marvel Icons: Chris Claremont & Louise Simonson",
           "video_image": "https://img.youtube.com/vi/olzmzobJpDI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/olzmzobJpDI"
+          "video_url": "https://www.youtube.com/embed/olzmzobJpDI"
         },
         {
           "title": "Dark Phoenix - A Phoenix Will Rise",
           "video_image": "https://img.youtube.com/vi/LaGM8SJRc5k/maxresdefault.jpg",
-          "video_url": "https://youtu.be/LaGM8SJRc5k"
+          "video_url": "https://www.youtube.com/embed/LaGM8SJRc5k"
         },
         {
           "title": "Dark Phoenix - The X-Men Legacy",
           "video_image": "https://img.youtube.com/vi/IEkuBSyG8u0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/IEkuBSyG8u0"
+          "video_url": "https://www.youtube.com/embed/IEkuBSyG8u0"
         },
         {
           "title": "Dark Phoenix Official Trailer",
           "video_image": "https://img.youtube.com/vi/1-q8C_c-nlM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/1-q8C_c-nlM"
+          "video_url": "https://www.youtube.com/embed/1-q8C_c-nlM"
         },
         {
           "title": "Dark Phoenix Teaser Trailer",
           "video_image": "https://img.youtube.com/vi/QWbMckU3AOQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/QWbMckU3AOQ"
+          "video_url": "https://www.youtube.com/embed/QWbMckU3AOQ"
         },
         {
           "title": "Dark Phoenix - X-Women",
           "video_image": "https://img.youtube.com/vi/gwqcVe31GtQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/gwqcVe31GtQ"
+          "video_url": "https://www.youtube.com/embed/gwqcVe31GtQ"
         },
         {
           "title": "Dark Phoenix - On Digital, Blu-ray & DVD",
           "video_image": "https://img.youtube.com/vi/st6Vh6nAAmQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/st6Vh6nAAmQ"
+          "video_url": "https://www.youtube.com/embed/st6Vh6nAAmQ"
         },
         {
           "title": "How to Fly Your Jet to Space with Beast",
           "video_image": "https://img.youtube.com/vi/tJL37O4QXtI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/tJL37O4QXtI"
+          "video_url": "https://www.youtube.com/embed/tJL37O4QXtI"
         }
       ],
       "slideshow_image_url": [
@@ -1850,7 +1850,7 @@
       "title_logo_url": "",
       "title": "Dawn of the Planet of the Apes",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/3sHMCRaS3ao",
+      "trailer_url": "https://www.youtube.com/embed/3sHMCRaS3ao",
       "rate": "PG-13",
       "year": "2014",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_12a44b94.jpeg?region=0,0,1400,2100&width=320",
@@ -1873,202 +1873,202 @@
         {
           "title": "Planet of the Apes Trilogy - Now on Blu-ray",
           "video_image": "https://img.youtube.com/vi/z6Ohgr7EYVU/maxresdefault.jpg",
-          "video_url": "https://youtu.be/z6Ohgr7EYVU"
+          "video_url": "https://www.youtube.com/embed/z6Ohgr7EYVU"
         },
         {
           "title": "Planet of the Apes: Last Frontier Trailer",
           "video_image": "https://img.youtube.com/vi/J5P9wd9wNpY/maxresdefault.jpg",
-          "video_url": "https://youtu.be/J5P9wd9wNpY"
+          "video_url": "https://www.youtube.com/embed/J5P9wd9wNpY"
         },
         {
           "title": "\"One Incredible Story\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/ZHr7W14ZMVY/maxresdefault.jpg",
-          "video_url": "https://youtu.be/ZHr7W14ZMVY"
+          "video_url": "https://www.youtube.com/embed/ZHr7W14ZMVY"
         },
         {
           "title": "Dawn of the Planet of the Apes - Blue Eyes",
           "video_image": "https://img.youtube.com/vi/-JsV9AAlnNo/maxresdefault.jpg",
-          "video_url": "https://youtu.be/-JsV9AAlnNo"
+          "video_url": "https://www.youtube.com/embed/-JsV9AAlnNo"
         },
         {
           "title": "Dawn of the Planet of the Apes - On Blu-ray",
           "video_image": "https://img.youtube.com/vi/QOAQA15gx0U/maxresdefault.jpg",
-          "video_url": "https://youtu.be/QOAQA15gx0U"
+          "video_url": "https://www.youtube.com/embed/QOAQA15gx0U"
         },
         {
           "title": "Dawn of the Planet of the Apes - Comparing Caesar and Malcolm",
           "video_image": "https://img.youtube.com/vi/OrarQCqge1w/maxresdefault.jpg",
-          "video_url": "https://youtu.be/OrarQCqge1w"
+          "video_url": "https://www.youtube.com/embed/OrarQCqge1w"
         },
         {
           "title": "From Rise to Dawn: Technological Advancements",
           "video_image": "https://img.youtube.com/vi/_xFLNImXaTI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/_xFLNImXaTI"
+          "video_url": "https://www.youtube.com/embed/_xFLNImXaTI"
         },
         {
           "title": "Dawn of the Planet of the Apes - Key to Becoming an Ape",
           "video_image": "https://img.youtube.com/vi/pgt_pvk1kHE/maxresdefault.jpg",
-          "video_url": "https://youtu.be/pgt_pvk1kHE"
+          "video_url": "https://www.youtube.com/embed/pgt_pvk1kHE"
         },
         {
           "title": "Terry Notary: Apes Movement Demonstration",
           "video_image": "https://img.youtube.com/vi/3fJhZSwoCVQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/3fJhZSwoCVQ"
+          "video_url": "https://www.youtube.com/embed/3fJhZSwoCVQ"
         },
         {
           "title": "Dawn of the Planet of the Apes - Matt Reeves' Storytelling",
           "video_image": "https://img.youtube.com/vi/K2gd7zrG57U/maxresdefault.jpg",
-          "video_url": "https://youtu.be/K2gd7zrG57U"
+          "video_url": "https://www.youtube.com/embed/K2gd7zrG57U"
         },
         {
           "title": "Dawn of the Planet of the Apes - The Threat",
           "video_image": "https://img.youtube.com/vi/1TrNKODXkBI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/1TrNKODXkBI"
+          "video_url": "https://www.youtube.com/embed/1TrNKODXkBI"
         },
         {
           "title": "\"Countdown\" TV Spot",
           "video_image": "https://img.youtube.com/vi/ivJW2Fx1RMY/maxresdefault.jpg",
-          "video_url": "https://youtu.be/ivJW2Fx1RMY"
+          "video_url": "https://www.youtube.com/embed/ivJW2Fx1RMY"
         },
         {
           "title": "Dawn of the Planet of the Apes - Survivor's Story",
           "video_image": "https://img.youtube.com/vi/9OcER7H08m4/maxresdefault.jpg",
-          "video_url": "https://youtu.be/9OcER7H08m4"
+          "video_url": "https://www.youtube.com/embed/9OcER7H08m4"
         },
         {
           "title": "Dawn of the Planet of the Apes - Toby Kebbell Interview",
           "video_image": "https://img.youtube.com/vi/67jwtFaC61w/maxresdefault.jpg",
-          "video_url": "https://youtu.be/67jwtFaC61w"
+          "video_url": "https://www.youtube.com/embed/67jwtFaC61w"
         },
         {
           "title": "Toby Kebbell Commentary - Apes Don't Want War",
           "video_image": "https://img.youtube.com/vi/nKvjwLQwVS0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/nKvjwLQwVS0"
+          "video_url": "https://www.youtube.com/embed/nKvjwLQwVS0"
         },
         {
           "title": "Dawn of the Planet of the Apes - Koba Kills",
           "video_image": "https://img.youtube.com/vi/a4SqqEYZTyY/maxresdefault.jpg",
-          "video_url": "https://youtu.be/a4SqqEYZTyY"
+          "video_url": "https://www.youtube.com/embed/a4SqqEYZTyY"
         },
         {
           "title": "Dawn of the Planet of the Apes - 4th of July",
           "video_image": "https://img.youtube.com/vi/hPHVZq20uSA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/hPHVZq20uSA"
+          "video_url": "https://www.youtube.com/embed/hPHVZq20uSA"
         },
         {
           "title": "\"How Many Were There?\" TV Spot",
           "video_image": "https://img.youtube.com/vi/UINniSCWI-c/maxresdefault.jpg",
-          "video_url": "https://youtu.be/UINniSCWI-c"
+          "video_url": "https://www.youtube.com/embed/UINniSCWI-c"
         },
         {
           "title": "Dawn of the Planet of the Apes - Epic Dawn",
           "video_image": "https://img.youtube.com/vi/AQiyxs4hkFM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/AQiyxs4hkFM"
+          "video_url": "https://www.youtube.com/embed/AQiyxs4hkFM"
         },
         {
           "title": "Dawn of the Planet of the Apes Official Final Trailer",
           "video_image": "https://img.youtube.com/vi/DpSaTrW4leg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/DpSaTrW4leg"
+          "video_url": "https://www.youtube.com/embed/DpSaTrW4leg"
         },
         {
           "title": "Dawn of the Planet of the Apes - Q&A Live Stream",
           "video_image": "https://img.youtube.com/vi/wTNauVidl38/maxresdefault.jpg",
-          "video_url": "https://youtu.be/wTNauVidl38"
+          "video_url": "https://www.youtube.com/embed/wTNauVidl38"
         },
         {
           "title": "Dawn of the Planet of the Apes - Caesar's Story",
           "video_image": "https://img.youtube.com/vi/lHvOpPGbNfU/maxresdefault.jpg",
-          "video_url": "https://youtu.be/lHvOpPGbNfU"
+          "video_url": "https://www.youtube.com/embed/lHvOpPGbNfU"
         },
         {
           "title": "Dawn of the Planet of the Apes - Koba",
           "video_image": "https://img.youtube.com/vi/adraQzHStuk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/adraQzHStuk"
+          "video_url": "https://www.youtube.com/embed/adraQzHStuk"
         },
         {
           "title": "Dawn of the Planet of the Apes - Apes Don't Want War",
           "video_image": "https://img.youtube.com/vi/Emjc4dKvK58/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Emjc4dKvK58"
+          "video_url": "https://www.youtube.com/embed/Emjc4dKvK58"
         },
         {
           "title": "#DawnofApesLIVE Google+ Hangout",
           "video_image": "https://img.youtube.com/vi/vNrtL5viqpA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/vNrtL5viqpA"
+          "video_url": "https://www.youtube.com/embed/vNrtL5viqpA"
         },
         {
           "title": "Dawn of the Planet of the Apes - Koba",
           "video_image": "https://img.youtube.com/vi/bL3jLx8u2IU/maxresdefault.jpg",
-          "video_url": "https://youtu.be/bL3jLx8u2IU"
+          "video_url": "https://www.youtube.com/embed/bL3jLx8u2IU"
         },
         {
           "title": "Dawn of the Planet of the Apes - Hanging Out",
           "video_image": "https://img.youtube.com/vi/1WlGUvg4vBU/maxresdefault.jpg",
-          "video_url": "https://youtu.be/1WlGUvg4vBU"
+          "video_url": "https://www.youtube.com/embed/1WlGUvg4vBU"
         },
         {
           "title": "Dawn of the Planet of the Apes - WETA Featurette",
           "video_image": "https://img.youtube.com/vi/-9uVr2LvfAk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/-9uVr2LvfAk"
+          "video_url": "https://www.youtube.com/embed/-9uVr2LvfAk"
         },
         {
           "title": "Dawn of the Planet of the Apes - Go",
           "video_image": "https://img.youtube.com/vi/mLJn6ojPp4M/maxresdefault.jpg",
-          "video_url": "https://youtu.be/mLJn6ojPp4M"
+          "video_url": "https://www.youtube.com/embed/mLJn6ojPp4M"
         },
         {
           "title": "Dawn of the Planet of the Apes - Prepare for Dawn",
           "video_image": "https://img.youtube.com/vi/eb8B-bAr_WE/maxresdefault.jpg",
-          "video_url": "https://youtu.be/eb8B-bAr_WE"
+          "video_url": "https://www.youtube.com/embed/eb8B-bAr_WE"
         },
         {
           "title": "\"Retaliate\" TV Spot",
           "video_image": "https://img.youtube.com/vi/1ILKH2mchZA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/1ILKH2mchZA"
+          "video_url": "https://www.youtube.com/embed/1ILKH2mchZA"
         },
         {
           "title": "\"Prepare\" TV Spot",
           "video_image": "https://img.youtube.com/vi/P5aWR2M7dAg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/P5aWR2M7dAg"
+          "video_url": "https://www.youtube.com/embed/P5aWR2M7dAg"
         },
         {
           "title": "Dawn of the Planet of the Apes -  Ape Evolution",
           "video_image": "https://img.youtube.com/vi/BFrWoDw-k54/maxresdefault.jpg",
-          "video_url": "https://youtu.be/BFrWoDw-k54"
+          "video_url": "https://www.youtube.com/embed/BFrWoDw-k54"
         },
         {
           "title": "Dawn of the Planet of the Apes Official Trailer",
           "video_image": "https://img.youtube.com/vi/3sHMCRaS3ao/maxresdefault.jpg",
-          "video_url": "https://youtu.be/3sHMCRaS3ao"
+          "video_url": "https://www.youtube.com/embed/3sHMCRaS3ao"
         },
         {
           "title": "Dawn of the Planet of the Apes - San Francisco Deterioration",
           "video_image": "https://img.youtube.com/vi/UVQRB_qqkn8/maxresdefault.jpg",
-          "video_url": "https://youtu.be/UVQRB_qqkn8"
+          "video_url": "https://www.youtube.com/embed/UVQRB_qqkn8"
         },
         {
           "title": "Dawn of the Planet of the Apes - New York Deterioration",
           "video_image": "https://img.youtube.com/vi/7oQuExRZZ5Y/maxresdefault.jpg",
-          "video_url": "https://youtu.be/7oQuExRZZ5Y"
+          "video_url": "https://www.youtube.com/embed/7oQuExRZZ5Y"
         },
         {
           "title": "Dawn of the Planet of the Apes - London Deterioration",
           "video_image": "https://img.youtube.com/vi/BP_zvxCurzY/maxresdefault.jpg",
-          "video_url": "https://youtu.be/BP_zvxCurzY"
+          "video_url": "https://www.youtube.com/embed/BP_zvxCurzY"
         },
         {
           "title": "Dawn of the Planet of the Apes Official Teaser Trailer",
           "video_image": "https://img.youtube.com/vi/h_9-3Fj3ZdI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/h_9-3Fj3ZdI"
+          "video_url": "https://www.youtube.com/embed/h_9-3Fj3ZdI"
         },
         {
           "title": "Dawn of the Planet of the Apes TV Spot",
           "video_image": "https://img.youtube.com/vi/PkycgrscWVM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/PkycgrscWVM"
+          "video_url": "https://www.youtube.com/embed/PkycgrscWVM"
         },
         {
           "title": "Dawn of the Planet of the Apes - Simian Flu PSA",
           "video_image": "https://img.youtube.com/vi/Y1G-WjeKcwQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Y1G-WjeKcwQ"
+          "video_url": "https://www.youtube.com/embed/Y1G-WjeKcwQ"
         }
       ],
       "slideshow_image_url": [
@@ -2116,7 +2116,7 @@
       "title_logo_url": "",
       "title": "Deadpool",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/9vN6DHB6bJc",
+      "trailer_url": "https://www.youtube.com/embed/9vN6DHB6bJc",
       "rate": "R",
       "year": "2016",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_8c4aa72b.jpeg?region=0,0,800,1200&width=320",
@@ -2139,152 +2139,152 @@
         {
           "title": "Deadpool - Need a little hand?",
           "video_image": "https://img.youtube.com/vi/isZYRbKP8uU/maxresdefault.jpg",
-          "video_url": "https://youtu.be/isZYRbKP8uU"
+          "video_url": "https://www.youtube.com/embed/isZYRbKP8uU"
         },
         {
           "title": "Deadpool - Zamboni Safe",
           "video_image": "https://img.youtube.com/vi/g6leyiZ6czA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/g6leyiZ6czA"
+          "video_url": "https://www.youtube.com/embed/g6leyiZ6czA"
         },
         {
           "title": "Deadpool - Tight Red Spandex",
           "video_image": "https://img.youtube.com/vi/sqDqO7S2ldY/maxresdefault.jpg",
-          "video_url": "https://youtu.be/sqDqO7S2ldY"
+          "video_url": "https://www.youtube.com/embed/sqDqO7S2ldY"
         },
         {
           "title": "Deadpool - The Making of the Mask",
           "video_image": "https://img.youtube.com/vi/__ngToCRSq0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/__ngToCRSq0"
+          "video_url": "https://www.youtube.com/embed/__ngToCRSq0"
         },
         {
           "title": "Deadpool - On Digital HD",
           "video_image": "https://img.youtube.com/vi/x1OOAfABxCY/maxresdefault.jpg",
-          "video_url": "https://youtu.be/x1OOAfABxCY"
+          "video_url": "https://www.youtube.com/embed/x1OOAfABxCY"
         },
         {
           "title": "Deadpool Red Band Trailer 2",
           "video_image": "https://img.youtube.com/vi/ZIM1HydF9UA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/ZIM1HydF9UA"
+          "video_url": "https://www.youtube.com/embed/ZIM1HydF9UA"
         },
         {
           "title": "Deadpool - Cat-astrophe Averted",
           "video_image": "https://img.youtube.com/vi/Wr4vy8giILk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Wr4vy8giILk"
+          "video_url": "https://www.youtube.com/embed/Wr4vy8giILk"
         },
         {
           "title": "Deadpool - Best. Review. EVER.",
           "video_image": "https://img.youtube.com/vi/OMYEkwsB_eQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/OMYEkwsB_eQ"
+          "video_url": "https://www.youtube.com/embed/OMYEkwsB_eQ"
         },
         {
           "title": "\"Superb Owl\" TV Spot",
           "video_image": "https://img.youtube.com/vi/1JcaAlQbEwU/maxresdefault.jpg",
-          "video_url": "https://youtu.be/1JcaAlQbEwU"
+          "video_url": "https://www.youtube.com/embed/1JcaAlQbEwU"
         },
         {
           "title": "Deadpool - Pepperonia Pizza Nerdy Nummies",
           "video_image": "https://img.youtube.com/vi/jLYaffMGbfg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/jLYaffMGbfg"
+          "video_url": "https://www.youtube.com/embed/jLYaffMGbfg"
         },
         {
           "title": "Deadpool Red Band Trailer",
           "video_image": "https://img.youtube.com/vi/FyKWUTwSYAs/maxresdefault.jpg",
-          "video_url": "https://youtu.be/FyKWUTwSYAs"
+          "video_url": "https://www.youtube.com/embed/FyKWUTwSYAs"
         },
         {
           "title": "Deadpool Trailer",
           "video_image": "https://img.youtube.com/vi/ONHBaC-pfsk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/ONHBaC-pfsk"
+          "video_url": "https://www.youtube.com/embed/ONHBaC-pfsk"
         },
         {
           "title": "Deadpool - 2 Girls 1 Punch",
           "video_image": "https://img.youtube.com/vi/qfu0L-2YfbE/maxresdefault.jpg",
-          "video_url": "https://youtu.be/qfu0L-2YfbE"
+          "video_url": "https://www.youtube.com/embed/qfu0L-2YfbE"
         },
         {
           "title": "Deadpool - Touch Yourself Tonight: Just for Her",
           "video_image": "https://img.youtube.com/vi/3pIHiU0BpMA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/3pIHiU0BpMA"
+          "video_url": "https://www.youtube.com/embed/3pIHiU0BpMA"
         },
         {
           "title": "Deadpool - Touch Yourself Tonight",
           "video_image": "https://img.youtube.com/vi/YZEP6glW4AQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/YZEP6glW4AQ"
+          "video_url": "https://www.youtube.com/embed/YZEP6glW4AQ"
         },
         {
           "title": "Deadpool - Poppin' the Question",
           "video_image": "https://img.youtube.com/vi/sHLe0NkyIug/maxresdefault.jpg",
-          "video_url": "https://youtu.be/sHLe0NkyIug"
+          "video_url": "https://www.youtube.com/embed/sHLe0NkyIug"
         },
         {
           "title": "Deadpool - Rootin’ For Deadpool",
           "video_image": "https://img.youtube.com/vi/vVj8Pm9JRjI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/vVj8Pm9JRjI"
+          "video_url": "https://www.youtube.com/embed/vVj8Pm9JRjI"
         },
         {
           "title": "Deadpool - Colossus Throwing That Tire",
           "video_image": "https://img.youtube.com/vi/olE3gTFOugs/maxresdefault.jpg",
-          "video_url": "https://youtu.be/olE3gTFOugs"
+          "video_url": "https://www.youtube.com/embed/olE3gTFOugs"
         },
         {
           "title": "Deadpool - With 5% New Footage",
           "video_image": "https://img.youtube.com/vi/Iw-PuelUtDM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Iw-PuelUtDM"
+          "video_url": "https://www.youtube.com/embed/Iw-PuelUtDM"
         },
         {
           "title": "Deadpool - Pretty Little 'Poolers",
           "video_image": "https://img.youtube.com/vi/xm1_wlXlCAI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/xm1_wlXlCAI"
+          "video_url": "https://www.youtube.com/embed/xm1_wlXlCAI"
         },
         {
           "title": "Deadpool - Canadian Rules Football",
           "video_image": "https://img.youtube.com/vi/ZRWWVJX-e70/maxresdefault.jpg",
-          "video_url": "https://youtu.be/ZRWWVJX-e70"
+          "video_url": "https://www.youtube.com/embed/ZRWWVJX-e70"
         },
         {
           "title": "Deadpool - Now with Round House Kick",
           "video_image": "https://img.youtube.com/vi/eJmrCxyiaVc/maxresdefault.jpg",
-          "video_url": "https://youtu.be/eJmrCxyiaVc"
+          "video_url": "https://www.youtube.com/embed/eJmrCxyiaVc"
         },
         {
           "title": "Deadpool - Blatant Bachelor Baiting",
           "video_image": "https://img.youtube.com/vi/EP6aBdQzeCM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/EP6aBdQzeCM"
+          "video_url": "https://www.youtube.com/embed/EP6aBdQzeCM"
         },
         {
           "title": "Deadpool - Empire Magazine Infomercial",
           "video_image": "https://img.youtube.com/vi/EOiq_A6r8ic/maxresdefault.jpg",
-          "video_url": "https://youtu.be/EOiq_A6r8ic"
+          "video_url": "https://www.youtube.com/embed/EOiq_A6r8ic"
         },
         {
           "title": "Deadpool's Trailer Eve",
           "video_image": "https://img.youtube.com/vi/5YzCA0EyKYk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/5YzCA0EyKYk"
+          "video_url": "https://www.youtube.com/embed/5YzCA0EyKYk"
         },
         {
           "title": "Deadpool - The Pool Log Trailer",
           "video_image": "https://img.youtube.com/vi/heQkjWWd_hA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/heQkjWWd_hA"
+          "video_url": "https://www.youtube.com/embed/heQkjWWd_hA"
         },
         {
           "title": "Deadpool - Experience in IMAX",
           "video_image": "https://img.youtube.com/vi/W2f2fh4wIak/maxresdefault.jpg",
-          "video_url": "https://youtu.be/W2f2fh4wIak"
+          "video_url": "https://www.youtube.com/embed/W2f2fh4wIak"
         },
         {
           "title": "Deadpool - #12DaysOfDeadpool",
           "video_image": "https://img.youtube.com/vi/xdzhHQbVMZs/maxresdefault.jpg",
-          "video_url": "https://youtu.be/xdzhHQbVMZs"
+          "video_url": "https://www.youtube.com/embed/xdzhHQbVMZs"
         },
         {
           "title": "How Deadpool Spent Halloween",
           "video_image": "https://img.youtube.com/vi/1Nvg0LwWeTU/maxresdefault.jpg",
-          "video_url": "https://youtu.be/1Nvg0LwWeTU"
+          "video_url": "https://www.youtube.com/embed/1Nvg0LwWeTU"
         },
         {
           "title": "Deadpool - Trailer Trailer",
           "video_image": "https://img.youtube.com/vi/QPZHBjyUGhQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/QPZHBjyUGhQ"
+          "video_url": "https://www.youtube.com/embed/QPZHBjyUGhQ"
         }
       ],
       "slideshow_image_url": [
@@ -2306,7 +2306,7 @@
       "title_logo_url": "",
       "title": "Deadpool 2",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/20bpjtCbCz0",
+      "trailer_url": "https://www.youtube.com/embed/20bpjtCbCz0",
       "rate": "R",
       "year": "2018",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/deadpool2_feature-poster_584x800_69bc155b.jpeg?region=0,0,584,800&width=320",
@@ -2331,126 +2331,126 @@
         {
           "title": "\"Feels Like Your First Time\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/ONNVGc-xb7s/maxresdefault.jpg",
-          "video_url": "https://youtu.be/ONNVGc-xb7s"
+          "video_url": "https://www.youtube.com/embed/ONNVGc-xb7s"
         },
         {
           "title": "Deadpool 2 - Don't Skimp On The Powder",
           "video_image": "https://img.youtube.com/vi/mRpwYxgnn28/maxresdefault.jpg",
-          "video_url": "https://youtu.be/mRpwYxgnn28"
+          "video_url": "https://www.youtube.com/embed/mRpwYxgnn28"
         },
         {
           "title": "\"Super Duper Cut\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/UdPzLVb1YP8/maxresdefault.jpg",
-          "video_url": "https://youtu.be/UdPzLVb1YP8"
+          "video_url": "https://www.youtube.com/embed/UdPzLVb1YP8"
         },
         {
           "title": "Deadpool 2 - The Super Duper Cut",
           "video_image": "https://img.youtube.com/vi/uaRcX_3C_80/maxresdefault.jpg",
-          "video_url": "https://youtu.be/uaRcX_3C_80"
+          "video_url": "https://www.youtube.com/embed/uaRcX_3C_80"
         },
         {
           "title": "Deadpool and the Super Duper Band",
           "video_image": "https://img.youtube.com/vi/UKj5G9JaRKI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/UKj5G9JaRKI"
+          "video_url": "https://www.youtube.com/embed/UKj5G9JaRKI"
         },
         {
           "title": "\"Inside the X-Mansion\" Super Duper Cut Deleted Scene",
           "video_image": "https://img.youtube.com/vi/nl2evjTkm0o/maxresdefault.jpg",
-          "video_url": "https://youtu.be/nl2evjTkm0o"
+          "video_url": "https://www.youtube.com/embed/nl2evjTkm0o"
         },
         {
           "title": "Deadpool 2 - On Digital, Blu-ray and DVD",
           "video_image": "https://img.youtube.com/vi/UyAp7hNrRs8/maxresdefault.jpg",
-          "video_url": "https://youtu.be/UyAp7hNrRs8"
+          "video_url": "https://www.youtube.com/embed/UyAp7hNrRs8"
         },
         {
           "title": "Deadpool 2 The Final Trailer",
           "video_image": "https://img.youtube.com/vi/20bpjtCbCz0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/20bpjtCbCz0"
+          "video_url": "https://www.youtube.com/embed/20bpjtCbCz0"
         },
         {
           "title": "Deadpool 2 Thanks You",
           "video_image": "https://img.youtube.com/vi/4h2qg4f3CJA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/4h2qg4f3CJA"
+          "video_url": "https://www.youtube.com/embed/4h2qg4f3CJA"
         },
         {
           "title": "Welcome To The Party - Music Video",
           "video_image": "https://img.youtube.com/vi/6b5DBQeh1cU/maxresdefault.jpg",
-          "video_url": "https://youtu.be/QgOXIEhHU1Y"
+          "video_url": "https://www.youtube.com/embed/QgOXIEhHU1Y"
         },
         {
           "title": "The First 10 Years",
           "video_image": "https://img.youtube.com/vi/uxbQATBAXf8/maxresdefault.jpg",
-          "video_url": "https://youtu.be/6b5DBQeh1cU"
+          "video_url": "https://www.youtube.com/embed/6b5DBQeh1cU"
         },
         {
           "title": "Deadpool 2 - With Apologies to David Beckham",
           "video_image": "https://img.youtube.com/vi/rUxEcXe4RQs/maxresdefault.jpg",
-          "video_url": "https://youtu.be/uxbQATBAXf8"
+          "video_url": "https://www.youtube.com/embed/uxbQATBAXf8"
         },
         {
           "title": "Deadpool 2 - Eur Missing a Country",
           "video_image": "https://img.youtube.com/vi/XQmI7hTE4Jw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/rUxEcXe4RQs"
+          "video_url": "https://www.youtube.com/embed/rUxEcXe4RQs"
         },
         {
           "title": "\"Ashes\" with Céline Dion - Behind The Scenes",
           "video_image": "https://img.youtube.com/vi/CX11yw6YL1w/maxresdefault.jpg",
-          "video_url": "https://youtu.be/XQmI7hTE4Jw"
+          "video_url": "https://www.youtube.com/embed/XQmI7hTE4Jw"
         },
         {
           "title": "Deadpool 2 - Céline Dion \"Ashes\"",
           "video_image": "https://img.youtube.com/vi/D86RtevtfrA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/CX11yw6YL1w"
+          "video_url": "https://www.youtube.com/embed/CX11yw6YL1w"
         },
         {
           "title": "Deadpool 2 Trailer",
           "video_image": "https://img.youtube.com/vi/bI31WqFDxNs/maxresdefault.jpg",
-          "video_url": "https://youtu.be/D86RtevtfrA"
+          "video_url": "https://www.youtube.com/embed/D86RtevtfrA"
         },
         {
           "title": "A Very Special Message from Deadpool",
           "video_image": "https://img.youtube.com/vi/xZNBFcwd7zc/maxresdefault.jpg",
-          "video_url": "https://youtu.be/bI31WqFDxNs"
+          "video_url": "https://www.youtube.com/embed/bI31WqFDxNs"
         },
         {
           "title": "Deadpool 2 - Deadpool, Meet Cable",
           "video_image": "https://img.youtube.com/vi/8-Cjsnq8kVU/maxresdefault.jpg",
-          "video_url": "https://youtu.be/xZNBFcwd7zc"
+          "video_url": "https://www.youtube.com/embed/xZNBFcwd7zc"
         },
         {
           "title": "Deadpool 2 - Wet on Wet",
           "video_image": "https://img.youtube.com/vi/V6vYz9lorwQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/8-Cjsnq8kVU"
+          "video_url": "https://www.youtube.com/embed/8-Cjsnq8kVU"
         },
         {
           "title": "\"Welcome To The Party\" Music Video - Behind the Scenes",
           "video_image": "https://img.youtube.com/vi/u7ZrSNHzqPg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/V6vYz9lorwQ"
+          "video_url": "https://www.youtube.com/embed/V6vYz9lorwQ"
         },
         {
           "title": "Deadpool 2 - Super Duper Cut",
           "video_image": "https://img.youtube.com/vi/CM6xLR-65Q0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/u7ZrSNHzqPg"
+          "video_url": "https://www.youtube.com/embed/u7ZrSNHzqPg"
         },
         {
           "title": "\"What's Your F-Word?\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/cKPwDe4wNxI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/CM6xLR-65Q0"
+          "video_url": "https://www.youtube.com/embed/CM6xLR-65Q0"
         },
         {
           "title": "Deadpool 1 & 2 - The Complete Collection For Now",
           "video_image": "https://img.youtube.com/vi/zjSPezXginI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/cKPwDe4wNxI"
+          "video_url": "https://www.youtube.com/embed/cKPwDe4wNxI"
         },
         {
           "title": "\"Grenade Refraction\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/6C4cNYbJp4U/maxresdefault.jpg",
-          "video_url": "https://youtu.be/zjSPezXginI"
+          "video_url": "https://www.youtube.com/embed/zjSPezXginI"
         },
         {
           "title": "\"Accidental Double Entendres\" TV Commercial",
-          "video_url": "https://youtu.be/6C4cNYbJp4U"
+          "video_url": "https://www.youtube.com/embed/6C4cNYbJp4U"
         },
         {
           "title": "DEADPOOL'S SUPER DUPER DANCE PARTY",
@@ -2497,7 +2497,7 @@
         {
           "title": "Destroyer Final Trailer",
           "video_image": "https://img.youtube.com/vi/PNcezh-npjA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/PNcezh-npjA"
+          "video_url": "https://www.youtube.com/embed/PNcezh-npjA"
         }
       ],
       "slideshow_image_url": [],
@@ -2540,7 +2540,7 @@
       "title_logo_url": "",
       "title": "27 Dresses",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/gB2bILnrypc",
+      "trailer_url": "https://www.youtube.com/embed/gB2bILnrypc",
       "rate": "PG-13",
       "year": "2008",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_f4bf86ae.jpeg?region=0%2C0%2C1400%2C2100",
@@ -2570,7 +2570,7 @@
       "title_logo_url": "",
       "title": "500 Days of Summer",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/U5GGw3YjzYQ",
+      "trailer_url": "https://www.youtube.com/embed/U5GGw3YjzYQ",
       "rate": "PG-13",
       "year": "2009",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_63f04f06.jpeg",
@@ -2600,7 +2600,7 @@
       "title_logo_url": "",
       "title": "A Royal Night Out",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/S9ybRNrDkqw",
+      "trailer_url": "https://www.youtube.com/embed/S9ybRNrDkqw",
       "rate": "PG-13",
       "year": "2015",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_d5e1cc67.jpeg",
@@ -2660,7 +2660,7 @@
       "title_logo_url": "",
       "title": "Absolutely Fabulous: The Movie",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/0J450OzX1qo",
+      "trailer_url": "https://www.youtube.com/embed/0J450OzX1qo",
       "rate": "R",
       "year": "2016",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_3fa73733.jpeg?region=0,0,1400,2100&width=320",
@@ -2697,7 +2697,7 @@
       "title_logo_url": "",
       "title": "All Nighter",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/JR6DcrreSt8",
+      "trailer_url": "https://www.youtube.com/embed/JR6DcrreSt8",
       "rate": "R",
       "year": "2017",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_4b76a8d0.jpeg?region=0,0,1400,2100&width=320",
@@ -2750,7 +2750,7 @@
         {
           "title": "And So It Goes Trailer",
           "video_image": "https://img.youtube.com/vi/QXOA0opfuDc/maxresdefault.jpg",
-          "video_url": "https://youtu.be/QXOA0opfuDc"
+          "video_url": "https://www.youtube.com/embed/QXOA0opfuDc"
         }
       ],
       "slideshow_image_url": [],
@@ -2823,7 +2823,7 @@
       "title_logo_url": "",
       "title": "Baggage Claim",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/zr8i-iaCcmM",
+      "trailer_url": "https://www.youtube.com/embed/zr8i-iaCcmM",
       "rate": "PG-13",
       "year": "2013",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/baggage_claim_584x800_2785e045.jpeg?region=0,0,584,800&width=320",
@@ -2853,7 +2853,7 @@
       "title_logo_url": "",
       "title": "Battle of the Sexes",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/STVkEDD5XI4",
+      "trailer_url": "https://www.youtube.com/embed/STVkEDD5XI4",
       "rate": "PG-13",
       "year": "2017",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_21beed5c.jpeg?region=0,0,1800,2400&width=320",
@@ -2876,17 +2876,17 @@
         {
           "title": "Battle of the Sexes - On Digital",
           "video_image": "https://img.youtube.com/vi/STVkEDD5XI4/maxresdefault.jpg",
-          "video_url": "https://youtu.be/STVkEDD5XI4"
+          "video_url": "https://www.youtube.com/embed/STVkEDD5XI4"
         },
         {
           "title": "Battle of the Sexes - On Blu-ray DVD & Digital",
           "video_image": "https://img.youtube.com/vi/rXc4tuOdYhw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/rXc4tuOdYhw"
+          "video_url": "https://www.youtube.com/embed/rXc4tuOdYhw"
         },
         {
           "title": "Battle of the Sexes Official Trailer",
           "video_image": "https://img.youtube.com/vi/o5ykcuAS1F4/maxresdefault.jpg",
-          "video_url": "https://youtu.be/o5ykcuAS1F4"
+          "video_url": "https://www.youtube.com/embed/o5ykcuAS1F4"
         }
       ],
       "slideshow_image_url": [],
@@ -2922,87 +2922,87 @@
         {
           "title": "Booksmart - On Blu-ray & DVD",
           "video_image": "https://img.youtube.com/vi/mju43QRiV00/maxresdefault.jpg",
-          "video_url": "https://youtu.be/mju43QRiV00"
+          "video_url": "https://www.youtube.com/embed/mju43QRiV00"
         },
         {
           "title": "Booksmart Official Restricted Trailer",
           "video_image": "https://img.youtube.com/vi/tX2MvB0kyA0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/tX2MvB0kyA0"
+          "video_url": "https://www.youtube.com/embed/tX2MvB0kyA0"
         },
         {
           "title": "Booksmart - Meet the Cast",
           "video_image": "https://img.youtube.com/vi/zUHnjl_ZqnE/maxresdefault.jpg",
-          "video_url": "https://youtu.be/zUHnjl_ZqnE"
+          "video_url": "https://www.youtube.com/embed/zUHnjl_ZqnE"
         },
         {
           "title": "Booksmart - Female Filmmaker",
           "video_image": "https://img.youtube.com/vi/B5ECAfhQjCM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/B5ECAfhQjCM"
+          "video_url": "https://www.youtube.com/embed/B5ECAfhQjCM"
         },
         {
           "title": "Booksmart - Comedy Of A Generation",
           "video_image": "https://img.youtube.com/vi/ICBQzqQKi6k/maxresdefault.jpg",
-          "video_url": "https://youtu.be/ICBQzqQKi6k"
+          "video_url": "https://www.youtube.com/embed/ICBQzqQKi6k"
         },
         {
           "title": "Booksmart Official Green Band Trailer",
           "video_image": "https://img.youtube.com/vi/GzE8kz8iGTM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/GzE8kz8iGTM"
+          "video_url": "https://www.youtube.com/embed/GzE8kz8iGTM"
         },
         {
           "title": "Booksmart Final Trailer",
           "video_image": "https://img.youtube.com/vi/ncoeHX_zUSo/maxresdefault.jpg",
-          "video_url": "https://youtu.be/ncoeHX_zUSo"
+          "video_url": "https://www.youtube.com/embed/ncoeHX_zUSo"
         },
         {
           "title": "Booksmart Final Restricted Trailer",
           "video_image": "https://img.youtube.com/vi/vmz0-sBOEgo/maxresdefault.jpg",
-          "video_url": "https://youtu.be/vmz0-sBOEgo"
+          "video_url": "https://www.youtube.com/embed/vmz0-sBOEgo"
         },
         {
           "title": "Booksmart - Uncut First 6 Minutes",
           "video_image": "https://img.youtube.com/vi/BK4DZ2evaos/maxresdefault.jpg",
-          "video_url": "https://youtu.be/BK4DZ2evaos"
+          "video_url": "https://www.youtube.com/embed/BK4DZ2evaos"
         },
         {
           "title": "Booksmart - Meet the Cast: Billie Lourd",
           "video_image": "https://img.youtube.com/vi/p8WfQJxnX44/maxresdefault.jpg",
-          "video_url": "https://youtu.be/p8WfQJxnX44"
+          "video_url": "https://www.youtube.com/embed/p8WfQJxnX44"
         },
         {
           "title": "Booksmart -  Meet the Cast: Kaitlyn Dever",
           "video_image": "https://img.youtube.com/vi/3MaNklO2OaY/maxresdefault.jpg",
-          "video_url": "https://youtu.be/3MaNklO2OaY"
+          "video_url": "https://www.youtube.com/embed/3MaNklO2OaY"
         },
         {
           "title": "Booksmart - Becoming Best Friends",
           "video_image": "https://img.youtube.com/vi/JAYouKy3K6s/maxresdefault.jpg",
-          "video_url": "https://youtu.be/JAYouKy3K6s"
+          "video_url": "https://www.youtube.com/embed/JAYouKy3K6s"
         },
         {
           "title": "Booksmart - Break The Rules",
           "video_image": "https://img.youtube.com/vi/Q2SDIfALeLo/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Q2SDIfALeLo"
+          "video_url": "https://www.youtube.com/embed/Q2SDIfALeLo"
         },
         {
           "title": "Booksmart - High School Fashion",
           "video_image": "https://img.youtube.com/vi/RG2Uin60pNw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/RG2Uin60pNw"
+          "video_url": "https://www.youtube.com/embed/RG2Uin60pNw"
         },
         {
           "title": "Booksmart - Nobody's Winning",
           "video_image": "https://img.youtube.com/vi/2e30vJ5mphU/maxresdefault.jpg",
-          "video_url": "https://youtu.be/2e30vJ5mphU"
+          "video_url": "https://www.youtube.com/embed/2e30vJ5mphU"
         },
         {
           "title": "Making of Booksmart",
           "video_image": "https://img.youtube.com/vi/X5DvbwcjTO0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/X5DvbwcjTO0"
+          "video_url": "https://www.youtube.com/embed/X5DvbwcjTO0"
         },
         {
           "title": "Booksmart - SXSW 2019",
           "video_image": "https://img.youtube.com/vi/ciJnpa9mV2k/maxresdefault.jpg",
-          "video_url": "https://youtu.be/ciJnpa9mV2k"
+          "video_url": "https://www.youtube.com/embed/ciJnpa9mV2k"
         }
       ],
       "slideshow_image_url": [
@@ -3019,7 +3019,7 @@
       "title_logo_url": "",
       "title": "Can You Ever Forgive Me?",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/UvJIaNsf_bY",
+      "trailer_url": "https://www.youtube.com/embed/UvJIaNsf_bY",
       "rate": "R",
       "year": "2018",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_a022efab.jpeg?region=0,0,1400,2100&width=320",
@@ -3042,7 +3042,7 @@
         {
           "title": "Watch Before The Awards",
           "video_image": "https://img.youtube.com/vi/r0T7Q2Mc5y8/maxresdefault.jpg",
-          "video_url": "https://youtu.be/r0T7Q2Mc5y8"
+          "video_url": "https://www.youtube.com/embed/r0T7Q2Mc5y8"
         }
       ],
       "slideshow_image_url": [],
@@ -3055,7 +3055,7 @@
       "title_logo_url": "",
       "title": "Dance Camp",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/a_qicbmrEMU",
+      "trailer_url": "https://www.youtube.com/embed/a_qicbmrEMU",
       "rate": "PG-13",
       "year": "2016",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_f6aafb64.jpeg?region=0,0,800,1200&width=320",
@@ -3108,7 +3108,7 @@
         {
           "title": "Dog Days - Love Everyone",
           "video_image": "https://img.youtube.com/vi/w5JIrfgupI0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/w5JIrfgupI0"
+          "video_url": "https://www.youtube.com/embed/w5JIrfgupI0"
         }
       ],
       "slideshow_image_url": [],
@@ -3151,7 +3151,7 @@
       "title_logo_url": "",
       "title": "A Bigger Splash",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/NkQbaJOWVm4",
+      "trailer_url": "https://www.youtube.com/embed/NkQbaJOWVm4",
       "rate": "R",
       "year": "2016",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_94ae5403.jpeg?region=0,0,1400,2100&width=320",
@@ -3181,7 +3181,7 @@
       "title_logo_url": "",
       "title": "Die Hard 2",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/d9nZNVvC7Iw",
+      "trailer_url": "https://www.youtube.com/embed/d9nZNVvC7Iw",
       "rate": "R",
       "year": "1990",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/diehard2_584x800_44dc5c46.jpeg",
@@ -3211,7 +3211,7 @@
       "title_logo_url": "",
       "title": "Die Hard: With a Vengeance",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/rVeAlyuejKM",
+      "trailer_url": "https://www.youtube.com/embed/rVeAlyuejKM",
       "rate": "R",
       "year": "1995",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/diehard3_584x800_6b328186.jpeg?region=0%2C0%2C584%2C800",
@@ -3331,7 +3331,7 @@
       "title_logo_url": "",
       "title": "London Fields",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/4K_pJIXC7MI",
+      "trailer_url": "https://www.youtube.com/embed/4K_pJIXC7MI",
       "rate": "R",
       "year": "2018",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_564f96a4.jpeg?region=0,0,800,1200&width=320",
@@ -3369,7 +3369,7 @@
       "title_logo_url": "",
       "title": "Man On Fire",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/rb-ZEBBKolc",
+      "trailer_url": "https://www.youtube.com/embed/rb-ZEBBKolc",
       "rate": "R",
       "year": "2004",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/manonfire_584x800_1c1ab9f8.jpeg?region=0,0,584,800&width=320",
@@ -3459,7 +3459,7 @@
       "title_logo_url": "",
       "title": "The Counselor",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/cv_S-LFWmtQ",
+      "trailer_url": "https://www.youtube.com/embed/cv_S-LFWmtQ",
       "rate": "R",
       "year": "2013",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/thecounselor_584x800_a05a335e.jpeg?region=0%2C0%2C584%2C800",
@@ -3639,7 +3639,7 @@
       "title_logo_url": "",
       "title": "True Story",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/Uz-BZh40ptg",
+      "trailer_url": "https://www.youtube.com/embed/Uz-BZh40ptg",
       "rate": "R",
       "year": "2015",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_0ea59302.jpeg?region=0%2C0%2C1400%2C2100",
@@ -3669,7 +3669,7 @@
       "title_logo_url": "",
       "title": "12 Years a Slave",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/9jSYOrCuJEI",
+      "trailer_url": "https://www.youtube.com/embed/9jSYOrCuJEI",
       "rate": "R",
       "year": "2013",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/12yearsaslave_584x800_9155fb15.jpeg?region=0,0,584,800&width=320",
@@ -3705,7 +3705,7 @@
       "title_logo_url": "",
       "title": "127 Hours",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/OlhLOWTnVoQ",
+      "trailer_url": "https://www.youtube.com/embed/OlhLOWTnVoQ",
       "rate": "R",
       "year": "2010",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_5fee014c.jpeg?region=0,0,800,1200&width=320",
@@ -3735,7 +3735,7 @@
       "title_logo_url": "",
       "title": "9/11",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/kdoUmU4Y4r0",
+      "trailer_url": "https://www.youtube.com/embed/kdoUmU4Y4r0",
       "rate": "R",
       "year": "2017",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_15426c2e.jpeg?region=0,0,1400,2100&width=320",
@@ -3769,7 +3769,7 @@
       "title_logo_url": "",
       "title": "A United Kingdom",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/LtEoXQw71XA",
+      "trailer_url": "https://www.youtube.com/embed/LtEoXQw71XA",
       "rate": "PG-13",
       "year": "2017",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_5390164d.jpeg?region=0,0,1400,2100&width=320",
@@ -3799,7 +3799,7 @@
       "title_logo_url": "",
       "title": "All About Eve",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/MILphnfj2mo",
+      "trailer_url": "https://www.youtube.com/embed/MILphnfj2mo",
       "rate": "NR",
       "year": "1950",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/allabouteve_584x800_e90ac067.jpeg?region=0,0,584,800&width=320",
@@ -3829,7 +3829,7 @@
       "title_logo_url": "",
       "title": "Beasts of the Southern Wild",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/pvqZzSMIZa0",
+      "trailer_url": "https://www.youtube.com/embed/pvqZzSMIZa0",
       "rate": "PG-13",
       "year": "2012",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/botsw_584x800_ec9b3f5e.jpeg?region=0,0,584,800&width=320",
@@ -3859,7 +3859,7 @@
       "title_logo_url": "",
       "title": "Belle",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/p3eVg-wRKXo",
+      "trailer_url": "https://www.youtube.com/embed/p3eVg-wRKXo",
       "rate": "PG",
       "year": "2014",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/belle_584x800_ka_9f463935.jpeg?region=0,0,584,800&width=320",
@@ -3889,7 +3889,7 @@
       "title_logo_url": "",
       "title": "Birdman or (The Unexpected Virtue of Ignorance)",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/uJfLoE6hanc",
+      "trailer_url": "https://www.youtube.com/embed/uJfLoE6hanc",
       "rate": "R",
       "year": "2014",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/bm_584x800_dbb541c8.jpeg",
@@ -3919,7 +3919,7 @@
       "title_logo_url": "",
       "title": "Black Nativity",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/yfhupIQ1JnE",
+      "trailer_url": "https://www.youtube.com/embed/yfhupIQ1JnE",
       "rate": "PG",
       "year": "2013",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/blna_584x800_02_4d3542fd.jpeg?region=0,0,584,800&width=320",
@@ -3949,7 +3949,7 @@
       "title_logo_url": "",
       "title": "Black Swan",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/5jaI1XOB-bs",
+      "trailer_url": "https://www.youtube.com/embed/5jaI1XOB-bs",
       "rate": "R",
       "year": "2010",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_345538c9.jpeg?region=0,0,1400,2100&width=320",
@@ -3979,7 +3979,7 @@
       "title_logo_url": "",
       "title": "Breakthrough",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/go1jaIRQc-o",
+      "trailer_url": "https://www.youtube.com/embed/go1jaIRQc-o",
       "rate": "PG",
       "year": "2019",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/breakthrough_feature-poster_584x800_c23c19b1.jpeg?region=0,0,584,800&width=320",
@@ -4003,92 +4003,92 @@
         {
           "title": "Breakthrough Official Trailer",
           "video_image": "https://img.youtube.com/vi/go1jaIRQc-o/maxresdefault.jpg",
-          "video_url": "https://youtu.be/go1jaIRQc-o"
+          "video_url": "https://www.youtube.com/embed/go1jaIRQc-o"
         },
         {
           "title": "Breakthrough - Mickey Guyton \"Hold On Lyric\" Video",
           "video_image": "https://img.youtube.com/vi/9sTn1HYBLKw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/9sTn1HYBLKw"
+          "video_url": "https://www.youtube.com/embed/9sTn1HYBLKw"
         },
         {
           "title": "Breakthrough - \"Oceans\" Lyric Video",
           "video_image": "https://img.youtube.com/vi/II4LY6CONw0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/II4LY6CONw0"
+          "video_url": "https://www.youtube.com/embed/II4LY6CONw0"
         },
         {
           "title": "Chrissy Metz - I'm Standing With You",
           "video_image": "https://img.youtube.com/vi/s7CHl9cB-m8/maxresdefault.jpg",
-          "video_url": "https://youtu.be/s7CHl9cB-m8"
+          "video_url": "https://www.youtube.com/embed/s7CHl9cB-m8"
         },
         {
           "title": "Breakthrough - \"I'm Standing With You\" Live",
           "video_image": "https://img.youtube.com/vi/zG7t4O-F5d0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/zG7t4O-F5d0"
+          "video_url": "https://www.youtube.com/embed/zG7t4O-F5d0"
         },
         {
           "title": "The Music of Breakthrough: \"Oceans\"",
           "video_image": "https://img.youtube.com/vi/HLh60Os4G90/maxresdefault.jpg",
-          "video_url": "https://youtu.be/HLh60Os4G90"
+          "video_url": "https://www.youtube.com/embed/HLh60Os4G90"
         },
         {
           "title": "\"This Amazing Grace\" by Phil Wickham featuring Lecrae",
           "video_image": "https://img.youtube.com/vi/TT8AlU47wfQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/TT8AlU47wfQ"
+          "video_url": "https://www.youtube.com/embed/TT8AlU47wfQ"
         },
         {
           "title": "Breakthrough - I Know What I Heard",
           "video_image": "https://img.youtube.com/vi/sJs2B1zurps/maxresdefault.jpg",
-          "video_url": "https://youtu.be/sJs2B1zurps"
+          "video_url": "https://www.youtube.com/embed/sJs2B1zurps"
         },
         {
           "title": "Breakthrough - A Conversation with Stephen Curry & DeVon Franklin",
           "video_image": "https://img.youtube.com/vi/GifIJto4uy0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/GifIJto4uy0"
+          "video_url": "https://www.youtube.com/embed/GifIJto4uy0"
         },
         {
           "title": "Breakthrough - You Will Speak Life",
           "video_image": "https://img.youtube.com/vi/gV3A-rzmipg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/gV3A-rzmipg"
+          "video_url": "https://www.youtube.com/embed/gV3A-rzmipg"
         },
         {
           "title": "Breakthrough - I'm John Smith",
           "video_image": "https://img.youtube.com/vi/Z8QlnD_e2YQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Z8QlnD_e2YQ"
+          "video_url": "https://www.youtube.com/embed/Z8QlnD_e2YQ"
         },
         {
           "title": "Breakthrough - The Heroes",
           "video_image": "https://img.youtube.com/vi/nCNsBfJf8Ic/maxresdefault.jpg",
-          "video_url": "https://youtu.be/nCNsBfJf8Ic"
+          "video_url": "https://www.youtube.com/embed/nCNsBfJf8Ic"
         },
         {
           "title": "Breakthrough - The Cast",
           "video_image": "https://img.youtube.com/vi/6QwcKk-l70Y/maxresdefault.jpg",
-          "video_url": "https://youtu.be/6QwcKk-l70Y"
+          "video_url": "https://www.youtube.com/embed/6QwcKk-l70Y"
         },
         {
           "title": "Breakthrough - \"I'm Standing With You\" - Chrissy Metz",
           "video_image": "https://img.youtube.com/vi/mlAixAl7H5E/maxresdefault.jpg",
-          "video_url": "https://youtu.be/mlAixAl7H5E"
+          "video_url": "https://www.youtube.com/embed/mlAixAl7H5E"
         },
         {
           "title": "Breakthrough - I'm Told You're The Best",
           "video_image": "https://img.youtube.com/vi/YEaLW9dWf2s/maxresdefault.jpg",
-          "video_url": "https://youtu.be/YEaLW9dWf2s"
+          "video_url": "https://www.youtube.com/embed/YEaLW9dWf2s"
         },
         {
           "title": "Breakthrough - Chrissy's Story",
           "video_image": "https://img.youtube.com/vi/Cc3DUPlx5Ms/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Cc3DUPlx5Ms"
+          "video_url": "https://www.youtube.com/embed/Cc3DUPlx5Ms"
         },
         {
           "title": "Breakthrough - Nothing Is Impossible",
           "video_image": "https://img.youtube.com/vi/XPACUkGH2d0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/XPACUkGH2d0"
+          "video_url": "https://www.youtube.com/embed/XPACUkGH2d0"
         },
         {
           "title": "\"I’m Standing With You\" Music Video - Behind the Scenes",
           "video_image": "https://img.youtube.com/vi/e3Jn82ufMtQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/e3Jn82ufMtQ"
+          "video_url": "https://www.youtube.com/embed/e3Jn82ufMtQ"
         }
       ],
       "slideshow_image_url": [
@@ -4107,7 +4107,7 @@
       "title_logo_url": "",
       "title": "Broken City",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/rAu63zWvMN0",
+      "trailer_url": "https://www.youtube.com/embed/rAu63zWvMN0",
       "rate": "R",
       "year": "2013",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_9256f17a.jpeg?region=0,0,1400,2100&width=320",
@@ -4137,7 +4137,7 @@
       "title_logo_url": "",
       "title": "Brooklyn",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/15syDwC000k",
+      "trailer_url": "https://www.youtube.com/embed/15syDwC000k",
       "rate": "PG-13",
       "year": "2015",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_2dd5f36f.jpeg?region=0,0,800,1200&width=320",
@@ -4167,7 +4167,7 @@
       "title_logo_url": "",
       "title": "Cake",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/Csxq0dYR8ro",
+      "trailer_url": "https://www.youtube.com/embed/Csxq0dYR8ro",
       "rate": "R",
       "year": "2014",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/cake_584x800_7be40fd3.jpeg?region=0,0,584,800&width=320",
@@ -4287,7 +4287,7 @@
       "title_logo_url": "",
       "title": "Alien",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/L2VWfWC-wI4",
+      "trailer_url": "https://www.youtube.com/embed/L2VWfWC-wI4",
       "rate": "R",
       "year": "1979",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/aiien35_584x800_ka_0a39ad0b.jpeg?region=0,0,584,800&width=320",
@@ -4310,59 +4310,59 @@
         {
           "title": "Alien - In Space No One Can Hear You Scream",
           "video_image": "https://img.youtube.com/vi/OjfRhwn-4fw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/OjfRhwn-4fw"
+          "video_url": "https://www.youtube.com/embed/OjfRhwn-4fw"
         },
         {
           "title": "Alien - The Film That Started It All",
           "video_image": "https://img.youtube.com/vi/5IHyNCODrzI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/5IHyNCODrzI"
+          "video_url": "https://www.youtube.com/embed/5IHyNCODrzI"
         },
         {
           "title": "Alien Day 2017",
           "video_image": "https://img.youtube.com/vi/0Xbyl6Djzfk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/0Xbyl6Djzfk"
+          "video_url": "https://www.youtube.com/embed/0Xbyl6Djzfk"
         },
         {
           "title": "Alien Day",
           "video_image": "https://img.youtube.com/vi/1XQHZSGJuJQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/1XQHZSGJuJQ"
+          "video_url": "https://www.youtube.com/embed/1XQHZSGJuJQ"
         },
         {
           "title": "Alien - First Alien",
           "video_image": "https://img.youtube.com/vi/KQdOdrW10A8/maxresdefault.jpg",
-          "video_url": "https://youtu.be/KQdOdrW10A8"
+          "video_url": "https://www.youtube.com/embed/KQdOdrW10A8"
         },
         {
           "title": "Alien - Facehugger",
           "video_image": "https://img.youtube.com/vi/zexkWxtBnn4/maxresdefault.jpg",
-          "video_url": "https://youtu.be/zexkWxtBnn4"
+          "video_url": "https://www.youtube.com/embed/zexkWxtBnn4"
         },
         {
           "title": "Alien Anthology - Alien 35th Anniversary",
           "video_image": "https://img.youtube.com/vi/3D-jeOe3TTk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/3D-jeOe3TTk"
+          "video_url": "https://www.youtube.com/embed/3D-jeOe3TTk"
         },
         {
           "title": "Alien #TBT Trailer",
           "video_image": "https://img.youtube.com/vi/L2VWfWC-wI4/maxresdefault.jpg",
-          "video_url": "https://youtu.be/L2VWfWC-wI4"
+          "video_url": "https://www.youtube.com/embed/L2VWfWC-wI4"
         },
         {
           "title": "Alien - Brett Meets the Alien",
           "video_image": "https://img.youtube.com/vi/Ahj774Yqz5Q/maxresdefault.jpg",
-          "video_url": "https://youtu.be/3J-hbLYWBLU"
+          "video_url": "https://www.youtube.com/embed/3J-hbLYWBLU"
         },
         {
           "title": "Alien Anthology Comicon Trailer",
-          "video_url": "https://youtu.be/y12tWMcx64Y"
+          "video_url": "https://www.youtube.com/embed/y12tWMcx64Y"
         },
         {
           "title": "Alien Anthology Egg",
-          "video_url": "https://youtu.be/FwhJLQAzTBw"
+          "video_url": "https://www.youtube.com/embed/FwhJLQAzTBw"
         },
         {
           "title": "Alien Anthology - The Blu-ray Event",
-          "video_url": "https://youtu.be/Ahj774Yqz5Q"
+          "video_url": "https://www.youtube.com/embed/Ahj774Yqz5Q"
         }
       ],
       "slideshow_image_url": [
@@ -4383,7 +4383,7 @@
       "title_logo_url": "",
       "title": "Alien3",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/TtOBa2SMSPs",
+      "trailer_url": "https://www.youtube.com/embed/TtOBa2SMSPs",
       "rate": "R",
       "year": "1992",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/aiien3_584x800_ka_0c7ddb99.jpeg?region=0,0,584,800&width=320",
@@ -4536,7 +4536,7 @@
       "title_logo_url": "",
       "title": "Mirrors",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/O92QxxgeCO8",
+      "trailer_url": "https://www.youtube.com/embed/O92QxxgeCO8",
       "rate": "R",
       "year": "2008",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/mirrors_0202583e.jpeg?region=0,0,584,876&width=320",
@@ -4663,7 +4663,7 @@
       "title_logo_url": "",
       "title": "Stigmata",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/Lxn8ihAmT60",
+      "trailer_url": "https://www.youtube.com/embed/Lxn8ihAmT60",
       "rate": "R",
       "year": "1999",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/0_stigmata_30e7c04b.jpeg?region=0,0,584,946&width=320",
@@ -4723,7 +4723,7 @@
       "title_logo_url": "",
       "title": "Edward Scissorhands",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/c6gyVcfbPeE",
+      "trailer_url": "https://www.youtube.com/embed/c6gyVcfbPeE",
       "rate": "PG-13",
       "year": "1990",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/esh25_584x800_022aaeef.jpeg?region=0,0,584,800&width=320",
@@ -4806,47 +4806,47 @@
         {
           "title": "If Beale Street Could Talk - On Digital",
           "video_image": "https://img.youtube.com/vi/iVRNrI6cjT8/maxresdefault.jpg",
-          "video_url": "https://youtu.be/iVRNrI6cjT8"
+          "video_url": "https://www.youtube.com/embed/iVRNrI6cjT8"
         },
         {
           "title": "If Beale Street Could Talk Official Trailer",
           "video_image": "https://img.youtube.com/vi/N4m3t3G3Zqc/maxresdefault.jpg",
-          "video_url": "https://youtu.be/N4m3t3G3Zqc"
+          "video_url": "https://www.youtube.com/embed/N4m3t3G3Zqc"
         },
         {
           "title": "If Beale Street Could Talk Final Trailer",
           "video_image": "https://img.youtube.com/vi/hGCvdlaWUF0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/hGCvdlaWUF0"
+          "video_url": "https://www.youtube.com/embed/hGCvdlaWUF0"
         },
         {
           "title": "If Beale Street Could Talk - James Baldwin Birthday Teaser",
           "video_image": "https://img.youtube.com/vi/k2zvPTGiJj4/maxresdefault.jpg",
-          "video_url": "https://youtu.be/k2zvPTGiJj4"
+          "video_url": "https://www.youtube.com/embed/k2zvPTGiJj4"
         },
         {
           "title": "If Beale Street Could Talk - Baldwin",
           "video_image": "https://img.youtube.com/vi/hytcM-fBj48/maxresdefault.jpg",
-          "video_url": "https://youtu.be/hytcM-fBj48"
+          "video_url": "https://www.youtube.com/embed/hytcM-fBj48"
         },
         {
           "title": "If Beale Street Could Talk - New Life",
           "video_image": "https://img.youtube.com/vi/i2IhMLV-W2g/maxresdefault.jpg",
-          "video_url": "https://youtu.be/i2IhMLV-W2g"
+          "video_url": "https://www.youtube.com/embed/i2IhMLV-W2g"
         },
         {
           "title": "If Beale Street Could Talk - The Heart of Beale Street",
           "video_image": "https://img.youtube.com/vi/t79gp-3MdHs/maxresdefault.jpg",
-          "video_url": "https://youtu.be/t79gp-3MdHs"
+          "video_url": "https://www.youtube.com/embed/t79gp-3MdHs"
         },
         {
           "title": "If Beale Street Could Talk - Cast Q&A Highlights",
           "video_image": "https://img.youtube.com/vi/g5CKFB8G1dQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/g5CKFB8G1dQ"
+          "video_url": "https://www.youtube.com/embed/g5CKFB8G1dQ"
         },
         {
           "title": "If Beale Street Could Talk - It's Your Grandchild",
           "video_image": "https://img.youtube.com/vi/sCb5SePCofw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/sCb5SePCofw"
+          "video_url": "https://www.youtube.com/embed/sCb5SePCofw"
         }
       ],
       "slideshow_image_url": [],
@@ -4889,7 +4889,7 @@
       "title_logo_url": "",
       "title": "Juno",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/WLDTT9KaSTo",
+      "trailer_url": "https://www.youtube.com/embed/WLDTT9KaSTo",
       "rate": "PG-13",
       "year": "2007",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_7de4ba5a.jpeg?region=0,0,800,1200&width=320",
@@ -4949,7 +4949,7 @@
       "title_logo_url": "",
       "title": "Mike and Dave Need Wedding Dates",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/33MtR-g4Jcg",
+      "trailer_url": "https://www.youtube.com/embed/33MtR-g4Jcg",
       "rate": "R",
       "year": "2016",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_37cd35c0.jpeg?region=0,0,800,1200&width=320",
@@ -4974,142 +4974,142 @@
         {
           "title": "Mike and Dave Need Wedding Dates - On Digital HD",
           "video_image": "https://img.youtube.com/vi/D9G11Bar9jc/maxresdefault.jpg",
-          "video_url": "https://youtu.be/D9G11Bar9jc"
+          "video_url": "https://www.youtube.com/embed/D9G11Bar9jc"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - Extended Clip",
           "video_image": "https://img.youtube.com/vi/jZ8pZyYQWNw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/jZ8pZyYQWNw"
+          "video_url": "https://www.youtube.com/embed/jZ8pZyYQWNw"
         },
         {
           "title": "Mike and Dave Need Wedding Dates Red Band Trailer",
           "video_image": "https://img.youtube.com/vi/VqcjhlCjw0g/maxresdefault.jpg",
-          "video_url": "https://youtu.be/VqcjhlCjw0g"
+          "video_url": "https://www.youtube.com/embed/VqcjhlCjw0g"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - Everyone Has Chlamydia",
           "video_image": "https://img.youtube.com/vi/Pn3kcHq8zuA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Pn3kcHq8zuA"
+          "video_url": "https://www.youtube.com/embed/Pn3kcHq8zuA"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - ATV",
           "video_image": "https://img.youtube.com/vi/Z6ovonZxNk8/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Z6ovonZxNk8"
+          "video_url": "https://www.youtube.com/embed/Z6ovonZxNk8"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - I'll Send You Some Links",
           "video_image": "https://img.youtube.com/vi/EPOJoZ24N-k/maxresdefault.jpg",
-          "video_url": "https://youtu.be/EPOJoZ24N-k"
+          "video_url": "https://www.youtube.com/embed/EPOJoZ24N-k"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - Massage Scene",
           "video_image": "https://img.youtube.com/vi/Hy_ZoSjng8c/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Hy_ZoSjng8c"
+          "video_url": "https://www.youtube.com/embed/Hy_ZoSjng8c"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - Me and Julio",
           "video_image": "https://img.youtube.com/vi/js3nCovL3cM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/js3nCovL3cM"
+          "video_url": "https://www.youtube.com/embed/js3nCovL3cM"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - Apple a Day",
           "video_image": "https://img.youtube.com/vi/BwT6V0qeVQo/maxresdefault.jpg",
-          "video_url": "https://youtu.be/BwT6V0qeVQo"
+          "video_url": "https://www.youtube.com/embed/BwT6V0qeVQo"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - School Teachers and Hedge Funds",
           "video_image": "https://img.youtube.com/vi/TPAOMXIzfgc/maxresdefault.jpg",
-          "video_url": "https://youtu.be/TPAOMXIzfgc"
+          "video_url": "https://www.youtube.com/embed/TPAOMXIzfgc"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - Never Have I Ever: Zac Efron",
           "video_image": "https://img.youtube.com/vi/NUL3NPta4iM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/NUL3NPta4iM"
+          "video_url": "https://www.youtube.com/embed/NUL3NPta4iM"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - Fireworks Tips",
           "video_image": "https://img.youtube.com/vi/y8hkk_Uv3S0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/y8hkk_Uv3S0"
+          "video_url": "https://www.youtube.com/embed/y8hkk_Uv3S0"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - Exclusive",
           "video_image": "https://img.youtube.com/vi/-bVBGXYCnZM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/-bVBGXYCnZM"
+          "video_url": "https://www.youtube.com/embed/-bVBGXYCnZM"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - On the Story",
           "video_image": "https://img.youtube.com/vi/YShOQqEjOWc/maxresdefault.jpg",
-          "video_url": "https://youtu.be/YShOQqEjOWc"
+          "video_url": "https://www.youtube.com/embed/YShOQqEjOWc"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - Swipe Away Loneliness",
           "video_image": "https://img.youtube.com/vi/npBzjtFc0jA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/npBzjtFc0jA"
+          "video_url": "https://www.youtube.com/embed/npBzjtFc0jA"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - Inspired By A True Story",
           "video_image": "https://img.youtube.com/vi/czyse6bqMwQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/czyse6bqMwQ"
+          "video_url": "https://www.youtube.com/embed/czyse6bqMwQ"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - Happy Father's Day",
           "video_image": "https://img.youtube.com/vi/LHIKB4J3Akw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/LHIKB4J3Akw"
+          "video_url": "https://www.youtube.com/embed/LHIKB4J3Akw"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - Where Do Brothers Come From",
           "video_image": "https://img.youtube.com/vi/SzRUsI6Q25E/maxresdefault.jpg",
-          "video_url": "https://youtu.be/SzRUsI6Q25E"
+          "video_url": "https://www.youtube.com/embed/SzRUsI6Q25E"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - Where Do Brothers Come From - SFW Version",
           "video_image": "https://img.youtube.com/vi/Sucdvr5R25Q/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Sucdvr5R25Q"
+          "video_url": "https://www.youtube.com/embed/Sucdvr5R25Q"
         },
         {
           "title": "Adam Devine Has Hypersensitive Ears",
           "video_image": "https://img.youtube.com/vi/_1fv5_mEC7s/maxresdefault.jpg",
-          "video_url": "https://youtu.be/_1fv5_mEC7s"
+          "video_url": "https://www.youtube.com/embed/_1fv5_mEC7s"
         },
         {
           "title": "Zac Efron Can't Stop Taking Selfies",
           "video_image": "https://img.youtube.com/vi/xxVEUB8qeU4/maxresdefault.jpg",
-          "video_url": "https://youtu.be/xxVEUB8qeU4"
+          "video_url": "https://www.youtube.com/embed/xxVEUB8qeU4"
         },
         {
           "title": "\"Insane\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/yo6f_HJuoNQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/yo6f_HJuoNQ"
+          "video_url": "https://www.youtube.com/embed/yo6f_HJuoNQ"
         },
         {
           "title": "\"Based On Real Events\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/HrTpdDifTIM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/HrTpdDifTIM"
+          "video_url": "https://www.youtube.com/embed/HrTpdDifTIM"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - We Need You Tomorrow",
           "video_image": "https://img.youtube.com/vi/nIWgXqGDir8/maxresdefault.jpg",
-          "video_url": "https://youtu.be/nIWgXqGDir8"
+          "video_url": "https://www.youtube.com/embed/nIWgXqGDir8"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - Inappropriate Extras",
           "video_image": "https://img.youtube.com/vi/fytdEgini_w/maxresdefault.jpg",
-          "video_url": "https://youtu.be/fytdEgini_w"
+          "video_url": "https://www.youtube.com/embed/fytdEgini_w"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - On Blu-ray",
           "video_image": "https://img.youtube.com/vi/hiXzmu7qbZs/maxresdefault.jpg",
-          "video_url": "https://youtu.be/hiXzmu7qbZs"
+          "video_url": "https://www.youtube.com/embed/hiXzmu7qbZs"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - Get Some",
           "video_image": "https://img.youtube.com/vi/0Sof-ML4MVM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/0Sof-ML4MVM"
+          "video_url": "https://www.youtube.com/embed/0Sof-ML4MVM"
         },
         {
           "title": "Mike and Dave Need Wedding Dates - Push Pop",
           "video_image": "https://img.youtube.com/vi/PhFMdfpLaYQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/PhFMdfpLaYQ"
+          "video_url": "https://www.youtube.com/embed/PhFMdfpLaYQ"
         }
       ],
       "slideshow_image_url": [],
@@ -5362,7 +5362,7 @@
       "title_logo_url": "",
       "title": "Alien Resurrection",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/vu1tVYGsJ1Q",
+      "trailer_url": "https://www.youtube.com/embed/vu1tVYGsJ1Q",
       "rate": "R",
       "year": "1997",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/aiien4_584x800_ka_af345a6a.jpeg",
@@ -5427,7 +5427,7 @@
       "title_logo_url": "",
       "title": "Escape from the Planet of the Apes",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/pTPxcQlf_uI",
+      "trailer_url": "https://www.youtube.com/embed/pTPxcQlf_uI",
       "rate": "G",
       "year": "1971",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_5c435a4f.jpeg?region=0,0,800,1200&width=320",
@@ -5457,7 +5457,7 @@
       "title_logo_url": "",
       "title": "A Cure for Wellness",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/4YmEm5bqdIk",
+      "trailer_url": "https://www.youtube.com/embed/4YmEm5bqdIk",
       "rate": "R",
       "year": "2017",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_e089a6fa.jpeg?region=0,0,1400,2100&width=320",
@@ -5482,122 +5482,122 @@
         {
           "title": "A Cure for Wellness - See The Truth",
           "video_image": "https://img.youtube.com/vi/4YmEm5bqdIk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/4YmEm5bqdIk"
+          "video_url": "https://www.youtube.com/embed/4YmEm5bqdIk"
         },
         {
           "title": "A Cure For Wellness - On Digital HD",
           "video_image": "https://img.youtube.com/vi/kUmgiejMpz8/maxresdefault.jpg",
-          "video_url": "https://youtu.be/kUmgiejMpz8"
+          "video_url": "https://www.youtube.com/embed/kUmgiejMpz8"
         },
         {
           "title": "A Cure for Wellness Official Trailer",
           "video_image": "https://img.youtube.com/vi/JF1rLFCdewU/maxresdefault.jpg",
-          "video_url": "https://youtu.be/JF1rLFCdewU"
+          "video_url": "https://www.youtube.com/embed/JF1rLFCdewU"
         },
         {
           "title": "A Cure for Wellness Teaser Trailer",
           "video_image": "https://img.youtube.com/vi/4mcVodJmBlU/maxresdefault.jpg",
-          "video_url": "https://youtu.be/4mcVodJmBlU"
+          "video_url": "https://www.youtube.com/embed/4mcVodJmBlU"
         },
         {
           "title": "A Cure For Wellness - No One Ever Leaves",
           "video_image": "https://img.youtube.com/vi/rQLGkp0px24/maxresdefault.jpg",
-          "video_url": "https://youtu.be/rQLGkp0px24"
+          "video_url": "https://www.youtube.com/embed/rQLGkp0px24"
         },
         {
           "title": "\"A Seedy Mystery\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/dtGxQyNXWy0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/dtGxQyNXWy0"
+          "video_url": "https://www.youtube.com/embed/dtGxQyNXWy0"
         },
         {
           "title": "\"Chilling and Mysterious\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/zLMnIejKHXg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/zLMnIejKHXg"
+          "video_url": "https://www.youtube.com/embed/zLMnIejKHXg"
         },
         {
           "title": "A Cure For Wellness - #SB51 Commercial",
           "video_image": "https://img.youtube.com/vi/5rZUWa5ojUI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/5rZUWa5ojUI"
+          "video_url": "https://www.youtube.com/embed/5rZUWa5ojUI"
         },
         {
           "title": "\"Take The Cure\" #SB51 Commercial",
           "video_image": "https://img.youtube.com/vi/C29czmGuoNI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/C29czmGuoNI"
+          "video_url": "https://www.youtube.com/embed/C29czmGuoNI"
         },
         {
           "title": "\"Ambition\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/kSUlhH_0xvM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/kSUlhH_0xvM"
+          "video_url": "https://www.youtube.com/embed/kSUlhH_0xvM"
         },
         {
           "title": "\"Cleansing of the Mind\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/v2px7yHw9BI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/v2px7yHw9BI"
+          "video_url": "https://www.youtube.com/embed/v2px7yHw9BI"
         },
         {
           "title": "\"She Lives In A Dream\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/pitE0WiQyqM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/pitE0WiQyqM"
+          "video_url": "https://www.youtube.com/embed/pitE0WiQyqM"
         },
         {
           "title": "\"Take the Cure\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/gOCtK5s6F4A/maxresdefault.jpg",
-          "video_url": "https://youtu.be/gOCtK5s6F4A"
+          "video_url": "https://www.youtube.com/embed/gOCtK5s6F4A"
         },
         {
           "title": "\"It's Wonderful Here\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/CLCn_znoVTk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/CLCn_znoVTk"
+          "video_url": "https://www.youtube.com/embed/CLCn_znoVTk"
         },
         {
           "title": "\"A Simple Process\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/QpuG02-Mjng/maxresdefault.jpg",
-          "video_url": "https://youtu.be/QpuG02-Mjng"
+          "video_url": "https://www.youtube.com/embed/QpuG02-Mjng"
         },
         {
           "title": "A Cure for Wellness - Sensory Deprivation Tank",
           "video_image": "https://img.youtube.com/vi/P9DGr0OOuwk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/P9DGr0OOuwk"
+          "video_url": "https://www.youtube.com/embed/P9DGr0OOuwk"
         },
         {
           "title": "\"An Investigation\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/oagtZ8k7AGk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/oagtZ8k7AGk"
+          "video_url": "https://www.youtube.com/embed/oagtZ8k7AGk"
         },
         {
           "title": "\"The Purification Process\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/TiBPl1mJtjw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/TiBPl1mJtjw"
+          "video_url": "https://www.youtube.com/embed/TiBPl1mJtjw"
         },
         {
           "title": "A Cure for Wellness - Hall Confrontation",
           "video_image": "https://img.youtube.com/vi/ZdeQ192PdUE/maxresdefault.jpg",
-          "video_url": "https://youtu.be/ZdeQ192PdUE"
+          "video_url": "https://www.youtube.com/embed/ZdeQ192PdUE"
         },
         {
           "title": "\"A New Visitor\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/j1x58u2VCO8/maxresdefault.jpg",
-          "video_url": "https://youtu.be/j1x58u2VCO8"
+          "video_url": "https://www.youtube.com/embed/j1x58u2VCO8"
         },
         {
           "title": "A Cure for Wellness - A New Year",
           "video_image": "https://img.youtube.com/vi/_8gVtQIzZIs/maxresdefault.jpg",
-          "video_url": "https://youtu.be/_8gVtQIzZIs"
+          "video_url": "https://www.youtube.com/embed/_8gVtQIzZIs"
         },
         {
           "title": "A Cure for Wellness - Pills",
           "video_image": "https://img.youtube.com/vi/oKuTnol7YMI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/oKuTnol7YMI"
+          "video_url": "https://www.youtube.com/embed/oKuTnol7YMI"
         },
         {
           "title": "A Cure for Wellness - Deleted Sequence",
           "video_image": "https://img.youtube.com/vi/j7RLI0V6xRk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/j7RLI0V6xRk"
+          "video_url": "https://www.youtube.com/embed/j7RLI0V6xRk"
         },
         {
           "title": "\"Visually Stunning\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/23gagwNjnLY/maxresdefault.jpg",
-          "video_url": "https://youtu.be/23gagwNjnLY"
+          "video_url": "https://www.youtube.com/embed/23gagwNjnLY"
         }
       ],
       "slideshow_image_url": [
@@ -5616,7 +5616,7 @@
       "title_logo_url": "",
       "title": "Bad Times at the El Royale",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/y7wzBVARwaU",
+      "trailer_url": "https://www.youtube.com/embed/y7wzBVARwaU",
       "rate": "R",
       "year": "2018",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/badtimeselroyale_feature-poster_584x800_a7f10c8c.jpeg?region=0,0,584,800&width=320",
@@ -5640,67 +5640,67 @@
         {
           "title": "\"Feeling Lucky\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/Fp_5M_j7Wn0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Fp_5M_j7Wn0"
+          "video_url": "https://www.youtube.com/embed/Fp_5M_j7Wn0"
         },
         {
           "title": "Bad Times at the El Royale - On Digital",
           "video_image": "https://img.youtube.com/vi/8kmxephbmE4/maxresdefault.jpg",
-          "video_url": "https://youtu.be/8kmxephbmE4"
+          "video_url": "https://www.youtube.com/embed/8kmxephbmE4"
         },
         {
           "title": "Bad Times at the El Royale Teaser Trailer",
           "video_image": "https://img.youtube.com/vi/SQmOaJciI7Q/maxresdefault.jpg",
-          "video_url": "https://youtu.be/SQmOaJciI7Q"
+          "video_url": "https://www.youtube.com/embed/SQmOaJciI7Q"
         },
         {
           "title": "Welcome to the El Royale",
           "video_image": "https://img.youtube.com/vi/FxWTYwPf8xk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/FxWTYwPf8xk"
+          "video_url": "https://www.youtube.com/embed/FxWTYwPf8xk"
         },
         {
           "title": "A Look Inside the El Royale",
           "video_image": "https://img.youtube.com/vi/H-7yRrSjdag/maxresdefault.jpg",
-          "video_url": "https://youtu.be/H-7yRrSjdag"
+          "video_url": "https://www.youtube.com/embed/H-7yRrSjdag"
         },
         {
           "title": "Bad Times at the El Royale  – On Set With the Cast",
           "video_image": "https://img.youtube.com/vi/4T8TuJ2NsUM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/4T8TuJ2NsUM"
+          "video_url": "https://www.youtube.com/embed/4T8TuJ2NsUM"
         },
         {
           "title": "Bad Times at the El Royale - Scratching at the Surface",
           "video_image": "https://img.youtube.com/vi/rdB8icXNi3s/maxresdefault.jpg",
-          "video_url": "https://youtu.be/rdB8icXNi3s"
+          "video_url": "https://www.youtube.com/embed/rdB8icXNi3s"
         },
         {
           "title": "Bad Times at the El Royale - No Place for a Priest",
           "video_image": "https://img.youtube.com/vi/A_zob0rmgO4/maxresdefault.jpg",
-          "video_url": "https://youtu.be/A_zob0rmgO4"
+          "video_url": "https://www.youtube.com/embed/A_zob0rmgO4"
         },
         {
           "title": "\"Daring and Original\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/X18FpSZLQP4/maxresdefault.jpg",
-          "video_url": "https://youtu.be/X18FpSZLQP4"
+          "video_url": "https://www.youtube.com/embed/X18FpSZLQP4"
         },
         {
           "title": "\"Seven Strangers\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/DDZ5E61nWdk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/DDZ5E61nWdk"
+          "video_url": "https://www.youtube.com/embed/DDZ5E61nWdk"
         },
         {
           "title": "Bad Times at the El Royale - Full Scene",
           "video_image": "https://img.youtube.com/vi/1T9Wql9A1PE/maxresdefault.jpg",
-          "video_url": "https://youtu.be/1T9Wql9A1PE"
+          "video_url": "https://www.youtube.com/embed/1T9Wql9A1PE"
         },
         {
           "title": "Bad Times at the El Royale - Behind The Scenes",
           "video_image": "https://img.youtube.com/vi/Z4z1xjtLiXI/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Z4z1xjtLiXI"
+          "video_url": "https://www.youtube.com/embed/Z4z1xjtLiXI"
         },
         {
           "title": "\"Hush Rental\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/iPP1jHX0vwk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/iPP1jHX0vwk"
+          "video_url": "https://www.youtube.com/embed/iPP1jHX0vwk"
         }
       ],
       "slideshow_image_url": [
@@ -5718,7 +5718,7 @@
       "title_logo_url": "",
       "title": "Gone Girl",
       "status": "ON DIGITAL",
-      "trailer_url": "https://youtu.be/2-_-1nJf8Vg",
+      "trailer_url": "https://www.youtube.com/embed/2-_-1nJf8Vg",
       "rate": "R",
       "year": "2014",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/image_059c8da8.jpeg?region=0,0,800,1200&width=320",
@@ -5741,92 +5741,92 @@
         {
           "title": "Gone Girl Teaser Trailer",
           "video_image": "https://img.youtube.com/vi/JU9PdgB3rsk/maxresdefault.jpg",
-          "video_url": "https://youtu.be/JU9PdgB3rsk"
+          "video_url": "https://www.youtube.com/embed/JU9PdgB3rsk"
         },
         {
           "title": "Gone Girl Official Trailer",
           "video_image": "https://img.youtube.com/vi/2-_-1nJf8Vg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/2-_-1nJf8Vg"
+          "video_url": "https://www.youtube.com/embed/2-_-1nJf8Vg"
         },
         {
           "title": "Gone Girl - Vow TV Spot",
           "video_image": "https://img.youtube.com/vi/cKYibT5J87w/maxresdefault.jpg",
-          "video_url": "https://youtu.be/cKYibT5J87w"
+          "video_url": "https://www.youtube.com/embed/cKYibT5J87w"
         },
         {
           "title": "Gone Girl - Hello - YouTube",
           "video_image": "https://img.youtube.com/vi/1WGnrJZneVY/maxresdefault.jpg",
-          "video_url": "https://youtu.be/1WGnrJZneVY"
+          "video_url": "https://www.youtube.com/embed/1WGnrJZneVY"
         },
         {
           "title": "\"How is Your Marriage?\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/nd6nqwu7NUc/maxresdefault.jpg",
-          "video_url": "https://youtu.be/nd6nqwu7NUc"
+          "video_url": "https://www.youtube.com/embed/nd6nqwu7NUc"
         },
         {
           "title": "Gone Girl - His",
           "video_image": "https://img.youtube.com/vi/8p2VSn2sfzw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/8p2VSn2sfzw"
+          "video_url": "https://www.youtube.com/embed/8p2VSn2sfzw"
         },
         {
           "title": "\"Tick Tock\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/U6qfY2CyZqs/maxresdefault.jpg",
-          "video_url": "https://youtu.be/U6qfY2CyZqs"
+          "video_url": "https://www.youtube.com/embed/U6qfY2CyZqs"
         },
         {
           "title": "\"Truth is My Defense\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/NQyCQujeObA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/NQyCQujeObA"
+          "video_url": "https://www.youtube.com/embed/NQyCQujeObA"
         },
         {
           "title": "Gone Girl - Who Are You",
           "video_image": "https://img.youtube.com/vi/EjtWAtzw-7s/maxresdefault.jpg",
-          "video_url": "https://youtu.be/EjtWAtzw-7s"
+          "video_url": "https://www.youtube.com/embed/EjtWAtzw-7s"
         },
         {
           "title": "\"Have You Told Me Everything?\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/TCboGu-KLWE/maxresdefault.jpg",
-          "video_url": "https://youtu.be/TCboGu-KLWE"
+          "video_url": "https://www.youtube.com/embed/TCboGu-KLWE"
         },
         {
           "title": "\"Wife Goes Missing\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/i8sKWX0RiEs/maxresdefault.jpg",
-          "video_url": "https://youtu.be/i8sKWX0RiEs"
+          "video_url": "https://www.youtube.com/embed/i8sKWX0RiEs"
         },
         {
           "title": "Gone Girl - Where Is Your Wife",
           "video_image": "https://img.youtube.com/vi/PyigfxApQrU/maxresdefault.jpg",
-          "video_url": "https://youtu.be/PyigfxApQrU"
+          "video_url": "https://www.youtube.com/embed/PyigfxApQrU"
         },
         {
           "title": "\"Simplest Answer\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/e1AZgJg3OEA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/e1AZgJg3OEA"
+          "video_url": "https://www.youtube.com/embed/e1AZgJg3OEA"
         },
         {
           "title": "Gone Girl - Should I Know My Wife's Blood Type",
           "video_image": "https://img.youtube.com/vi/5KNvRccCgME/maxresdefault.jpg",
-          "video_url": "https://youtu.be/5KNvRccCgME"
+          "video_url": "https://www.youtube.com/embed/5KNvRccCgME"
         },
         {
           "title": "Gone Girl - Nick at Desi's House",
           "video_image": "https://img.youtube.com/vi/GIdhXAc7atE/maxresdefault.jpg",
-          "video_url": "https://youtu.be/GIdhXAc7atE"
+          "video_url": "https://www.youtube.com/embed/GIdhXAc7atE"
         },
         {
           "title": "Gone Girl - Max Final Cut Segment 1",
           "video_image": "https://img.youtube.com/vi/jVVIC5XkPDs/maxresdefault.jpg",
-          "video_url": "https://youtu.be/jVVIC5XkPDs"
+          "video_url": "https://www.youtube.com/embed/jVVIC5XkPDs"
         },
         {
           "title": "Gone Girl - Max Final Cut Segment 2",
           "video_image": "https://img.youtube.com/vi/MBN3kl4YKY8/maxresdefault.jpg",
-          "video_url": "https://youtu.be/MBN3kl4YKY8"
+          "video_url": "https://www.youtube.com/embed/MBN3kl4YKY8"
         },
         {
           "title": "Gone Girl - Max Final Cut Segment 3",
           "video_image": "https://img.youtube.com/vi/Ml4iaEskBHs/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Ml4iaEskBHs"
+          "video_url": "https://www.youtube.com/embed/Ml4iaEskBHs"
         }
       ],
       "slideshow_image_url": [
@@ -5873,7 +5873,7 @@
       "title_logo_url": "",
       "title": "Maze Runner: The Death Cure",
       "status": "ON BLU-RAY, DVD & DIGITAL",
-      "trailer_url": "https://youtu.be/S_9OSktlm6s",
+      "trailer_url": "https://www.youtube.com/embed/S_9OSktlm6s",
       "rate": "PG-13",
       "year": "2018",
       "poster_url":"https://lumiere-a.akamaihd.net/v1/images/mazerunnerdeathcure_feature-poster_584x800_62521e27.jpeg?region=0,0,584,800&width=320",
@@ -5897,125 +5897,160 @@
         {
           "title": "“Don’t Miss The Final Run\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/RIu8HBa3HBs/maxresdefault.jpg",
-          "video_url": "https://youtu.be/RIu8HBa3HBs"
+          "video_url": "https://www.youtube.com/embed/RIu8HBa3HBs"
         },
         {
           "title": "Maze Runner: Origins Comic",
           "video_image": "https://img.youtube.com/vi/HgqP6dOvE_Q/maxresdefault.jpg",
-          "video_url": "https://youtu.be/HgqP6dOvE_Q"
+          "video_url": "https://www.youtube.com/embed/HgqP6dOvE_Q"
         },
         {
           "title": "\"We Would Follow You Anywhere\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/TYMNkLMK6YM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/TYMNkLMK6YM"
+          "video_url": "https://www.youtube.com/embed/TYMNkLMK6YM"
         },
         {
           "title": "Maze Runner: The Death Cure - On Digital",
           "video_image": "https://img.youtube.com/vi/vLkuvxW-T_c/maxresdefault.jpg",
-          "video_url": "https://youtu.be/vLkuvxW-T_c"
+          "video_url": "https://www.youtube.com/embed/vLkuvxW-T_c"
         },
         {
           "title": "Maze Runner: The Death Cure Official Final Trailer",
           "video_image": "https://img.youtube.com/vi/4-BTxXm8KSg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/4-BTxXm8KSg"
+          "video_url": "https://www.youtube.com/embed/4-BTxXm8KSg"
         },
         {
           "title": "Maze Runner: The Death Cure Official Trailer",
           "video_image": "https://img.youtube.com/vi/S_9OSktlm6s/maxresdefault.jpg",
-          "video_url": "https://youtu.be/S_9OSktlm6s"
+          "video_url": "https://www.youtube.com/embed/S_9OSktlm6s"
         },
         {
           "title": "Maze Runner: The Death Cure - International Featurette",
           "video_image": "https://img.youtube.com/vi/xjZQk3hZV3Y/maxresdefault.jpg",
-          "video_url": "https://youtu.be/xjZQk3hZV3Y"
+          "video_url": "https://www.youtube.com/embed/xjZQk3hZV3Y"
         },
         {
           "title": "Maze Runner: The Death Cure - Lego Trailer",
           "video_image": "https://img.youtube.com/vi/Ww1GiTIJF_Y/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Ww1GiTIJF_Y"
+          "video_url": "https://www.youtube.com/embed/Ww1GiTIJF_Y"
         },
         {
           "title": "Maze Runner: The Death Cure - Deleted Scene with Cast Q&A",
           "video_image": "https://img.youtube.com/vi/L-WT1V-HMfg/maxresdefault.jpg",
-          "video_url": "https://youtu.be/L-WT1V-HMfg"
+          "video_url": "https://www.youtube.com/embed/L-WT1V-HMfg"
         },
         {
           "title": "Maze Runner: The Death Cure - Fans Around the World React",
           "video_image": "https://img.youtube.com/vi/3vLHHwrg2as/maxresdefault.jpg",
-          "video_url": "https://youtu.be/3vLHHwrg2as"
+          "video_url": "https://www.youtube.com/embed/3vLHHwrg2as"
         },
         {
           "title": "Maze Runner: The Death Cure - Maze In The Maze",
           "video_image": "https://img.youtube.com/vi/Cn7zS77xU9w/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Cn7zS77xU9w"
+          "video_url": "https://www.youtube.com/embed/Cn7zS77xU9w"
         },
         {
           "title": "Maze Runner: The Death Cure - Cranks Tunnel",
           "video_image": "https://img.youtube.com/vi/r708nUtriNQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/r708nUtriNQ"
+          "video_url": "https://www.youtube.com/embed/r708nUtriNQ"
         },
         {
           "title": "Maze Runner: The Death Cure - Audition",
           "video_image": "https://img.youtube.com/vi/hGr4A1Jhdm8/maxresdefault.jpg",
-          "video_url": "https://youtu.be/hGr4A1Jhdm8"
+          "video_url": "https://www.youtube.com/embed/hGr4A1Jhdm8"
         },
         {
           "title": "Journey to the Death Cure",
           "video_image": "https://img.youtube.com/vi/VGDm53oBW_0/maxresdefault.jpg",
-          "video_url": "https://youtu.be/VGDm53oBW_0"
+          "video_url": "https://www.youtube.com/embed/VGDm53oBW_0"
         },
         {
           "title": "Maze Runner: The Death Cure - The Wall",
           "video_image": "https://img.youtube.com/vi/psS35J_qlrE/maxresdefault.jpg",
-          "video_url": "https://youtu.be/psS35J_qlrE"
+          "video_url": "https://www.youtube.com/embed/psS35J_qlrE"
         },
         {
           "title": "Maze Runner: The Death Cure - Any Ideas",
           "video_image": "https://img.youtube.com/vi/sP6Z94dDPEw/maxresdefault.jpg",
-          "video_url": "https://youtu.be/sP6Z94dDPEw"
+          "video_url": "https://www.youtube.com/embed/sP6Z94dDPEw"
         },
         {
           "title": "Maze Runner: The Death Cure - In the Maze",
           "video_image": "https://img.youtube.com/vi/lATFAVrTFKQ/maxresdefault.jpg",
-          "video_url": "https://youtu.be/lATFAVrTFKQ"
+          "video_url": "https://www.youtube.com/embed/lATFAVrTFKQ"
         },
         {
           "title": "Maze Runner and Scorch Trials Recap in 90 Seconds",
           "video_image": "https://img.youtube.com/vi/eWPLQvgPM6E/maxresdefault.jpg",
-          "video_url": "https://youtu.be/eWPLQvgPM6E"
+          "video_url": "https://www.youtube.com/embed/eWPLQvgPM6E"
         },
         {
           "title": "\"Get Ready For A WCKD Ending\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/xCSontBpl5k/maxresdefault.jpg",
-          "video_url": "https://youtu.be/xCSontBpl5k"
+          "video_url": "https://www.youtube.com/embed/xCSontBpl5k"
         },
         {
           "title": "Maze Runner: The Death Cure - Train Chase Full Scene",
           "video_image": "https://img.youtube.com/vi/lGMlqAP7Qoo/maxresdefault.jpg",
-          "video_url": "https://youtu.be/lGMlqAP7Qoo"
+          "video_url": "https://www.youtube.com/embed/lGMlqAP7Qoo"
         },
         {
           "title": "Maze Runner: The Death Cure - Three Epic Stories",
           "video_image": "https://img.youtube.com/vi/M5GLgDv5NAM/maxresdefault.jpg",
-          "video_url": "https://youtu.be/M5GLgDv5NAM"
+          "video_url": "https://www.youtube.com/embed/M5GLgDv5NAM"
         },
         {
           "title": "\"Save Us All\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/Th0Tlj8XL1A/maxresdefault.jpg",
-          "video_url": "https://youtu.be/Th0Tlj8XL1A"
+          "video_url": "https://www.youtube.com/embed/Th0Tlj8XL1A"
         },
         {
           "title": "\"No Matter What The Cost\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/sMHYayBL3tA/maxresdefault.jpg",
-          "video_url": "https://youtu.be/sMHYayBL3tA"
+          "video_url": "https://www.youtube.com/embed/sMHYayBL3tA"
         },
         {
           "title": "\"We Started This Together\" TV Commercial",
           "video_image": "https://img.youtube.com/vi/yM92dEYdP2Q/maxresdefault.jpg",
-          "video_url": "https://youtu.be/yM92dEYdP2Q"
+          "video_url": "https://www.youtube.com/embed/yM92dEYdP2Q"
         }
       ],
       "slideshow_image_url": [],
+      "haveGetTicket": false,
+      "haveShop": true,
+      "haveWatchTrailer": true
+    },
+    {
+      "image_cover_url": "https://lumiere-a.akamaihd.net/v1/images/pp_20cs_thepersonallifeofdavidcopperfield_20514_cdb0edea.jpeg?region=0,0,2048,878&width=960",
+      "title_logo_url": "https://lumiere-a.akamaihd.net/v1/images/pp_20cs_theprivatelifeofdavidcopperfield_logo_20514_5db711ca.png?region=0,0,400,226",
+      "title": "THE PERSONAL HISTORY OF DAVID COPPERFIELD",
+      "status": "NOW ON DIGITAL",
+      "trailer_url": "https://www.youtube.com/watch?v=Al4jy78GiQQ",
+      "rate": "PG",
+      "year": "2020",
+      "poster_url":"https://lumiere-a.akamaihd.net/v1/images/p_20cs_thepersonallifeofdavidcopperfield_20514_9d46ca99.jpeg",
+      "runtime": "",
+      "feat":"featured",
+      "tag": ["Comedy", "Drama","Romance"],
+      "description": "Dev Patel leads an ensemble cast of talented stage and screen actors from across the world in this lavish, tongue-in-cheek reimagining from Searchlight Pictures of Charles Dickens’ classic story. After suffering through his earlier life as an impoverished orphan, things take an intriguing turn for David Copperfield (Patel) when he meets up with his outrageous, well-to-do aunt Betsey Trotwood (Tilda Swinton). Following a new trajectory, Copperfield embraces danger, treachery, romance, and ultimately the chance to shine as a writer in Victorian England.",
+      "twitter_url": "",
+      "facebook_url": "",
+      "instagram_url": "",
+      "directed_by": "Armando Iannucci",
+      "written_by": "Armando Iannucci, Simon Blackwell",
+      "produced_by": "Kim Todd",
+      "cast": "Dev Patel, Tilda Swinton, Aneurin Barnard, Peter Capaldi, Morfydd Clark, Daisy May Cooper, Rosalind Eleazar, Hugh Laurie, Ben Whishaw, Paul Whitehouse",
+      "movie_class_logo_url": [
+        "https://lumiere-a.akamaihd.net/v1/images/l_pg_h44px_6af6f2d8.png?region=0%2C0%2C78%2C44"
+      ],
+      "text_without_url": ["motionpictures.org", "filmratings.com"],
+      "video": [],
+      "slideshow_image_url": ["https://lumiere-a.akamaihd.net/v1/images/g_20cs_tphofdavidcopperfield_1_20514_1416820f.jpeg?region=1%2C0%2C1298%2C730",
+          "https://lumiere-a.akamaihd.net/v1/images/g_20cs_tphofdavidcopperfield_2_20514_c4e37c5a.jpeg?region=1%2C0%2C1298%2C730",
+          "https://lumiere-a.akamaihd.net/v1/images/g_20cs_tphofdavidcopperfield_3_20514_197c8bc5.jpeg?region=1%2C0%2C1298%2C730",
+          "https://lumiere-a.akamaihd.net/v1/images/g_20cs_tphofdavidcopperfield_4_20514_2561c4f0.jpeg?region=1%2C0%2C1298%2C730",
+          "https://lumiere-a.akamaihd.net/v1/images/g_20cs_tphofdavidcopperfield_5_20514_90c37a30.jpeg?region=1%2C0%2C1298%2C730",
+          "https://lumiere-a.akamaihd.net/v1/images/g_20cs_tphofdavidcopperfield_6_20514_c4dfba79.jpeg?region=1%2C0%2C1298%2C730"],
       "haveGetTicket": false,
       "haveShop": true,
       "haveWatchTrailer": true

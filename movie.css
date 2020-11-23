@@ -1,0 +1,174 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 1vw;
+    background-color: #f1f2f3;
+  }
+
+  #home,
+  #movies {
+    color: #fff;
+  }
+
+  #home:hover,
+  #category:hover,
+  .icon:hover {
+    color: #907137;
+  }
+
+  #s1,
+  #s2 {
+    background: #1d1e1f;
+  }
+
+  #s2 {
+    border: transparent;
+  }
+
+  .input-group-text {
+    border: grey 1px solid;
+  }
+
+  .icon {
+    color: grey;
+  }
+
+  .footer {
+    background-color: #000;
+    font-size: 0.9vw;
+  }
+
+  #head {
+    font-size: 2vw;
+    margin: 30px 0px 30px 0px;
+  }
+
+  #category,
+  .category {
+    cursor: pointer;
+    font-size: 1vw;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  #name {
+    font-size: 1vw;
+  }
+
+  .btn-gold {
+    font-size: 1.2vw;
+    background-color: #907137;
+    color: #f1f2f3;
+  }
+
+  .foot,
+  #foot {
+    text-align: center;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  #foot2 {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .poster{
+          width: 202px;
+          overflow: hidden;
+          margin-bottom: 7px;
+          height: 295px;
+          display: inline-block;
+    }
+
+    .cov{
+        width: 225px;
+        margin-right: 0px;
+        overflow: hidden; 
+        margin-bottom: 10px;
+      }
+      .poster:hover{
+        transition: transform .3s ease-out;
+        transform: scale(1.03);
+        filter: contrast(1.08);
+      }
+
+  .mll {
+    margin-left: 20px;
+  }
+
+  a:hover {
+    border-bottom: none;
+    text-decoration: none;
+
+  }
+
+  .button-clicked{
+      content: '';
+      position: relative;
+      top: 6px;
+      left: 50%;
+      display: block;
+      width: 100%;
+      height: 3px;
+      transform: translateX(-50%);
+      background-color: #907137;
+    }
+  .button-clicked1{
+      border-bottom: 3px solid #000;
+    }
+  .button-clicked2{
+      text-align: center;
+      content:"";
+      display:block;
+      width: fit-content;
+      max-width:100%;
+      border-bottom: 3px solid #907137;
+    }
+  .input-group-text:focus-within {
+    border: #907137 solid 1px;
+  }
+
+  .nav-item {
+    cursor: pointer;
+  }
+
+  .menu {
+    white-space: nowrap;
+    overflow: auto;
+  }
+
+  @media screen and (max-width:2400px) {
+    .cov {
+      width: 228px;
+      margin-right: 0px;
+    }
+  }
+
+  @media screen and (max-width:1200px) {
+    .cov {
+      width: 240px;
+      margin: 0px;
+    }
+  }
+
+  @media screen and (max-width:769px) {
+    .mov {
+      justify-content: space-around;
+      display: flex;
+    }
+
+    .cov {
+      margin: 0px;
+    }
+  }

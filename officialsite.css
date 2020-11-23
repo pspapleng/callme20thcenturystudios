@@ -1,0 +1,287 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 1vw;
+  background-color: #f1f2f3;
+}
+#home,
+#movies {
+  color: #fff;
+}
+#home:hover,
+#category:hover,
+.icon:hover {
+  color: #907137;
+}
+#s1,
+#s2 {
+  background: #1d1e1f;
+}
+
+#s2 {
+  border: transparent;
+}
+.input-group-text {
+  border: grey 1px solid;
+}
+.icon {
+  color: grey;
+}
+.footer {
+  background-color: #000;
+  font-size: 0.9vw;
+}
+#head {
+  font-size: 2vw;
+  margin: 30px 0px 30px 0px;
+}
+#category,
+.category {
+  cursor: pointer;
+  font-size: 1vw;
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+.btn-gold {
+  font-size: 1.2vw;
+  background-color: #907137;
+  color: #f1f2f3;
+}
+.foot,
+#foot {
+  text-align: center;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#foot2 {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+}
+.cov {
+  overflow: hidden;
+}
+.mll {
+  margin-left: 20px;
+}
+a:hover {
+  border-bottom: none;
+  text-decoration: none;
+}
+.button-clicked {
+  content: "";
+  position: relative;
+  top: 6px;
+  left: 50%;
+  display: block;
+  width: 100%;
+  height: 3px;
+  transform: translateX(-50%);
+  background-color: #907137;
+}
+.button-clicked1 {
+  border-bottom: 3px solid #000;
+}
+.input-group-text:focus-within {
+  border: #907137 solid 1px;
+}
+.nav-item {
+  cursor: pointer;
+}
+
+/* cover part */
+.status {
+  color: white;
+}
+#ticket-bt,
+#shop-bt,
+#watch-bt {
+  display: inline;
+  width: 230px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 700;
+  color: black;
+  background-color: white;
+  border: 3px solid white;
+}
+
+.img-cover {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+  object-position: 50% 10%;
+  overflow: hidden;
+}
+
+.modal-content {
+  background-color: black;
+  border-color: whitesmoke;
+  border-radius: 0%;
+  color: white;
+}
+.close {
+  color: whitesmoke;
+  font-size: 40px;
+  font-weight: 100;
+  opacity: 0.1;
+}
+:hover .close {
+  color: whitesmoke;
+  opacity: 0.5;
+}
+#in-modal {
+  align-items: center;
+}
+.line {
+  border: 2px solid #907137;
+  width: 50px;
+}
+#retailer {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(37, 37, 37);
+  border: transparent;
+}
+.icon {
+  height: 100%;
+  width: 80%;
+  opacity: 0.4;
+  filter: saturate(0) invert(1) brightness(100%);
+  -webkit-filter: saturate(0) invert(1) brightness(100%);
+}
+#watch-modal-content {
+  background-color: transparent;
+  border: transparent;
+}
+/* end cover part */
+
+.text_style {
+  margin-left: 5%;
+}
+.slide-offsite {
+  margin-left: -2%;
+  margin-top: 3%;
+  width: 100%;
+}
+
+.buttcontent {
+  margin-left: 2%;
+}
+/*VIDEO SLIDE PART*/
+
+.carousel .item {
+  color: #f0f0f0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.carousel .item .img-box {
+  height: 370px;
+  width: 520px;
+  position: relative;
+  display: flex;
+  align-items: left;
+}
+
+.carousel .item img {
+  max-width: 90%;
+  max-height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: left;
+  margin-left: 6%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  height: 54px;
+  width: 50px;
+  background: #f0f0f0;
+  margin-right: -2%;
+  margin-left: 0%;
+  border-radius: 100%;
+  margin-top: 7%;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background: #f0f0f0;
+}
+.carousel-control-prev i,
+.carousel-control-next i {
+  font-size: 36px;
+  position: absolute;
+  display: inline-block;
+  margin: -19 0 0 0;
+  left: 0;
+  right: 0;
+  color: rgb(32, 32, 32);
+  text-shadow: none;
+  font-weight: bold;
+}
+
+/*IMAGE SLIDE PART*/
+
+.d-block {
+  margin-left: 2%;
+  margin-bottom: 5%;
+}
+
+.titlestyle {
+  color: black;
+  display: flex;
+  align-items: right;
+  text-align: left;
+  margin-left: 5%;
+  margin-top: -28%;
+}
+.titlestyle-recom {
+  color: black;
+  display: flex;
+  align-items: right;
+  text-align: left;
+  margin-left: 6%;
+  margin-top: -2%;
+  font-size: 18px;
+}
+
+.numslide {
+  text-align: right;
+  margin-top: -4%;
+  margin-bottom: 3%;
+}
+
+/*VIDEP POPUP PART*/
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.modal-body {
+  position: relative;
+  padding: 0px;
+}
+
+.close {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  z-index: 999;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+  opacity: 1;
+}
+
+/*RECOMMENDED*/
