@@ -6019,5 +6019,40 @@
       "haveGetTicket": false,
       "haveShop": true,
       "haveWatchTrailer": true
+    },
+    {
+      "image_cover_url": "https://lumiere-a.akamaihd.net/v1/images/pp_20cs_thepersonallifeofdavidcopperfield_20514_cdb0edea.jpeg?region=0,0,2048,878&width=960",
+      "title_logo_url": "https://lumiere-a.akamaihd.net/v1/images/pp_20cs_theprivatelifeofdavidcopperfield_logo_20514_5db711ca.png?region=0,0,400,226",
+      "title": "THE PERSONAL HISTORY OF DAVID COPPERFIELD",
+      "status": "NOW ON DIGITAL",
+      "trailer_url": "https://www.youtube.com/watch?v=Al4jy78GiQQ",
+      "rate": "PG",
+      "year": "2020",
+      "poster_url":"https://lumiere-a.akamaihd.net/v1/images/p_20cs_thepersonallifeofdavidcopperfield_20514_9d46ca99.jpeg",
+      "runtime": "",
+      "feat":"featured",
+      "tag": ["Comedy", "Drama","Romance"],
+      "description": "Dev Patel leads an ensemble cast of talented stage and screen actors from across the world in this lavish, tongue-in-cheek reimagining from Searchlight Pictures of Charles Dickens’ classic story. After suffering through his earlier life as an impoverished orphan, things take an intriguing turn for David Copperfield (Patel) when he meets up with his outrageous, well-to-do aunt Betsey Trotwood (Tilda Swinton). Following a new trajectory, Copperfield embraces danger, treachery, romance, and ultimately the chance to shine as a writer in Victorian England.",
+      "twitter_url": "",
+      "facebook_url": "",
+      "instagram_url": "",
+      "directed_by": "Armando Iannucci",
+      "written_by": "Armando Iannucci, Simon Blackwell",
+      "produced_by": "Kim Todd",
+      "cast": "Dev Patel, Tilda Swinton, Aneurin Barnard, Peter Capaldi, Morfydd Clark, Daisy May Cooper, Rosalind Eleazar, Hugh Laurie, Ben Whishaw, Paul Whitehouse",
+      "movie_class_logo_url": [
+        "https://lumiere-a.akamaihd.net/v1/images/l_pg_h44px_6af6f2d8.png?region=0%2C0%2C78%2C44"
+      ],
+      "text_without_url": ["motionpictures.org", "filmratings.com"],
+      "video": [],
+      "slideshow_image_url": ["https://lumiere-a.akamaihd.net/v1/images/g_20cs_tphofdavidcopperfield_1_20514_1416820f.jpeg?region=1%2C0%2C1298%2C730",
+          "https://lumiere-a.akamaihd.net/v1/images/g_20cs_tphofdavidcopperfield_2_20514_c4e37c5a.jpeg?region=1%2C0%2C1298%2C730",
+          "https://lumiere-a.akamaihd.net/v1/images/g_20cs_tphofdavidcopperfield_3_20514_197c8bc5.jpeg?region=1%2C0%2C1298%2C730",
+          "https://lumiere-a.akamaihd.net/v1/images/g_20cs_tphofdavidcopperfield_4_20514_2561c4f0.jpeg?region=1%2C0%2C1298%2C730",
+          "https://lumiere-a.akamaihd.net/v1/images/g_20cs_tphofdavidcopperfield_5_20514_90c37a30.jpeg?region=1%2C0%2C1298%2C730",
+          "https://lumiere-a.akamaihd.net/v1/images/g_20cs_tphofdavidcopperfield_6_20514_c4dfba79.jpeg?region=1%2C0%2C1298%2C730"],
+      "haveGetTicket": false,
+      "haveShop": true,
+      "haveWatchTrailer": true
     }
   ]
