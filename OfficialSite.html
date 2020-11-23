@@ -151,6 +151,7 @@
   <div class="slide-offsite">
     <div id="vdoslide"></div>
     <div id="imageslide"></div>
+    
  </div></div>
 
     <div id="recommend" style="width:1500px; margin-bottom: 5%; margin-left: 6%;">
@@ -181,7 +182,6 @@
 
     </div>
   
-<!--POPUP-->
     
 
     <script>
@@ -196,7 +196,7 @@
         
         function dataReportStatus(data) { 
 
-            var movie = data[7]; //CHANGE MOVIE HERE!!!
+            var movie = data[4]; //CHANGE MOVIE HERE!!!
 
 
             let text = "";
@@ -378,11 +378,11 @@
                                 for(var vdo=0; vdo<3; vdo++){
                                 vdoSelect += '<div class="col-md-4">';
 								    vdoSelect += '<div class="img-box">';
-									    vdoSelect += '<img src="'+ movie.video[vdo].video_image +'">';	
+									        vdoSelect += '<img src="'+ movie.video[vdo].video_image +'">';	
 								vdoSelect += '</div>';	
                                 vdoSelect += '<div class="card-body">'
                                     vdoSelect += '<h5 class="titlestyle"><b>'+ movie.video[vdo].title +'</b></h5>';
-                                vdoSelect += '</div></div>';						
+                                vdoSelect += '</div></div>';				
 
                                 }
                                 vdoSelect += '</div></div>';
@@ -400,14 +400,14 @@
                                         vdoSelect += '<div class="col-md-4">';
 
                                             vdoSelect += '<div class="img-box">';
-                                                vdoSelect += '<img src="'+ movie.video[vdo].video_image +'" >';
+                                                vdoSelect += '<img src="'+ movie.video[vdo].video_image +'">';
     
                                             vdoSelect += '</div>';
                                             vdoSelect += '<div class="card-body">';
                                                 vdoSelect += '<h5 class="titlestyle"><b>'+ movie.video[vdo].title +'</b></h5>';							
                                             vdoSelect += '</div></div>';	
                                         vdo++;
-
+                                    
                                         if(counter == 3){
                                             break;
                                         }
