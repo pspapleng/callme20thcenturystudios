@@ -70,16 +70,13 @@ body {
 
   .foot,
   #foot {
-    margin-top: 30px;
-    margin-right: 50px;
+    text-align: center;
     color: white;
     display: inline-block;
     text-decoration: none;
   }
 
   #foot2 {
-    margin-bottom: 40px;
-    margin-right: 40px;
     color: white;
     display: inline-block;
     text-decoration: none;
