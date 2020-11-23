@@ -86,11 +86,19 @@
         text-decoration: none;
       }
       .button-clicked{
-        border-bottom: 3px solid #907137;
-      }
-      .button-clicked1{
-        border-bottom: 3px solid #000;
-      }
+          content: '';
+          position: relative;
+          top: 6px;
+          left: 50%;
+          display: block;
+          width: 100%;
+          height: 3px;
+          transform: translateX(-50%);
+          background-color: #907137;
+        }
+        .button-clicked1{
+          border-bottom: 3px solid #000;
+        }
       .input-group-text:focus-within{
         border: #907137 solid 1px;
       }
@@ -108,11 +116,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto" >
-          <li class="nav-item navhome" onclick="window.location.href='index.html'">
-            <a id="home"class="nav-link navf"><span>Home</span></a>
+          <li class="nav-item" onclick="window.location.href='index.html'">
+            <a id="home"class="nav-link navf"><span>Home<span class="navhome"></span></a>
           </li>
-          <li class="nav-item navmov" onclick="window.location.href='movie.html'">
-            <a id="home"class="nav-link navf pl-3"><span>Movies</span></a>
+          <li class="nav-item " onclick="window.location.href='movie.html'">
+            <a id="home"class="nav-link navf  pl-3"><span >Movies<span class="navmov"></span></a>
           </li>
         </ul>
         <div class="input-group search-field col-3 d-flex ml-auto pt-1">
