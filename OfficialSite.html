@@ -27,7 +27,7 @@
 
 <body>
     <!----------------------------Navigator-------------------->
-    <nav class="navbar navbar-expand-md sticky-top" style="background-color: #000000;">
+    <nav class="navbar navbar-expand sticky-top" style="background-color: #000000;">
         <a class="mll mt-1 mb-1" href="index.html">
             <img src="logo_20.svg" style="width: 65%;" />
         </a>
@@ -403,7 +403,7 @@
 
                 // random movie from same tag
                 let filtered = data.filter(e => e.tag.some(r => movie.tag.indexOf(r) >= 0))
-                // filtered = filtered.filter(e => e.title.toLowerCase() !== movie.title.toLowerCase())
+                filtered = filtered.filter(e => e.title.toLowerCase() !== movie.title.toLowerCase())
                 let randomRecoms = []
                 let maxRecomLength = filtered.length >= 15 ? 15 : filtered.length
                 for (let index = 0; index < maxRecomLength; index++) {
@@ -414,7 +414,7 @@
 
                 let recSelect = "";
                 recSelect += '<h3><b>RECOMMENDED MOVIES</b></h3>';
-                recSelect += '<div id="Rec_recipeCarousel" class="carousel slide w-100 pt-2 pb-5" data-interval="false" data-ride="carousel">';
+                recSelect += '<div id="Rec_recipeCarousel" class="carousel slide w-100 pt-2 pb-5" data-interval="2000" data-ride="carousel">';
                 recSelect += '<div class="carousel-inner w-100 d-block" role="listbox">'
 
                 recSelect += '<div class="carousel-item row no-gutters active justify-content-around">'
