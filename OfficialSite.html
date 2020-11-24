@@ -134,7 +134,7 @@
                                     </button>
                                 </div>
                             </div>
-                            <div class="text-center pb-4 pt-1">
+                            <div class="text-center pb-4 pt-1 h6 font-weight-normal">
                                 The links above will take you directly to the retailer site to
                                 purchase.
                             </div>
@@ -402,6 +402,7 @@
 
                 // random movie from same tag
                 let filtered = data.filter(e => e.tag.some(r => movie.tag.indexOf(r) >= 0))
+                filtered = filtered.filter(e => e.title.toLowerCase() !== movie.title.toLowerCase())
                 let randomRecoms = []
                 let maxRecomLength = filtered.length >= 15 ? 15 : filtered.length
                 for (let index = 0; index < maxRecomLength; index++) {
