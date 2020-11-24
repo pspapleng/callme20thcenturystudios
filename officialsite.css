@@ -293,7 +293,7 @@ a:hover {
     margin: 0px;
   }
   .rec_pos {
-    height: 250px;
+    height: 280px;
   }
 }
 
@@ -303,10 +303,10 @@ a:hover {
     margin: 0px;
   }
   .rec_pos {
-    height: 210px;
+    height: 270px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 976px) {
   .reccol {
     width: 195px;
     margin: 0px;
