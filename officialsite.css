@@ -254,12 +254,17 @@ a:hover {
 .reccol{
   display: table-cell;
   width: 225px;
-  margin-right: 10px;
+  padding-right: 20px;
   overflow: hidden; 
   margin-bottom: 10px;
 }
+.rec_pos:hover{
+  transition: transform .3s ease-out;
+  transform: scale(1.03);
+  filter: contrast(1.08);
+}
+
 .rec_pos{
-  margin-right: 10px;
   width: 215px;
   overflow: hidden;
   margin-bottom: 7px;
@@ -269,7 +274,6 @@ a:hover {
 @media screen and (max-width:2400px) {
   .reccol {
     width: 215px;
-    margin-right: 10px;
   }
 }
 

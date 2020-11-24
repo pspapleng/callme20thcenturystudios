@@ -419,8 +419,8 @@
                 let length = randomRecoms.length >= 5 ? 5 : randomRecoms.length;
                 //first page video
                 for (var num_rec = 0; num_rec < length; num_rec++) {
-                    recSelect += '<div class="reccol p-0"><a href="OfficialSite.html?movie=' + randomRecoms[num_rec].title.replace(/'/g, '%27') + '">';
-                    recSelect += '<img class="img-fluid p-2 rec_pos" src="' + randomRecoms[num_rec].poster_url + '"></a>';
+                    recSelect += '<div class="reccol "><a href="OfficialSite.html?movie=' + randomRecoms[num_rec].title.replace(/'/g, '%27') + '">';
+                    recSelect += '<img class="img-fluid rec_pos" src="' + randomRecoms[num_rec].poster_url + '"></a>';
                     recSelect += '<h6 class="title-movie pt-1"><b>' + randomRecoms[num_rec].title + '</b></h6>';
                     recSelect += '</div>';
                 }
@@ -434,8 +434,8 @@
                     recSelect += '<div class="carousel-item row no-gutters justify-content-around">'
                     var counter = 1;
                     while (numR != randomRecoms.length) {
-                        recSelect += '<div class="reccol p-0"><a href="OfficialSite.html?movie=' + randomRecoms[num_rec].title.replace(/'/g, '%27') + '">';
-                        recSelect += '<img class="img-fluid p-2 rec_pos" src="' + randomRecoms[numR].poster_url + '"></a>';
+                        recSelect += '<div class="reccol "><a href="OfficialSite.html?movie=' + randomRecoms[num_rec].title.replace(/'/g, '%27') + '">';
+                        recSelect += '<img class="img-fluid rec_pos" src="' + randomRecoms[numR].poster_url + '"></a>';
                         recSelect += '<h6 class="title-movie pt-1"><b>' + randomRecoms[numR].title + '</b></h6>';
                         recSelect += '</div>';
                         numR++;
