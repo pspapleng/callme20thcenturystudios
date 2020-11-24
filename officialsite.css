@@ -113,11 +113,25 @@ a:hover {
   color: black;
   background-color: white;
   border: 3px solid white;
+  box-shadow: none;
+}
+#ticket-bt:hover,
+#shop-bt:hover,
+#watch-bt:hover {
+  display: inline;
+  width: 230px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 700;
+  color: black;
+  background-color: #907137;
+  border: 3px solid #907137;
+  box-shadow: none;
 }
 
 .img-cover {
   width: 100%;
-  height: 90vh;
+  height: 85vh;
   object-fit: cover;
   object-position: 50% 10%;
   overflow: hidden;
@@ -159,67 +173,38 @@ a:hover {
   filter: saturate(0) invert(1) brightness(100%);
   -webkit-filter: saturate(0) invert(1) brightness(100%);
 }
-#watch-modal-content {
+#watch-modal-content,
+#video-modal-content {
   background-color: transparent;
   border: transparent;
 }
 /* end cover part */
 
-.text_style {
-  margin-left: 5%;
-}
-.slide-offsite {
-  margin-left: -2%;
-  margin-top: 3%;
+/* des part */
+.row {
   width: 100%;
 }
+.des-text {
+  font-weight: normal;
+  font-size: 2.5vh;
+}
+/* end des part */
 
-.buttcontent {
-  margin-left: 2%;
+/* vdo part */
+#ofc-video .carousel-control-prev,
+#ofc-video .carousel-control-next {
+  height: 7%;
+  width: 4%;
+  margin-right: 1%;
+  margin-left: -0.5%;
+  margin-top: 9%;
 }
-/*VIDEO SLIDE PART*/
-
-.carousel .item {
-  color: #f0f0f0;
-  text-align: center;
-  overflow: hidden;
+#ofc-video .carousel-control-prev:hover,
+#ofc-video .carousel-control-next:hover {
+  background-color: transparent;
 }
-
-.carousel .item .img-box {
-  height: 370px;
-  width: 520px;
-  position: relative;
-  display: flex;
-  align-items: left;
-}
-
-.carousel .item img {
-  max-width: 90%;
-  max-height: 100%;
-  position: absolute;
-  left: 0;
-  right: 0;
-  display: flex;
-  align-items: left;
-  margin-left: 6%;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-  height: 54px;
-  width: 50px;
-  background: #f0f0f0;
-  margin-right: -2%;
-  margin-left: 0%;
-  border-radius: 100%;
-  margin-top: 7%;
-}
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-  background: #f0f0f0;
-}
-.carousel-control-prev i,
-.carousel-control-next i {
+#ofc-video .carousel-control-prev i,
+#ofc-video .carousel-control-next i {
   font-size: 36px;
   position: absolute;
   display: inline-block;
@@ -227,61 +212,43 @@ a:hover {
   left: 0;
   right: 0;
   color: rgb(32, 32, 32);
-  text-shadow: none;
+  text-shadow: black;
   font-weight: bold;
 }
+/* end vdo part */
 
 /*IMAGE SLIDE PART*/
-
 .d-block {
   margin-left: 2%;
   margin-bottom: 5%;
 }
-
-.titlestyle {
-  color: black;
-  display: flex;
-  align-items: right;
-  text-align: left;
-  margin-left: 5%;
-  margin-top: -28%;
-}
-.titlestyle-recom {
-  color: black;
-  display: flex;
-  align-items: right;
-  text-align: left;
-  margin-left: 6%;
-  margin-top: -2%;
-  font-size: 18px;
-}
-
 .numslide {
   text-align: right;
   margin-top: -4%;
   margin-bottom: 3%;
 }
-
-/*VIDEP POPUP PART*/
-.modal-dialog {
-  max-width: 800px;
-  margin: 30px auto;
+#ofc-image .carousel-control-prev,
+#ofc-image .carousel-control-next {
+  height: 7%;
+  width: 4%;
+  margin-right: 0%;
+  margin-left: 2%;
+  margin-top: 27%;
 }
-
-.modal-body {
-  position: relative;
-  padding: 0px;
+#ofc-image .carousel-control-prev:hover,
+#ofc-image .carousel-control-next:hover {
+  background-color: transparent;
 }
-
-.close {
+#ofc-image .carousel-control-prev i,
+#ofc-image .carousel-control-next i {
+  font-size: 36px;
   position: absolute;
-  right: -30px;
-  top: 0;
-  z-index: 999;
-  font-size: 2rem;
-  font-weight: normal;
-  color: #fff;
-  opacity: 1;
+  display: inline-block;
+  margin: -19 0 0 0;
+  left: 0;
+  right: 0;
+  color: rgb(32, 32, 32);
+  text-shadow: black;
+  font-weight: bold;
 }
-
-/*RECOMMENDED*/
+/* end IMAGE SLIDE PART*/

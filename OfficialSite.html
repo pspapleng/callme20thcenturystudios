@@ -66,7 +66,6 @@
         <div class="carousel-inner">
             <div class="carousel-item active" id="cover"></div>
         </div>
-        <div class="row" id="info"></div>
 
         <!--Shop Modal -->
         <div class="modal fade" id="shop-modal" tabindex="-1" role="dialog" aria-labelledby="shop-modalTitle"
@@ -74,7 +73,7 @@
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content pr-5 pl-5">
                     <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <button type="button" class="close pt-2" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                         <div class="text-center">
@@ -161,48 +160,46 @@
         </div>
 
         <div class="container">
-            <div class="row" id="info"></div>
-            <div class="slide-offsite">
-                <div id="vdoslide"></div>
-                <div id="imageslide"></div>
+            <div class="row pt-5 pb-5" id="info"></div>
 
-            </div>
-        </div>
+            <!-- video slide part -->
+            <div class="row pt-2 pb-5" id="ofc-video"></div>
 
-        <div id="recommend" style="width:1500px; margin-bottom: 5%; margin-left: 6%;">
-
-            <div class=buttcontent></br>
-                <h2><b>RECOMMENDED MOVIES</b></h2></br>
-            </div>
-
-            <div class="container" style="margin-left: -6%;">
-                <div id="recipeCarousel" class="carousel slide" data-ride="carousel" style="width: 1500px;">
-                    <div class="carousel-inner" style="margin-left:5%;">
-                        <div class="carousel-item row no-gutters active" id="col-recom1" style="width: 1500px;"></div>
-                        <div class="carousel-item row no-gutters" id="col-recom2" style="width: 1500px;"></div>
-
+            <!--Video slide Modal -->
+            <div class="modal fade" id="video-modal" tabindex="-1" role="dialog" aria-labelledby="video-modalTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content mb-0 p-0" id="video-modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <div class="embed-responsive embed-responsive-16by9" id="invideo-modal"></div>
+                        </div>
                     </div>
-
-                    <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev"
-                        style="margin-top: 12%; margin-left: 4%;">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                    <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next"
-                        style="margin-top: 12%; margin-right: -3%;">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-
-
                 </div>
             </div>
 
+            <!-- image slide part -->
+            <div class="row" id="ofc-image"></div>
+
+            <!-- recommended part -->
+            <div class="row" id="ofc-recom"></div>
         </div>
-
-
 
         <script>
             let requestURL = '20cenData.json';
             let request = new XMLHttpRequest();
+
+            let CurrentVideo = ""
+            function onClickVideo(payload) {
+                CurrentVideo = payload
+                let vdo_modal = "";
+                vdo_modal += '<iframe class="embed-responsive-item" src="' + payload + '" allowfullscreen></iframe>';
+                document.querySelector("#invideo-modal").innerHTML += vdo_modal;
+                console.log(JSON.stringify(payload));
+            }
+
             request.onreadystatechange = function () {
                 if (request.readyState == 4 && request.status == 200) {
                     dataReportStatus(JSON.parse(request.responseText));
@@ -214,6 +211,7 @@
             function dataReportStatus(data) {
 
                 //CHANGE MOVIE HERE!!!
+
                 // get query string from url
                 const urlParams = new URLSearchParams(window.location.search);
                 const movieName = urlParams.get('movie');
@@ -236,15 +234,15 @@
 
                 if (movie.haveGetTicket == true) {
                     cov +=
-                        '<button type="button" id="ticket-bt" class="btn btn-primary btn-lg mt-2 mr-3 ml-4" >GET TICKETS</button>';
+                        '<button type="button" id="ticket-bt" class="btn btn-primary btn-lg mt-2 mr-3 ml-4 col-12 col-sm-12 col-md-6" >GET TICKETS</button>';
                 }
                 if (movie.haveShop == true) {
                     cov +=
-                        '<button type="button" id="shop-bt" class="btn btn-primary btn-lg mt-2 mr-3 ml-4" data-toggle="modal" data-target="#shop-modal">SHOP NOW</button>';
+                        '<button type="button" id="shop-bt" class="btn btn-primary btn-lg mt-2 mr-3 ml-4 col-12 col-sm-12 col-md-6" data-toggle="modal" data-target="#shop-modal">SHOP NOW</button>';
                 }
                 if (movie.haveWatchTrailer == true) {
                     cov +=
-                        '<button type="button" id="watch-bt" class="btn btn-primary btn-lg mt-2 mr-3 ml-4" data-toggle="modal" data-target="#watch-modal"><svg width="1em" height="1em" viewBox="0 0 20 20" class="bi bi-caret-right-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"> <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/></svg>WATCH TRAILER</button>';
+                        '<button type="button" id="watch-bt" class="btn btn-primary btn-lg mt-2 mr-3 ml-4 col-12 col-sm-12 col-md-6" data-toggle="modal" data-target="#watch-modal"><svg width="1em" height="1em" viewBox="0 0 20 20" class="bi bi-caret-right-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"> <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/></svg>WATCH TRAILER</button>';
                 }
                 cov += "</div></div>";
 
@@ -265,27 +263,23 @@
                     movie.trailer_url +
                     '" allowfullscreen></iframe>';
 
-                console.log("url: " + movie.trailer_url);
                 document.querySelector("#inwatch-modal").innerHTML += watchmodal;
 
-                // description part
-
+                // poster + description part
                 let text = "";
-                text += '<div class="col-5">';
+                text += '<div class="col-12 col-sm-5 col-md-5 col-lg-5 pb-4">';
                 text += '<img  src="' + movie.poster_url + '" width="100%">';
                 text += '</div>';
-                text += '<div class="col-7">';
-                text += '<div class="text_style">'
-
+                text += '<div class="col-12 col-sm-7 col-md-7 col-lg-7 pl-4">';
+                text += '<div class="des-text">'
                 text += '<h2><b>' + movie.title + '</b></h2>';
-                text += '<p>' + movie.rate + '<b> . </b>' + movie.year + '<b> . </b>';
+                text += '<p>' + movie.rate + ' • ' + movie.year + ' • ';
                 for (var tp = 0; tp < (movie.tag.length - 1); tp++) {
                     text += movie.tag[tp] + ', ';
                 }
                 text += movie.tag[movie.tag.length - 1];
                 text += '</p>';
                 text += '<p>' + movie.description + '</p>';
-
                 if (movie.twitter_url != null) {
                     text += '<a href="' + movie.twitter_url + '">'
                     text += '<img src="twitter-icon.png" width="4%" style="margin-right:30px;">'
@@ -313,360 +307,153 @@
                     text += '<h5><b>' + 'PRODUCED BY' + '</b></h5>';
                     text += '<p>' + movie.produced_by + '</p></br>';
                 }
-
                 if (movie.cast != null) {
                     text += '<h5><b>' + 'CAST' + '</b></h5>';
                     text += '<p>' + movie.cast + '</p></br>';
                 }
-
                 for (var logo = 0; logo < movie.movie_class_logo_url.length; logo++) {
                     text += '<img src="' + movie.movie_class_logo_url[logo] + '" width="95px" style="margin-right:35px; margin-bottom:10px;">';
                 }
                 text += '</br></br>';
-
                 for (var twu = 0; twu < movie.text_without_url.length; twu++) {
                     text += movie.text_without_url[twu] + '&nbsp &nbsp &nbsp';
                 }
-
                 text += '</div></div>';
 
                 document.querySelector("#info").innerHTML += text;
 
                 /*VIDEO PART*/
                 if (movie.video.length != 0) {
+
                     let vdoSelect = "";
 
-                    vdoSelect += '<div class= buttcontent></br>';
-                    vdoSelect += '<h2><b>VIDEOS</b></h2></br>';
+                    console.log("Current ", CurrentVideo);
+                    vdoSelect += '<h3><b>VIDEOS</b></h3>';
+                    vdoSelect += '<div id="recipeCarousel" class="carousel slide w-100 pt-2 " data-interval="false" data-ride="carousel">';
+                    vdoSelect += '<div class="carousel-inner w-100 " role="listbox">'
+
+                    vdoSelect += '<div class="carousel-item row no-gutters active justify-content-between">'
+                    let length = movie.video.length >= 3 ? 3 : movie.video.length;
+                    //first page video
+                    for (var vdo = 0; vdo < length; vdo++) {
+                        vdoSelect += '<div class="col-12 col-sm-4 col-md-4 col-lg-4 pr-3 float-left text-left" onClick="onClickVideo(\'' + movie.video[vdo].video_url + '\')" >';
+                        vdoSelect += '<img class="img-fluid" src="' + movie.video[vdo].video_image + '" data-toggle="modal" data-target="#video-modal" >';
+                        vdoSelect += '<h6 class="title-vdo pt-1"><b>' + movie.video[vdo].title + '</b></h6>';
+                        vdoSelect += '</div>';
+                    }
                     vdoSelect += '</div>';
 
-                    vdoSelect += '<div class="container-xl-12">';
-                    vdoSelect += '<div class="row">';
-                    vdoSelect += '<div class="col-md-12">';
-                    vdoSelect += '<div id="myCarousel" style="margin: 0" class="carousel slide" data-ride="carousel" data-interval="0">';
-
-                    //Wrapper for carousel items
-                    //first page video
-                    vdoSelect += '<div class="carousel-inner">';
-                    vdoSelect += '<div class="item carousel-item active">';
-                    vdoSelect += '<div class="row">';
-                    // how to fix
-                    let length = movie.video.length >= 3 ? 3 : movie.video.length;
-                    for (var vdo = 0; vdo < length; vdo++) {
-                        vdoSelect += '<div class="col-md-4">';
-                        vdoSelect += '<div class="img-box">';
-                        vdoSelect += '<img src="' + movie.video[vdo].video_image + '">';
-                        //vdoSelect += '<img src="'+ movie.video[vdo].video_image +'" type="button" class=" video-btn" data-toggle="modal" data-src="' + movie.video[vdo].video_url +'" data-target="#myModal">';	
-                        vdoSelect += '</div>';
-                        vdoSelect += '<div class="card-body">'
-                        vdoSelect += '<h5 class="titlestyle p-3 pl-0 ml-0"><b>' + movie.video[vdo].title + '</b></h5>';
-                        vdoSelect += '</div></div>';
-
-                    }
-                    vdoSelect += '</div></div>';
-                    //console.log(movie.video[vdo].video_url)
                     //next page video
-
                     var loopvalue = Math.ceil((movie.video.length) / 3);
                     var vdo = 3;
 
                     for (var vdo2 = 1; vdo2 < loopvalue; vdo2++) {
+                        vdoSelect += '<div class="carousel-item row no-gutters justify-content-between">'
                         var counter = 1;
-                        vdoSelect += '<div class="item carousel-item">';
-                        vdoSelect += '<div class="row">';
-
                         while (vdo != movie.video.length) {
-                            vdoSelect += '<div class="col-md-4">';
-
-                            vdoSelect += '<div class="img-box">';
-                            vdoSelect += '<img src="' + movie.video[vdo].video_image + '" type="button" class="video-btn" data-toggle="modal" data-src="' + movie.video[vdo].video_url + '" data-target="#myModal" >';
+                            vdoSelect += '<div class="col-12 col-sm-4 col-md-4 col-lg-4 pr-3 float-left text-left" data-toggle="modal" data-target="#video-modal"onClick="onClickVideo(\'' + movie.video[vdo].video_url + '\')" >';
+                            vdoSelect += '<img class="img-fluid" src="' + movie.video[vdo].video_image + '" >';
+                            vdoSelect += '<h6 class="title-vdo pt-1"><b>' + movie.video[vdo].title + '</b></h6>';
                             vdoSelect += '</div>';
-                            vdoSelect += '<div class="card-body">';
-                            vdoSelect += '<h5 class="titlestyle"><b>' + movie.video[vdo].title + '</b></h5>';
-                            vdoSelect += '</div></div>';
                             vdo++;
-
                             if (counter == 3) {
                                 break;
                             }
                             counter++;
-
                         }
-
-                        vdoSelect += '</div></div>';
+                        vdoSelect += '</div>';
                     }
+                    vdoSelect += '<a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a>';
+                    vdoSelect += '<a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a>';
 
-                    vdoSelect += '</div>';
+                    vdoSelect += '</div ></div >';
+                    document.querySelector("#ofc-video").innerHTML += vdoSelect;
 
-                    vdoSelect += '<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">';
-                    vdoSelect += '<i class="fa fa-angle-left"></i>';
-                    vdoSelect += '</a>';
-                    vdoSelect += '<a class="carousel-control-next" href="#myCarousel" data-slide="next">';
-                    vdoSelect += '<i class="fa fa-angle-right"></i>';
-                    vdoSelect += '</a>';
-
-                    document.querySelector("#vdoslide").innerHTML += vdoSelect;
                 }
 
-
-                // if (movie.video.length == 1) {
-                //     let vdoSelect = "";
-
-                //     vdoSelect += '<div class= buttcontent></br>';
-                //     vdoSelect += '<h2><b>VIDEOS</b></h2></br>';
-                //     vdoSelect += '</div>';
-
-                //     vdoSelect += '<div class="container-xl-12">';
-                //     vdoSelect += '<div class="row">';
-                //     vdoSelect += '<div class="col-md-12">';
-                //     vdoSelect += '<div id="myCarousel" style="margin: 0" class="carousel slide" data-ride="carousel" data-interval="0">';
-                //     //Wrapper for carousel items
-                //     //first page video
-                //     vdoSelect += '<div class="carousel-inner">';
-                //     vdoSelect += '<div class="item carousel-item active">';
-                //     vdoSelect += '<div class="row">';
-                //     vdoSelect += '<div class="col-md-4">';
-                //     vdoSelect += '<div class="img-box">';
-                //     vdoSelect += '<img src="' + movie.video[vdo].video_image + '">';
-                //     vdoSelect += '</div>';
-                //     vdoSelect += '<div class="card-body">'
-                //     vdoSelect += '<h5 class="titlestyle"><b>' + movie.video[vdo].title + '</b></h5>';
-                //     vdoSelect += '</div></div>';
-                //     vdoSelect += '</div></div>';
-                //     vdoSelect += '</div>';
-
-                //     document.querySelector("#vdoslide").innerHTML += vdoSelect;
-                // }
-
-
-                // if (movie.video.length == 2) {
-                //     let vdoSelect = "";
-
-                //     vdoSelect += '<div class= buttcontent></br>';
-                //     vdoSelect += '<h2><b>VIDEOS</b></h2></br>';
-                //     vdoSelect += '</div>';
-
-                //     vdoSelect += '<div class="container-xl-12">';
-                //     vdoSelect += '<div class="row">';
-                //     vdoSelect += '<div class="col-md-12">';
-                //     vdoSelect += '<div id="myCarousel" style="margin: 0" class="carousel slide" data-ride="carousel" data-interval="0">';
-                //     //Wrapper for carousel items
-                //     //first page video
-                //     vdoSelect += '<div class="carousel-inner">';
-                //     vdoSelect += '<div class="item carousel-item active">';
-                //     vdoSelect += '<div class="row">';
-                //     let length = movie.video.length >= 3 ? 3 : movie.video.length;
-                //     for (var vdo = 0; vdo < length; vdo++) {
-                //         vdoSelect += '<div class="col-md-4">';
-                //         vdoSelect += '<div class="img-box">';
-                //         vdoSelect += '<img src="' + movie.video[vdo].video_image + '">';
-                //         vdoSelect += '</div>';
-                //         vdoSelect += '<div class="card-body">'
-                //         vdoSelect += '<h5 class="titlestyle"><b>' + movie.video[vdo].title + '</b></h5>';
-                //         vdoSelect += '</div></div>';
-
-                //     }
-                //     vdoSelect += '</div></div>';
-                //     vdoSelect += '</div>';
-
-                //     document.querySelector("#vdoslide").innerHTML += vdoSelect;
-                // }
-
-                // if (movie.video.length == 3) {
-                //     let vdoSelect = "";
-
-                //     vdoSelect += '<div class= buttcontent></br>';
-                //     vdoSelect += '<h2><b>VIDEOS</b></h2></br>';
-                //     vdoSelect += '</div>';
-
-                //     vdoSelect += '<div class="container-xl-12">';
-                //     vdoSelect += '<div class="row">';
-                //     vdoSelect += '<div class="col-md-12">';
-                //     vdoSelect += '<div id="myCarousel" style="margin: 0" class="carousel slide" data-ride="carousel" data-interval="0">';
-                //     //Wrapper for carousel items
-                //     //first page video
-                //     vdoSelect += '<div class="carousel-inner">';
-                //     vdoSelect += '<div class="item carousel-item active">';
-                //     vdoSelect += '<div class="row">';
-                //     let length = movie.video.length >= 3 ? 3 : movie.video.length;
-                //     for (var vdo = 0; vdo < length; vdo++) {
-                //         vdoSelect += '<div class="col-md-4">';
-                //         vdoSelect += '<div class="img-box">';
-                //         vdoSelect += '<img src="' + movie.video[vdo].video_image + '" >';
-                //         vdoSelect += '</div>';
-                //         vdoSelect += '<div class="card-body">'
-                //         vdoSelect += '<h5 class="titlestyle"><b>' + movie.video[vdo].title + '</b></h5>';
-                //         vdoSelect += '</div></div>';
-
-                //     }
-                //     vdoSelect += '</div></div>';
-                //     vdoSelect += '</div>';
-
-                //     document.querySelector("#vdoslide").innerHTML += vdoSelect;
-                // }
-
-                // if (movie.video.length > 3) {
-                //     let vdoSelect = "";
-
-                //     vdoSelect += '<div class= buttcontent></br>';
-                //     vdoSelect += '<h2><b>VIDEOS</b></h2></br>';
-                //     vdoSelect += '</div>';
-
-                //     vdoSelect += '<div class="container-xl-12">';
-                //     vdoSelect += '<div class="row">';
-                //     vdoSelect += '<div class="col-md-12">';
-                //     vdoSelect += '<div id="myCarousel" style="margin: 0" class="carousel slide" data-ride="carousel" data-interval="0">';
-
-                //     //Wrapper for carousel items
-                //     //first page video
-                //     vdoSelect += '<div class="carousel-inner">';
-                //     vdoSelect += '<div class="item carousel-item active">';
-                //     vdoSelect += '<div class="row">';
-                //     let length = movie.video.length >= 3 ? 3 : movie.video.length;
-                //     for (var vdo = 0; vdo < length; vdo++) {
-                //         vdoSelect += '<div class="col-md-4">';
-                //         vdoSelect += '<div class="img-box">';
-                //         vdoSelect += '<img src="' + movie.video[vdo].video_image + '">';
-                //         vdoSelect += '</div>';
-                //         vdoSelect += '<div class="card-body">'
-                //         vdoSelect += '<h5 class="titlestyle"><b>' + movie.video[vdo].title + '</b></h5>';
-                //         vdoSelect += '</div></div>';
-
-                //     }
-                //     vdoSelect += '</div></div>';
-                //     //next page video
-
-                //     var loopvalue = Math.ceil((movie.video.length) / 3);
-                //     var vdo = 3;
-
-                //     for (var vdo2 = 1; vdo2 < loopvalue; vdo2++) {
-                //         var counter = 1;
-                //         vdoSelect += '<div class="item carousel-item">';
-                //         vdoSelect += '<div class="row">';
-
-                //         while (vdo != movie.video.length) {
-                //             vdoSelect += '<div class="col-md-4">';
-
-                //             vdoSelect += '<div class="img-box">';
-                //             vdoSelect += '<img src="' + movie.video[vdo].video_image + '">';
-
-                //             vdoSelect += '</div>';
-                //             vdoSelect += '<div class="card-body">';
-                //             vdoSelect += '<h5 class="titlestyle"><b>' + movie.video[vdo].title + '</b></h5>';
-                //             vdoSelect += '</div></div>';
-                //             vdo++;
-
-                //             if (counter == 3) {
-                //                 break;
-                //             }
-                //             counter++;
-
-                //         }
-
-                //         vdoSelect += '</div></div>';
-                //     }
-                //     vdoSelect += '</div>';
-
-                //     vdoSelect += '<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">';
-                //     vdoSelect += '<i class="fa fa-angle-left"></i>';
-                //     vdoSelect += '</a>';
-                //     vdoSelect += '<a class="carousel-control-next" href="#myCarousel" data-slide="next">';
-                //     vdoSelect += '<i class="fa fa-angle-right"></i>';
-                //     vdoSelect += '</a>';
-
-                //     document.querySelector("#vdoslide").innerHTML += vdoSelect;
-                // }
-
-                /*END VIDEO PART*/
-
+                // image slideshow part
                 if (movie.slideshow_image_url.length != 0) {
                     let imgSelect = "";
 
-                    imgSelect += '<div class="row" style="margin-bottom:40%;">';
-                    imgSelect += '<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 100%;">';
-                    imgSelect += '<div class="carousel-inner">';
+                    imgSelect += '<div id="carouselExampleControls" class="carousel slide" data-interval="false" data-ride="carousel" style="width: 100%;">';
+                    imgSelect += '<div class="carousel-inner ">';
 
-                    imgSelect += '<div class="carousel-item active">';
-                    imgSelect += '<img class="d-block" src="' + movie.slideshow_image_url[0] + '" style="width: 100%;">';
+                    imgSelect += '<div class="carousel-item active justify-content-between">';
+                    imgSelect += '<img class="d-block" src="' + movie.slideshow_image_url[0] + '" width="100%";>';
                     imgSelect += '<div class="numslide">';
                     imgSelect += 1 + '/' + movie.slideshow_image_url.length;
                     imgSelect += '</div></div>';
 
                     for (var ig = 1; ig < movie.slideshow_image_url.length; ig++) {
-                        imgSelect += '<div class="carousel-item">';
-                        imgSelect += '<img class="d-block" src="' + movie.slideshow_image_url[ig] + '" style="width: 100%;">';
+                        imgSelect += '<div class="carousel-item justify-content-between">';
+                        imgSelect += '<img class="d-block" src="' + movie.slideshow_image_url[ig] + '" width="100%";">';
                         imgSelect += '<div class="numslide">';
                         imgSelect += ig + 1 + '/' + movie.slideshow_image_url.length;
                         imgSelect += '</div></div>';
                     }
+                    imgSelect += '<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a>';
+                    imgSelect += '<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a>';
 
-                    imgSelect += '</div>';
-
-                    imgSelect += '<div class="col">';
-                    imgSelect += '<div class="col" style="margin-bottom:-40%;">';
-                    imgSelect += '<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">';
-                    imgSelect += '<i class="fa fa-angle-left iconim"></i>';
-                    imgSelect += '</a>';
-
-                    imgSelect += '<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">';
-                    imgSelect += '<i class="fa fa-angle-right iconim"></i>';
-                    imgSelect += '</a>';
-                    imgSelect += '</div>';
-
-
-                    imgSelect += '</div>';
-                    imgSelect += '</div>';
-
-
-                    document.querySelector("#imageslide").innerHTML += imgSelect;
+                    imgSelect += '</div></div>';
+                    document.querySelector("#ofc-image").innerHTML += imgSelect;
                 }
 
+                // recommended part
+
+                // random movie from same tag
                 let filtered = data.filter(e => e.tag.some(r => movie.tag.indexOf(r) >= 0))
                 let randomRecoms = []
-                let maxRecomLength = filtered.length >= 10 ? 10 : filtered.length
+                let maxRecomLength = filtered.length >= 15 ? 15 : filtered.length
                 for (let index = 0; index < maxRecomLength; index++) {
                     const randomIndex = Math.floor(Math.random() * (filtered.length - 0) + 0)
                     randomRecoms.push(filtered[randomIndex])
                     filtered.splice(randomIndex, 1);
                 }
 
-                let recom = "";
-                for (var i = 0; i < 5; i++) {
-                    recom += '<div class="col-2 float-left"><a href="OfficialSite.html?movie=' + randomRecoms[i].title.replace(/'/g, '%27') + '"><img src="' + randomRecoms[i].poster_url + '" height="400px;" width="95%;" style="margin-left:6%;"></a></div>';
+                let recSelect = "";
+                recSelect += '<h3><b>RECOMMENDED MOVIES</b></h3>';
+                recSelect += '<div id="Rec_recipeCarousel" class="carousel slide w-100 pt-2 pb-5" data-interval="false" data-ride="carousel">';
+                recSelect += '<div class="carousel-inner w-100 d-block" role="listbox">'
+
+                recSelect += '<div class="carousel-item row no-gutters active justify-content-around">'
+                let length = randomRecoms.length >= 5 ? 5 : randomRecoms.length;
+                //first page video
+                for (var num_rec = 0; num_rec < length; num_rec++) {
+                    recSelect += '<div class="col-6 col-sm-4 col-md-2 col-lg-2 mr-3 float-left text-left"><a href="OfficialSite.html?movie=' + randomRecoms[num_rec].title.replace(/'/g, '%27') + '">';
+                    recSelect += '<img class="img-fluid rec_pos" src="' + randomRecoms[num_rec].poster_url + '"></a>';
+                    recSelect += '<h6 class="title-movie pt-1"><b>' + randomRecoms[num_rec].title + '</b></h6>';
+                    recSelect += '</div>';
                 }
-                document.querySelector("#col-recom1").innerHTML += recom;
+                recSelect += '</div>';
 
-                recom = "";
-                for (var i = 5; i < 10; i++) {
-                    recom += '<div class="col-2 float-left"><a href="OfficialSite.html?movie=' + randomRecoms[i].title.replace(/'/g, '%27') + '"><img src="' + randomRecoms[i].poster_url + '" height="400px;" width="95%;" style="margin-left:6%;"></a></div>';
+                //next page video
+                var loopvalue = Math.ceil((randomRecoms.length) / 5);
+                var numR = 5;
+
+                for (var numR2 = 1; numR2 < loopvalue; numR2++) {
+                    recSelect += '<div class="carousel-item row no-gutters justify-content-around">'
+                    var counter = 1;
+                    while (numR != randomRecoms.length) {
+                        recSelect += '<div class="col-6 col-sm-4 col-md-2 col-lg-2 mr-3 float-left text-left"><a href="OfficialSite.html?movie=' + randomRecoms[num_rec].title.replace(/'/g, '%27') + '">';
+                        recSelect += '<img class="img-fluid rec_poster" src="' + randomRecoms[numR].poster_url + '"></a>';
+                        recSelect += '<h6 class="title-movie pt-1"><b>' + randomRecoms[numR].title + '</b></h6>';
+                        recSelect += '</div>';
+                        numR++;
+                        if (counter == 5) {
+                            break;
+                        }
+                        counter++;
+                    }
+                    recSelect += '</div>';
                 }
-                document.querySelector("#col-recom2").innerHTML += recom;
-                // let recom = "";
-                // for (var i = 0; i < 5; i++) {
-                //     recom += '<div class="col-2 float-left" style="margin-right: 3%;"><img src="' + data[i].poster_url + '" height="400px;" width="280px;"></div>';
-                // }
-                // document.querySelector("#col-recom1").innerHTML += recom;
+                recSelect += '<a class="carousel-control-prev" href="#Rec_recipeCarousel" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a>';
+                recSelect += '<a class="carousel-control-next" href="#Rec_recipeCarousel" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a>';
 
-                // recom = "";
-                // for (var i = 5; i < 10; i++) {
-                //     recom += '<div class="col-2 float-left" style="margin-right: 3%;"><img src="' + data[i].poster_url + '" height="400px;" width="280px;"></div>';
-                // }
-                // document.querySelector("#col-recom2").innerHTML += recom;
-
-                // recom = "";
-                // for (var i = 10; i < 15; i++) {
-                //     recom += '<div class="col-2 float-left" style="margin-right: 3%;"><img src="' + data[i].poster_url + '" height="400px;" width="280px;"></div>';
-                // }
-                // document.querySelector("#col-recom3").innerHTML += recom;
-
-                // recom = "";
-                // for (var i = 15; i < 20; i++) {
-                //     recom += '<div class="col-2 float-left" style="margin-right: 3%;"><img src="' + data[i].poster_url + '" height="400px;" width="280px;"></div>';
-                // }
-                // document.querySelector("#col-recom4").innerHTML += recom;
-
+                recSelect += '</div ></div >';
+                document.querySelector("#ofc-recom").innerHTML += recSelect;
 
             }
+
         </script>
         <!-----------------------footer---------------------------------->
         <footer class="footer">
