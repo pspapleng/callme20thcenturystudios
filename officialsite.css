@@ -1,7 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
-  font-size: 1vw;
+  font-size: 14px;
   background-color: #f1f2f3;
 }
 #home,
@@ -29,21 +29,21 @@ body {
 }
 .footer {
   background-color: #000;
-  font-size: 0.9vw;
+  font-size: 12px;
 }
 #head {
-  font-size: 2vw;
+  font-size: 26px;
   margin: 30px 0px 30px 0px;
 }
 #category,
 .category {
   cursor: pointer;
-  font-size: 1vw;
+  font-size: 14px;
   text-decoration: none;
   color: #000;
   display: inline-block;
-  margin-left: 9px;
-  margin-right: 9px;
+  margin-right: 0.8vw;
+  margin-bottom: 1vw;
 }
 ul {
   list-style: none;
@@ -94,10 +94,10 @@ a:hover {
 .input-group-text:focus-within {
   border: #907137 solid 1px;
 }
-.nav-item {
+.nav-item,
+.dex {
   cursor: pointer;
 }
-
 /* cover part */
 .status {
   color: white;

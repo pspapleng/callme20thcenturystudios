@@ -12,6 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet" />
 
     <!--VIDEO SLIDE PART-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -26,8 +27,8 @@
 
 <body>
     <!----------------------------Navigator-------------------->
-    <nav class="navbar navbar-expand sticky-top" style="background-color: #000000;">
-        <a class="mll mt-1 mb-1" href="#">
+    <nav class="navbar navbar-expand-md sticky-top" style="background-color: #000000;">
+        <a class="mll mt-1 mb-1" href="index.html">
             <img src="logo_20.svg" style="width: 65%;" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
@@ -48,14 +49,14 @@
                     <div id="s1" class="input-group-text ">
                         <a class="pr-2" id="sch" href="#"><i class="icon fa fa-search" aria-hidden="true"></i></a>
                         <input id="s2" class="form-control" type="text" placeholder="Search" autocomplete="off"
-                            aria-label="Search" autocorrect="off" disabled />
+                            aria-label="Search" autocorrect="off" />
                 </span>
             </div>
         </div>
         <script>
-            $(".navmov").after(function () {
-                $(".navmov").addClass('button-clicked');
-                $(".navhome").addClass('button-clicked1');
+            $(".navhome").after(function () {
+                $(".navhome").addClass('button-clicked');
+                $(".navmov").addClass('button-clicked1');
             });
         </script>
 
@@ -336,7 +337,7 @@
                     let length = movie.video.length >= 3 ? 3 : movie.video.length;
                     //first page video
                     for (var vdo = 0; vdo < length; vdo++) {
-                        vdoSelect += '<div class="col-12 col-sm-4 col-md-4 col-lg-4 pr-3 float-left text-left" onClick="onClickVideo(\'' + movie.video[vdo].video_url + '\')" >';
+                        vdoSelect += '<div class="col-12 col-sm-4 col-md-4 col-lg-4 pr-3 float-left text-left vdoclick" onClick="onClickVideo(\'' + movie.video[vdo].video_url + '\')" >';
                         vdoSelect += '<img class="img-fluid" src="' + movie.video[vdo].video_image + '" data-toggle="modal" data-target="#video-modal" >';
                         vdoSelect += '<h6 class="title-vdo pt-1"><b>' + movie.video[vdo].title + '</b></h6>';
                         vdoSelect += '</div>';
@@ -351,7 +352,7 @@
                         vdoSelect += '<div class="carousel-item row no-gutters justify-content-between">'
                         var counter = 1;
                         while (vdo != movie.video.length) {
-                            vdoSelect += '<div class="col-12 col-sm-4 col-md-4 col-lg-4 pr-3 float-left text-left" data-toggle="modal" data-target="#video-modal"onClick="onClickVideo(\'' + movie.video[vdo].video_url + '\')" >';
+                            vdoSelect += '<div class="col-12 col-sm-4 col-md-4 col-lg-4 pr-3 float-left text-left vdoclick" data-toggle="modal" data-target="#video-modal"onClick="onClickVideo(\'' + movie.video[vdo].video_url + '\')" >';
                             vdoSelect += '<img class="img-fluid" src="' + movie.video[vdo].video_image + '" >';
                             vdoSelect += '<h6 class="title-vdo pt-1"><b>' + movie.video[vdo].title + '</b></h6>';
                             vdoSelect += '</div>';
