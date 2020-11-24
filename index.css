@@ -91,11 +91,12 @@
         .nav-item{
             cursor: pointer;
         }
-        #firstbutton {
-		    float: left;
+        #firstbutton,#watch-bt {
+		        float: left;
             display: inline;
-            padding: 15px 70px;
-            margin: 0 0 30 0;
+            margin-top: 4px;
+            margin-right: 15px;
+            padding: 10px 50px;
             font-size: 17px;
             font-weight: 700;
             color: white;
@@ -110,11 +111,12 @@
         #secondbutton {
             width: 230px;
             height: 50px;
-		    float: left;
-		    display: inline;
-		    margin: 0 4px 0 20;
-	        font-size: 17px;
-		    font-weight: 700;
+            margin-left: 8px;
+            margin-top: 4px;
+		        float: left;
+		        display: inline;
+	          font-size: 17px;
+		        font-weight: 700;
             color: black;
             background-color: white;
             border: white;
@@ -222,7 +224,6 @@
         }
         .carousel-caption {
             margin-left: -8vw;
-            margin-bottom: -3vh;
         }
         #carousel-control-prev-2:hover, #carousel-control-next-2:hover, 
         #carousel-control-prev-3:hover, #carousel-control-next-3:hover {
@@ -342,4 +343,65 @@
             #videos {
                 max-width: 30vw;
             }
+        }
+        .carousel-caption{
+          margin-bottom: 3vh;
+        }
+        @media screen and (max-width:800px){
+          .carousel-caption{
+            display: flex;
+          }
+          #status {
+            text-align: left;
+            font-size: 12px;
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+          }
+          #moviename{
+            text-overflow: ellipsis;
+            font-size: 30px;
+            font-weight: 900;
+            font-style: normal;
+            font-display: swap;
+          }
+          #watch-bt {
+          width: 180px;
+          height: 50px;
+          padding: 5 0 0 0;
+          margin-top: 50px;
+          /*margin: 50px 50px 75px 100px;*/
+		      font-size: 14px;
+		      font-weight: 700;
+          color: white;
+          background-color: #907137;
+          border: solid #907137;
+          position: relative;
+        }
+        #firstbutton{
+          width: 180px;
+          height: 50px;
+          padding: 5 0 0 0;
+          margin-top: 0px;
+          /*margin: 50px 50px 75px 100px;*/
+		      font-size: 14px;
+		      font-weight: 700;
+          color: white;
+          background-color: #907137;
+          border: solid #907137;
+          position: relative;
+        }
+        #secondbutton {
+          width: 180px;
+          height: 50px;
+          margin-left: -195px;
+          margin-top: 60px;
+          display: inline;
+          font-size: 14px;
+          font-weight: 700;
+          color: black;
+          background-color: white;
+          border: white;
+          position: relative;
+      }
         }
