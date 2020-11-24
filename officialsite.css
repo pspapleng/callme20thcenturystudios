@@ -221,6 +221,9 @@ a:hover {
   text-shadow: black;
   font-weight: bold;
 }
+.vdoclick {
+  cursor: pointer;
+}
 /* end vdo part */
 
 /*IMAGE SLIDE PART*/
