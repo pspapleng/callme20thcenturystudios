@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');        
+		body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 1vw;
+    background-color: #f1f2f3;
+    }
+    #home,#movies{
+          color: #fff;
+      }
+      #home:hover, #category:hover,.icon:hover{
+          color: #907137;
+      }
+      #s1,#s2{
+          background: #1d1e1f;
+      }
+      #s2{
+        border: transparent;
+      }
+      .input-group-text{
+        border: grey 1px solid;
+      }
+      .icon{
+        color: grey;
+      }
+      .footer{
+      background-color: #000;
+      font-size: 0.9vw;
+      }
+      #head{
+        font-size: 2vw;
+        margin: 30px 0px 30px 0px;
+      }
+      #category, .category{
+        cursor: pointer;
+        font-size: 1vw;
+        text-decoration: none;
+        color: #000;
+        display: inline-block;
+        margin-left: 9px;
+        margin-right: 9px;
+      }
+      ul{
+        list-style: none;
+        padding-left: 0;
+      }
+      .btn-gold{
+        font-size: 1.2vw;
+        background-color: #907137;
+        color: #f1f2f3;
+      }
+      .foot,
+      #foot {
+        text-align: center;
+        color: white;
+        display: inline-block;
+        text-decoration: none;
+      }
+      #foot2 {
+        color: white;
+        display: inline-block;
+        text-decoration: none;
+      }
+      .cov{
+        overflow: hidden; 
+      }
+      .mll{
+        margin-left: 20px;
+      }
+      a:hover{
+        border-bottom:none;
+        text-decoration: none;
+      }
+        .button-clicked{
+            content: '';
+            position: relative;
+            top: 6px;
+            left: 50%;
+            display: block;
+            width: 100%;
+            height: 3px;
+            transform: translateX(-50%);
+            background-color: #907137;
+        }
+        .button-clicked1{
+            border-bottom: 3px solid #000;
+        }
+        .input-group-text:focus-within{
+            border: #907137 solid 1px;
+        }
+        .nav-item{
+            cursor: pointer;
+        }
+        #firstbutton {
+		    float: left;
+            display: inline;
+            padding: 15px 70px;
+            margin: 0 0 30 0;
+            font-size: 17px;
+            font-weight: 700;
+            color: white;
+            background-color: #907137;
+            border: solid #907137;
+            position: relative;
+        }
+        #firstbutton:hover {
+            background-color: #85662e;
+            border: solid #85662e;
+        }
+        #secondbutton {
+            width: 230px;
+            height: 50px;
+		    float: left;
+		    display: inline;
+		    margin: 0 4px 0 20;
+	        font-size: 17px;
+		    font-weight: 700;
+            color: black;
+            background-color: white;
+            border: white;
+            position: relative;
+        }
+		h5 {
+			text-align: left;
+			font-size: 50px;
+			font-weight: 900;
+			font-style: normal;
+            font-display: swap;
+		}
+        #moviename {
+            font-size: 40px;
+			font-weight: 900;
+			font-style: normal;
+            font-display: swap;
+        }
+		#status {
+			text-align: left;
+			font-size: 15px;
+			font-weight: 700;
+			font-style: normal;
+            font-display: swap;
+		}
+		.carousel-indicators li {
+			height: 4px;
+            width: 42px;
+            position: relative;
+		}
+		.carousel-indicators li:hover {
+			background-color: #D2D2D2;
+		}
+		.carousel-indicators .active {
+    		background-color: #907137;
+		}
+		.carousel-indicators .active:hover {
+			background-color: #725621;
+		}
+		.carousel-control-prev-icon, .carousel-control-next-icon {
+  			height: 50px;
+  			width: 50px;
+  			background-color: black;
+  			background-size: 40%, 40%;
+  			border-radius: 100%;
+		}
+		.carousel .item {
+            color: black;
+            text-align: left;
+            overflow: hidden;
+        }
+        .carousel .item .img-box {
+            height: 370px;
+            width: 300px;
+            position: relative;
+            display: flex;
+            align-items: left;
+        }
+        .carousel .item img {	
+            max-width: 90%;
+            max-height: 100%;
+            position: relative;
+            display: flex;
+            align-items: left;
+            margin-left:6%;   
+        }
+        #carousel-control-prev-1, #carousel-control-next-1 {
+            height: 54px;
+            width: 50px;
+            border-radius: 100%;
+            margin-top: 39vh;
+            margin-left: 0.5vw;
+            margin-right: 0.5vw;
+        }
+        #carousel-control-prev-2  {
+            height: 54px;
+            width: 50px;
+            background: #ffffff;
+            left: 1vw;
+            border-radius: 100%;
+        }
+        #carousel-control-next-2  {
+            height: 54px;
+            width: 50px;
+            background: #ffffff;
+            right: -9vw;
+            border-radius: 100%;
+        }
+        #carousel-control-prev-3  {
+            height: 54px;
+            width: 50px;
+            background: #ffffff;
+            left: 1;
+            top: -8vh;
+            border-radius: 100%;
+        }
+        #carousel-control-next-3  {
+            height: 54px;
+            width: 50px;
+            background: #ffffff;
+            right: -9vw;
+            top: -8vh;
+            border-radius: 100%;
+
+        }
+        .carousel-caption {
+            margin-left: -8vw;
+            margin-bottom: -3vh;
+        }
+        #carousel-control-prev-2:hover, #carousel-control-next-2:hover, 
+        #carousel-control-prev-3:hover, #carousel-control-next-3:hover {
+            background: #f0f0f0;
+        }
+        .carousel-control-prev i, .carousel-control-next i{
+            font-size: 36px;
+            position: absolute;
+            display: inline-block;
+            margin: -19 0 0 0;
+            left: 0;
+            right: 0;
+            color: rgb(32, 32, 32);
+            text-shadow: none;
+            font-weight: bold;
+        }
+        .carousel-item {
+          object-fit: cover;
+          object-position: 50% 10%;
+          overflow: hidden;
+        }
+		    .no-gutters{
+          width:100%;
+          margin-left: 13.5vw;
+        }
+		    h6 {
+			    font-size: 15px;
+          margin-left: 1vw;
+		    }
+        .buttcontent{
+            margin-left: 7vw;
+            margin-top: 3vh;
+            margin-bottom: -30px;
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+        }
+        #poster {
+            max-width: 17.5vw;
+        }
+        #poster:hover {
+          transition: transform .5s ease-out;
+          transform: scale(1.03);   
+          filter: contrast(1.08);
+        }
+        #videos {
+            max-width: 22vw;
+        }
+        .modal-content {
+          background-color: black;
+          border-color: whitesmoke;
+          border-radius: 0%;
+          color: white;
+        }
+        #watch-modal-content {
+          background-color: transparent;
+          border: transparent;
+        }
+        .close {
+          color: whitesmoke;
+          font-size: 40px;
+          font-weight: 100;
+          opacity: 0.1;
+        }
+        :hover .close {
+          color: whitesmoke;
+          opacity: 0.5;
+        }
+        .modal-content {
+          background-color: black;
+          border-color: whitesmoke;
+          border-radius: 0%;
+          color: white;
+        }
+        #watch-bt {
+          width: 230px;
+          height: 50px;
+          float: left;
+          padding: 5 0 0 0;
+          margin-top: 50px;
+          /*margin: 50px 50px 75px 100px;*/
+		  font-size: 17px;
+		  font-weight: 700;
+          color: white;
+          background-color: #907137;
+          border: solid #907137;
+          position: relative;
+        }
+        #watch-bt:hover {
+          display: inline;
+          width: 230px;
+          height: 50px;
+          font-size: 17px;
+          font-weight: 700;
+          background-color: #85662e;
+          border: 3px solid #85662e;
+          box-shadow: none;
+        }
+        @media screen and (max-width:768px) {
+            .carousel-item {
+                width: 768px;
+                height: 329px;
+            }
+            #poster{
+                width: 50vw;
+                overflow: hidden;
+                margin-bottom: 7px;
+                height:55vw;
+                display: flex;
+            }
+            #watch-bt {
+                margin-right: 10px;
+            }
+            #col-recom1 {
+                width: 100%;
+               
+            }
+            #videos {
+                max-width: 30vw;
+            }
+        }

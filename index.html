@@ -13,300 +13,9 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <!--VIDEO SLIDE PART-->
+    <link rel="stylesheet" href="index.css">
     <title>20th Century Studios | Official Site</title>
 </head>
-<style>
-		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');        
-		body {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bolder;
-    font-size: 1vw;
-    background-color: #f1f2f3;
-    }
-    #home,#movies{
-          color: #fff;
-      }
-      #home:hover, #category:hover,.icon:hover{
-          color: #907137;
-      }
-      #s1,#s2{
-          background: #1d1e1f;
-      }
-
-      #s2{
-        border: transparent;
-      }
-      .input-group-text{
-        border: grey 1px solid;
-      }
-      .icon{
-        color: grey;
-      }
-      .footer{
-      background-color: #000;
-      font-size: 0.9vw;
-      }
-      #head{
-        font-size: 2vw;
-        margin: 30px 0px 30px 0px;
-      }
-      #category, .category{
-        cursor: pointer;
-        font-size: 1vw;
-        text-decoration: none;
-        color: #000;
-        display: inline-block;
-        margin-left: 9px;
-        margin-right: 9px;
-      }
-      ul{
-        list-style: none;
-        padding-left: 0;
-      }
-      .btn-gold{
-        font-size: 1.2vw;
-        background-color: #907137;
-        color: #f1f2f3;
-      }
-      .foot,
-      #foot {
-        text-align: center;
-        color: white;
-        display: inline-block;
-        text-decoration: none;
-      }
-      #foot2 {
-        color: white;
-        display: inline-block;
-        text-decoration: none;
-      }
-      .cov{
-        overflow: hidden; 
-      }
-      .mll{
-        margin-left: 20px;
-      }
-      a:hover{
-        border-bottom:none;
-        text-decoration: none;
-      }
-      .button-clicked{
-          content: '';
-          position: relative;
-          top: 6px;
-          left: 50%;
-          display: block;
-          width: 100%;
-          height: 3px;
-          transform: translateX(-50%);
-          background-color: #907137;
-        }
-      .button-clicked1{
-        border-bottom: 3px solid #000;
-      }
-      .input-group-text:focus-within{
-        border: #907137 solid 1px;
-      }
-      .nav-item{
-        cursor: pointer;
-      }
-      #firstbutton {
-			  float: left;
-			  display: inline;
-			  padding: 15px 70px;
-			  margin: 0 0 30 0;
-			  font-size: 17px;
-			  font-weight: 700;
-        color: white;
-        background-color: #907137;
-        border: solid #907137;
-      }
-      #firstbutton:hover {
-        background-color: #85662e;
-        border: solid #85662e;
-      }
-      #secondbutton {
-			  float: left;
-			  display: inline;
-			  padding: 15px 45px;
-			  margin: 0 0 0 30;
-			  font-size: 17px;
-			  font-weight: 700;
-        color: black;
-        background-color: white;
-        border: white;
-      }
-		  h5 {
-			text-align: left;
-			font-size: 50px;
-			font-weight: 900;
-			font-style: normal;
-      font-display: swap;
-		}
-    #moviename {
-      font-size: 40px;
-			font-weight: 900;
-			font-style: normal;
-      font-display: swap;
-    }
-		#status {
-			text-align: left;
-			font-size: 15px;
-			font-weight: 700;
-			font-style: normal;
-      font-display: swap;
-		}
-		.carousel-indicators li {
-			height: 4px;
-      width: 42px;
-		}
-		.carousel-indicators li:hover {
-			background-color: #D2D2D2;
-		}
-		.carousel-indicators .active {
-    		background-color: #907137;
-		}
-		.carousel-indicators .active:hover {
-			background-color: #725621;
-		}
-		.carousel-control-prev-icon, .carousel-control-next-icon {
-  			height: 50px;
-  			width: 50px;
-  			background-color: black;
-  			background-size: 40%, 40%;
-  			border-radius: 100%;
-		}
-		.carousel .item {
-            color: black;
-            text-align: left;
-            overflow: hidden;
-        }
-        .carousel .item .img-box {
-            height: 370px;
-            width: 300px;
-            position: relative;
-            display: flex;
-            align-items: left;
-        }
-        .carousel .item img {	
-            max-width: 90%;
-            max-height: 100%;
-            position: absolute;
-            /*left: 10;
-            right: 10;*/
-            display: flex;
-            align-items: left;
-            margin-left:6%;
-            
-        }
-        #carousel-control-prev-1, #carousel-control-next-1 {
-            height: 54px;
-            width: 50px;
-            border-radius: 100%;
-            margin-top: 39vh;
-            margin-left: 0.5vw;
-            margin-right: 0.5vw;
-        }
-        #carousel-control-prev-2  {
-            height: 54px;
-            width: 50px;
-            background: #ffffff;
-            left: 1vw;
-            /*margin-right: 20px;
-            padding-top: 2vh;*/
-            border-radius: 100%;
-            /*margin-top: 20vh;*/
-        }
-        #carousel-control-next-2  {
-            height: 54px;
-            width: 50px;
-            background: #ffffff;
-            right: -9vw;
-            /*margin-right: 20px;
-            padding-top: 2vh;*/
-            border-radius: 100%;
-            /*margin-top: 20vh;*/
-        }
-        #carousel-control-prev-3  {
-            height: 54px;
-            width: 50px;
-            background: #ffffff;
-            left: 1;
-            top: -8vh;
-            /*margin-right: 20px;
-            padding-top: 2vh;*/
-            border-radius: 100%;
-            /*margin-top: 20vh;*/
-        }
-        #carousel-control-next-3  {
-            height: 54px;
-            width: 50px;
-            background: #ffffff;
-            right: -9vw;
-            top: -8vh;
-            /*margin-right: 20px;
-            padding-top: 2vh;*/
-            border-radius: 100%;
-            /*margin-top: 20vh;*/
-        }
-        /*#carousel-control-prev-3, #carousel-control-next-3 {
-            height: 54px;
-            width: 50px;
-            background: #ffffff;
-            padding-top: 2vh;
-            margin-top: -33.2px;
-            border-radius: 100%;
-        }*/
-        .carousel-caption {
-            margin-left: -8vw;
-            margin-bottom: -3vh;
-        }
-        #carousel-control-prev-2:hover, #carousel-control-next-2:hover, 
-        #carousel-control-prev-3:hover, #carousel-control-next-3:hover {
-            background: #f0f0f0;
-        }
-        .carousel-control-prev i, .carousel-control-next i{
-            font-size: 36px;
-            position: absolute;
-            display: inline-block;
-            margin: -19 0 0 0;
-            left: 0;
-            right: 0;
-            color: rgb(32, 32, 32);
-            text-shadow: none;
-            font-weight: bold;
-        }
-        .carousel-item {
-          object-fit: cover;
-          object-position: 50% 10%;
-          overflow: hidden;
-        }
-		    .no-gutters{
-          width:100%;
-          margin-left: 13.5vw;
-        }
-		    h6 {
-			    font-size: 15px;
-          margin-left: 1vw;
-		    }
-        .buttcontent{
-            margin-left: 7vw;
-            margin-top: 3vh;
-            margin-bottom: -30px;
-        }
-        #poster {
-            max-width: 17.5vw;
-        }
-        #poster:hover {
-          transition: transform .5s ease-out;
-          transform: scale(1.03);   
-          filter: contrast(1.08);
-        }
-        #videos {
-            max-width: 22vw;
-        }
-        
-</style>
 <body>
     <!----------------------------Navigator-------------------->
     <nav class="navbar navbar-expand-md sticky-top" style="background-color: #000000;">
@@ -354,7 +63,7 @@
         	</ol>
         <div class="carousel-inner">
               <div class="carousel-item">
-            	<img src="https://lumiere-a.akamaihd.net/v1/images/hb_20cs_thenewmutants_36b7cb6f.jpeg?region=0,0,2048,878" class="d-block w-100" alt="..." style="width: 100%; height: 85vh;">
+            	<img id="img-cover" src="https://lumiere-a.akamaihd.net/v1/images/hb_20cs_thenewmutants_36b7cb6f.jpeg?region=0,0,2048,878" class="d-block w-100" alt="..." style="width: 100%; height: 85vh;">
             	<div class="carousel-caption d-none d-sm-block">
               		<h5 id="moviename">THE NEW MUTANTS</h5>
               		<p id="status">Now On Digital and Blu-Ray™. New on 4K Ultra HD™</p>
@@ -363,16 +72,30 @@
             	</div>
           	</div>
               <div class="carousel-item">
-                <img src="https://lumiere-a.akamaihd.net/v1/images/hb_20cs_tplodavidcopperfield_20514_a2e22704.jpeg?region=0,0,2048,878" class="d-block w-100" alt="..." style="width: 100%; height: 85vh;">
+                <img id="img-cover" src="https://lumiere-a.akamaihd.net/v1/images/hb_20cs_tplodavidcopperfield_20514_a2e22704.jpeg?region=0,0,2048,878" class="d-block w-100" alt="..." style="width: 100%; height: 85vh;">
                 <div class="carousel-caption d-none d-sm-block">
                   <h5 id="moviename">THE PERSONAL HISTORY OF DAVID COPPERFIELD</h5>
                   <p id="status">Now only on Digital</p>
-                  <button type="button" id="firstbutton" class="btn btn-primary btn-lg">WATCH TRAILER</button>
+                  <!--Watch Modal-->
+                  <button type="button" id="watch-bt" class="btn btn-primary btn-lg mt-1 mr-3 ml-4 col-12 col-sm-12 col-md-6" data-toggle="modal" data-target="#watch-modal">WATCH TRAILER</button>
+                  <div class="modal fade" id="watch-modal" tabindex="-1" role="dialog" aria-labelledby="watch-modalTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                      <div class="modal-content mb-0 p-0" id="watch-modal-content">
+                          <div class="modal-body">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                              </button>
+                              <div class="embed-responsive embed-responsive-16by9" id="inwatch-modal1"></div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Watch Modal-->
                   <button type="button" id="secondbutton" class="btn btn-primary btn-lg">VISIT OFFICIAL SITE</button>
                 </div>
             </div>
             <div class="carousel-item active">
-            	<img src="https://lumiere-a.akamaihd.net/v1/images/hb_20cs_theemptyman_20320_95844c46.jpeg?region=0,0,2048,878" class="d-block w-100" alt="Responsive image" style="width: 100%; height: 86vh;">
+            	<img id="img-cover" src="https://lumiere-a.akamaihd.net/v1/images/hb_20cs_theemptyman_20320_95844c46.jpeg?region=0,0,2048,878" class="d-block w-100" alt="Responsive image" style="width: 100%; height: 86vh;">
             	<div class="carousel-caption d-none d-sm-block">
               		<h5 id="moviename">THE EMPTY MAN</h5>
               		<p id="status">In Theaters Now</p>
@@ -381,29 +104,71 @@
             	</div>
               </div>
           	<div class="carousel-item">
-            	<img src="https://lumiere-a.akamaihd.net/v1/images/hb_20cs_freeguy_20091_4208baba.jpeg?region=0,0,2048,878" class="d-block w-100" alt="..." style="width: 100%; height: 85vh;">
+            	<img id="img-cover" src="https://lumiere-a.akamaihd.net/v1/images/hb_20cs_freeguy_20091_4208baba.jpeg?region=0,0,2048,878" class="d-block w-100" alt="..." style="width: 100%; height: 85vh;">
             	<div class="carousel-caption d-none d-sm-block">
               		<h5 id="moviename">FREE GUY</h5>
-              		<p id="status">In Theaters December 11, 2020</p>
-              		<button type="button" id="firstbutton" class="btn btn-primary btn-lg">WATCH TRAILER</button>
+                  <p id="status">In Theaters December 11, 2020</p>
+                  <!--Watch Modal-->
+              		<button type="button" id="watch-bt" class="btn btn-primary btn-lg mt-1 mr-3 ml-4 col-12 col-sm-12 col-md-6" data-toggle="modal" data-target="#watch-modal">WATCH TRAILER</button>
+                  <div class="modal fade" id="watch-modal" tabindex="-1" role="dialog" aria-labelledby="watch-modalTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                      <div class="modal-content mb-0 p-0" id="watch-modal-content">
+                          <div class="modal-body">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                              </button>
+                              <div class="embed-responsive embed-responsive-16by9" id="inwatch-modal2"></div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Watch Modal-->
               		<button type="button" id="secondbutton" class="btn btn-primary btn-lg">VISIT OFFICIAL SITE</button>
             	</div>
               </div>
           	<div class="carousel-item">
-              	<img src="https://lumiere-a.akamaihd.net/v1/images/hb_20cs_deathonthenile_19923_2_cb3d7374.jpeg?region=0,0,2048,878" class="d-block w-100" alt="..." style="width: 100%; height: 85vh;">
+              	<img id="img-cover" src="https://lumiere-a.akamaihd.net/v1/images/hb_20cs_deathonthenile_19923_2_cb3d7374.jpeg?region=0,0,2048,878" class="d-block w-100" alt="..." style="width: 100%; height: 85vh;">
               	<div class="carousel-caption d-none d-sm-block">
                 		<h5 id="moviename">DEATH ON THE NILE</h5>
-                		<p id="status">In Theaters December 18, 2020</p>
-                		<button type="button" id="firstbutton" class="btn btn-primary btn-lg">WATCH TRAILER</button>
+                    <p id="status">In Theaters December 18, 2020</p>
+                    <!--Watch Modal-->
+                		<button type="button" id="watch-bt" class="btn btn-primary btn-lg mt-1 mr-3 ml-4 col-12 col-sm-12 col-md-6" data-toggle="modal" data-target="#watch-modal">WATCH TRAILER</button>
+                  <div class="modal fade" id="watch-modal" tabindex="-1" role="dialog" aria-labelledby="watch-modalTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                      <div class="modal-content mb-0 p-0" id="watch-modal-content">
+                          <div class="modal-body">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                              </button>
+                              <div class="embed-responsive embed-responsive-16by9" id="inwatch-modal3"></div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Watch Modal-->
                 		<button type="button" id="secondbutton" class="btn btn-primary btn-lg">VISIT OFFICIAL SITE</button>
               	</div>
             </div>
             <div class="carousel-item">
-              	<img src="https://lumiere-a.akamaihd.net/v1/images/hb_20cs_thekingsman_20186_0b945a3b.jpeg?region=0,0,2048,878" class="d-block w-100" alt="..." style="width: 100%; height: 85vh;">
+              	<img id="img-cover" src="https://lumiere-a.akamaihd.net/v1/images/hb_20cs_thekingsman_20186_0b945a3b.jpeg?region=0,0,2048,878" class="d-block w-100" alt="..." style="width: 100%; height: 85vh;">
               	<div class="carousel-caption d-none d-sm-block">
                 		<h5 id="moviename">THE KING'S MAN</h5>
-                		<p id="status">In Theaters February 12, 2021</p>
-                		<button type="button" id="firstbutton" class="btn btn-primary btn-lg">WATCH TRAILER</button>
+                    <p id="status">In Theaters February 12, 2021</p>
+                    <!--Watch Modal-->
+                		<button type="button" id="watch-bt" class="btn btn-primary btn-lg mt-1 mr-3 ml-4 col-12 col-sm-12 col-md-6" data-toggle="modal" data-target="#watch-modal">WATCH TRAILER</button>
+                  <div class="modal fade" id="watch-modal" tabindex="-1" role="dialog" aria-labelledby="watch-modalTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                      <div class="modal-content mb-0 p-0" id="watch-modal-content">
+                          <div class="modal-body">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                              </button>
+                              <div class="embed-responsive embed-responsive-16by9" id="inwatch-modal4"></div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Watch Modal-->
                 		<button type="button" id="secondbutton" class="btn btn-primary btn-lg">VISIT OFFICIAL SITE</button>
               	</div>
             </div>
@@ -419,14 +184,14 @@
       </div>
     </div>
 	<!-------------------------Carousel--------------------------->
-    <!-----------------------featured titles---------------------------------->
+  <!-----------------------featured titles---------------------------------->
     <div class="buttcontent"></br>
         <h2><b>FEATURED TITLES</b></h2></br>
     </div>
 	<div class="container my-3">
         <div id="recipeCarousel" class="carousel slide" data-ride="carousel" style="width: 100%;">
             <div class="carousel-inner" style="width: 100vw; margin-left:-21vw;">
-                <div class="carousel-item row no-gutters active" id="col-recom1" style="width: 100%;"></div>
+                <div class="carousel-item row no-gutters active col-12 col-sm-12 col-md-6 col-lg-12" id="col-recom1" style="width: 100%;"></div>
                 <div class="carousel-item row no-gutters" id="col-recom2" style="width: 100%;"></div>
                 <div class="carousel-item row no-gutters" id="col-recom3" style="width: 100%;"></div>
             </div>
@@ -476,7 +241,7 @@
                 <i class="fa fa-angle-right"></i>
             </a>
 		</div>
-	</div>
+  </div>
 	<script>
         let requestURL = '20cenData.json'; 
         let request = new XMLHttpRequest(); 
@@ -488,6 +253,24 @@
         request.send(); 
         
         function dataReportStatus(data) {
+
+          /*Watch Modal*/
+          let watchmodal1 = "";
+                watchmodal1 += '<iframe class="embed-responsive-item" src="' + data[0].trailer_url + '" allowfullscreen></iframe>';
+                document.querySelector("#inwatch-modal1").innerHTML += watchmodal1;
+
+          let watchmodal2 = "";
+                watchmodal2 += '<iframe class="embed-responsive-item" src="' + data[2].trailer_url + '" allowfullscreen></iframe>';
+                  document.querySelector("#inwatch-modal2").innerHTML += watchmodal2;
+
+          let watchmodal3 = "";
+                watchmodal3 += '<iframe class="embed-responsive-item" src="' + data[3].trailer_url + '" allowfullscreen></iframe>';
+                document.querySelector("#inwatch-modal3").innerHTML += watchmodal3;
+
+          let watchmodal4 = "";
+                watchmodal4 += '<iframe class="embed-responsive-item" src="' + data[4].trailer_url + '" allowfullscreen></iframe>';
+                document.querySelector("#inwatch-modal4").innerHTML += watchmodal4;
+          /*Watch Modal*/
 
             let recom = "";
                     for(var i=0; i<5; i++){
