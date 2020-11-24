@@ -304,8 +304,8 @@
           padding: 5 0 0 0;
           margin-top: 50px;
           /*margin: 50px 50px 75px 100px;*/
-		  font-size: 17px;
-		  font-weight: 700;
+		      font-size: 17px;
+		      font-weight: 700;
           color: white;
           background-color: #907137;
           border: solid #907137;
@@ -321,34 +321,102 @@
           border: 3px solid #85662e;
           box-shadow: none;
         }
-        @media screen and (max-width:768px) {
-            .carousel-item {
-                width: 768px;
-                height: 329px;
-            }
-            #poster{
-                width: 50vw;
-                overflow: hidden;
-                margin-bottom: 7px;
-                height:55vw;
-                display: flex;
-            }
-            #watch-bt {
-                margin-right: 10px;
-            }
-            #col-recom1 {
-                width: 100%;
-               
-            }
-            #videos {
-                max-width: 30vw;
-            }
+        @media screen and (max-width: 1440px) {
+          #img-cover {
+            width: 1440px;
+            height: 618px;
+          }
+          .carousel-item {
+            width: 1440px;
+            height: 500px;
+          }
+          #carousel-inner {
+            left: 20px;
+          }
+          #poster {
+            overflow: hidden;
+            display: inline-block;
+            max-width: 250px;
+            max-height: 460px;
+          }
+          #videos {
+            max-width: 297px;
+            max-height: 167px;
+            display: inline-block;
+          }
         }
-        .carousel-caption{
+        @media screen and (max-width: 1024px) {
+          #img-cover {
+            width: 1024px;
+            height: 439px;
+          }
+          .carousel-item {
+            width: 1024px;
+            height: 470px;
+          }
+          .buttcontent {
+            margin-left: 10px;
+          }
+          #carousel-inner {
+            left: 50px;
+          }
+          #poster {
+            display: inline-block;
+            max-width: 175px;
+            max-height: 460px;
+          }
+          #videos {
+            max-width: 212px;
+            max-height: 167px;
+            display: inline-block;
+          }
+          #carousel-control-prev-2, #carousel-control-prev-3 {
+              left: 5vw;
+          }
+          #carousel-control-next-2, #carousel-control-next-3 {
+              right: -2vw;
+          }
+        @media screen and (max-width:768px) {
+          #img-cover {
+            width: 768px;
+            height: 330px;
+          }
+          .carousel-item {
+            width: 768px;
+            height: 468px;
+          }
+          #moviename {
+            font-size: 25px;
+          }
+          .buttcontent {
+            margin-left: 10px;
+          }
+          #carousel-inner {
+            left: 65px;
+          }
+          #poster {
+            width: 312px;
+            height: 468px;
+            /*padding-bottom: 30px;*/
+            max-width: 50%;
+            max-height: 468px;
+          }
+          #videos {
+            max-width: 297px;
+            max-height: 50%;
+            display: inline-block;
+          }
+          #carousel-control-prev-2, #carousel-control-prev-3 {
+              left: 5vw;
+          }
+          #carousel-control-next-2, #carousel-control-next-3 {
+              right: -2vw;
+          }
+        .carousel-caption {
           margin-bottom: 3vh;
         }
-        @media screen and (max-width:800px){
-          .carousel-caption{
+        @media screen and (max-width:800px) {
+          .carousel-caption {
             display: flex;
           }
           #status {
@@ -358,7 +426,7 @@
             font-style: normal;
             font-display: swap;
           }
-          #moviename{
+          #moviename {
             text-overflow: ellipsis;
             font-size: 30px;
             font-weight: 900;
@@ -366,42 +434,42 @@
             font-display: swap;
           }
           #watch-bt {
-          width: 180px;
-          height: 50px;
-          padding: 5 0 0 0;
-          margin-top: 50px;
-          /*margin: 50px 50px 75px 100px;*/
-		      font-size: 14px;
-		      font-weight: 700;
-          color: white;
-          background-color: #907137;
-          border: solid #907137;
-          position: relative;
-        }
-        #firstbutton{
-          width: 180px;
-          height: 50px;
-          padding: 5 0 0 0;
-          margin-top: 0px;
-          /*margin: 50px 50px 75px 100px;*/
-		      font-size: 14px;
-		      font-weight: 700;
-          color: white;
-          background-color: #907137;
-          border: solid #907137;
-          position: relative;
-        }
-        #secondbutton {
-          width: 180px;
-          height: 50px;
-          margin-left: -195px;
-          margin-top: 60px;
-          display: inline;
-          font-size: 14px;
-          font-weight: 700;
-          color: black;
-          background-color: white;
-          border: white;
-          position: relative;
-      }
+            width: 180px;
+            height: 50px;
+            padding: 5 0 0 0;
+            margin-top: 50px;
+            /*margin: 50px 50px 75px 100px;*/
+		        font-size: 14px;
+		        font-weight: 700;
+            color: white;
+            background-color: #907137;
+            border: solid #907137;
+            position: relative;
+          }
+          #firstbutton {
+            width: 180px;
+            height: 50px;
+            padding: 5 0 0 0;
+            margin-top: 0px;
+            /*margin: 50px 50px 75px 100px;*/
+            font-size: 14px;
+            font-weight: 700;
+            color: white;
+            background-color: #907137;
+            border: solid #907137;
+            position: relative;
+          }
+          #secondbutton {
+            width: 180px;
+            height: 50px;
+            margin-left: -195px;
+            margin-top: 60px;
+            display: inline;
+            font-size: 14px;
+            font-weight: 700;
+            color: black;
+            background-color: white;
+            border: white;
+            position: relative;
+          }
         }
