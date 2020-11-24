@@ -143,10 +143,6 @@ body {
     cursor: pointer;
   }
 
-  .menu {
-    white-space: nowrap;
-    overflow: auto;
-  }
 
   @media screen and (max-width:2400px) {
     .cov {
@@ -159,6 +155,10 @@ body {
     .cov {
       width: 240px;
       margin: 0px;
+    }
+    .menu {
+      white-space: nowrap;
+      overflow: auto;
     }
   }
 
