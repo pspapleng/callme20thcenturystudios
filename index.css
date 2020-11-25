@@ -321,6 +321,42 @@
           border: 3px solid #85662e;
           box-shadow: none;
         }
+        /*video slide part*/
+        #in-modal {
+          align-items: center;
+        }
+        .vdoclick {
+          cursor: pointer;
+        }
+        #video-modal-content {
+          background-color: transparent;
+          border: transparent;
+        }
+        #video .carousel-control-prev,
+        #video .carousel-control-next {
+          height: 7%;
+          width: 4%;
+          margin-right: 1%;
+          margin-left: -1%;
+          margin-top: 6%;
+        }
+        #ofc-video .carousel-control-prev:hover,
+        #ofc-video .carousel-control-next:hover {
+          background-color: transparent;
+        }
+        #ofc-video .carousel-control-prev i,
+        #ofc-video .carousel-control-next i {
+          font-size: 36px;
+          position: absolute;
+          display: inline-block;
+          margin: -19 0 0 0;
+          left: 0;
+          right: 0;
+          color: rgb(32, 32, 32);
+          text-shadow: black;
+          font-weight: bold;
+        }
+        /*video slide part*/
         @media screen and (max-width: 1440px) {
           #img-cover {
             width: 1440px;

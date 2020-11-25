@@ -187,7 +187,7 @@
     </div>
 	<div class="container my-3">
         <div id="recipeCarousel" class="carousel slide" data-ride="carousel" style="width: 100%;">
-            <div class="carousel-inner" style="width: 100vw; margin-left:-21vw;">
+            <div id="carousesl-inner" class="carousel-inner" style="width: 100vw; margin-left:-21vw;">
                 <div class="carousel-item row no-gutters active col-12 col-sm-12 col-md-6 col-lg-12" id="col-recom1" style="width: 100%;"></div>
                 <div class="carousel-item row no-gutters" id="col-recom2" style="width: 100%;"></div>
                 <div class="carousel-item row no-gutters" id="col-recom3" style="width: 100%;"></div>
@@ -206,7 +206,7 @@
     </div>
 	<div class="container my-3">
         <div id="recipeCarousel2" class="carousel slide" data-ride="carousel" style="width: 100%;">
-            <div class="carousel-inner"  style="width: 100vw; margin-left:-21vw;">
+            <div id="carousesl-inner" class="carousel-inner"  style="width: 100vw; margin-left:-21vw;">
                 <div class="carousel-item row no-gutters active" id="col-recom5" style="width: 100%;"></div>
                 <div class="carousel-item row no-gutters" id="col-recom6" style="width: 100%;"></div>
                 <div class="carousel-item row no-gutters" id="col-recom7" style="width: 100%;"></div>
@@ -223,25 +223,37 @@
     <div class="buttcontent"></br>
         <h2><b>VIDEOS</b></h2></br>
     </div>
-	<div class="container my-3">
-        <div id="recipeCarousel3" class="carousel slide" data-ride="carousel" style="width: 100%;">
-            <div class="carousel-inner"  style="width: 100vw; margin-left:-21vw;">
-                <div class="carousel-item row no-gutters active" id="col-recom9" style="width: 100%;"></div>
-                <div class="carousel-item row no-gutters" id="col-recom10" style="width: 100%;"></div>
-                <div class="carousel-item row no-gutters" id="col-recom11" style="width: 100%;"></div>
-            </div>
-            <a id="carousel-control-prev-3" class="carousel-control-prev" href="#recipeCarousel3" role="button" data-slide="prev" style="margin-top: 14%; margin-left: -13%;">
-                <i class="fa fa-angle-left"></i>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a id="carousel-control-next-3" class="carousel-control-next" href="#recipeCarousel3" role="button" data-slide="next" style="margin-top: 14%;">
-                <i class="fa fa-angle-right"></i>
-            </a>
-		</div>
+    <div class="container my-3">
+      <!-- video slide part -->
+      <div class="row pt-1 pb-1" id="video"></div>
+
+      <!--Video slide Modal -->
+      <div class="modal fade" id="video-modal" tabindex="-1" role="dialog" aria-labelledby="video-modalTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content mb-0 p-0" id="video-modal-content">
+                  <div class="modal-body">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                      </button>
+                      <div class="embed-responsive embed-responsive-16by9" id="invideo-modal"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
 	<script>
         let requestURL = '20cenData.json'; 
-        let request = new XMLHttpRequest(); 
+        let request = new XMLHttpRequest();
+
+        let CurrentVideo = ""
+        function onClickVideo(payload) {
+            CurrentVideo = payload
+            let vdo_modal = "";
+            vdo_modal += '<iframe class="embed-responsive-item" src="' + payload + '" allowfullscreen></iframe>';
+            document.querySelector("#invideo-modal").innerHTML += vdo_modal;
+            console.log(JSON.stringify(payload));
+        }
         request.onreadystatechange = function () { 
             if (request.readyState == 4 && request.status == 200) {             
                 dataReportStatus(JSON.parse(request.responseText));            
@@ -250,6 +262,64 @@
         request.send(); 
         
         function dataReportStatus(data) {
+
+          /*VIDEO PART*/
+
+          let arrimgMov = []
+            let arrtitleMov = []
+            let arrurlMov = []
+            let num = 10;
+            for (var loop = 0; loop < num; loop++) {
+                if (data[loop].video.length != 0) {
+                    arrimgMov.push(data[loop].video[0].video_image)
+                    arrtitleMov.push(data[loop].video[0].title)
+                    arrurlMov.push(data[loop].video[0].video_url)
+                } else {
+                    num += 1;
+                }
+            }
+
+            let vdoSelect = "";   
+            vdoSelect += '<div id="recipeCarousel" class="carousel slide w-100 pt-2 " data-interval="false" data-ride="carousel">';
+            vdoSelect += '<div class="carousel-inner w-100 " role="listbox">'
+
+            let length = arrtitleMov.length >= 4 ? 4 : arrtitleMov.length;
+            vdoSelect += '<div class="carousel-item row active justify-content-between">'
+            //first page video
+            for (var vdo = 0; vdo < length; vdo++) {
+                vdoSelect += '<div class="col-6 col-sm-3 col-md-3 col-lg-3 pr-3 float-left text-left vdoclick" onClick="onClickVideo(\'' + arrurlMov[vdo] + '\')" >';
+                vdoSelect += '<img class="img-fluid" src="' + arrimgMov[vdo] + '" data-toggle="modal" data-target="#video-modal" >';
+                vdoSelect += '<h6 class="title-vdo pt-1"><b>' + arrtitleMov[vdo] + '</b></h6>';
+                vdoSelect += '</div>';
+            }
+            vdoSelect += '</div>';
+
+            //next page video
+            var loopvalue = Math.ceil((arrtitleMov.length) / 4);
+            var vdo = 4;
+
+            for (var vdo2 = 1; vdo2 < loopvalue; vdo2++) {
+                vdoSelect += '<div class="carousel-item row justify-content-between">'
+                var counter = 1;
+                while (vdo != arrtitleMov.length) {
+                    vdoSelect += '<div class="col-6 col-sm-3 col-md-3 col-lg-3 pr-3 float-left text-left vdoclick" data-toggle="modal" data-target="#video-modal"onClick="onClickVideo(\'' + arrurlMov[vdo] + '\')" >';
+                    vdoSelect += '<img class="img-fluid" src="' + arrimgMov[vdo] + '" >';
+                    vdoSelect += '<h6 class="title-vdo pt-1"><b>' + arrtitleMov[vdo] + '</b></h6>';
+                    vdoSelect += '</div>';
+                    vdo++;
+                    if (counter == 4) {
+                        break;
+                    }
+                    counter++;
+                }
+                vdoSelect += '</div>';
+            }
+            console.log("Current ", CurrentVideo);
+            vdoSelect += '<a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a>';
+            vdoSelect += '<a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a>';
+
+            vdoSelect += '</div ></div >';
+            document.querySelector("#video").innerHTML += vdoSelect;
 
           /*Watch Modal*/
           let watchmodal1 = "";
