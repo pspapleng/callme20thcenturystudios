@@ -213,9 +213,10 @@ h5 {
 }
 .carousel-caption {
   margin-left: -8vw;
+  margin-bottom: 20px;
 }
-.carousel-control-prev i,
-.carousel-control-next i {
+.carousel-control-prev-1 i,
+.carousel-control-next-1 i {
   font-size: 36px;
   position: absolute;
   display: inline-block;
@@ -341,7 +342,7 @@ h5 {
   height: 7%;
   width: 4%;
   margin-right: 3%;
-  margin-left: 0%;
+  margin-left: 0.5%;
   margin-top: 11%;
 }
 #featured-title .carousel-control-prev:hover,
@@ -391,8 +392,8 @@ h5 {
 #videos .carousel-control-next {
   height: 7%;
   width: 4%;
-  margin-right: 1%;
-  margin-left: -1%;
+  margin-right: 2%;
+  margin-left: 1%;
   margin-top: 6%;
 }
 #ofc-video .carousel-control-prev:hover,
