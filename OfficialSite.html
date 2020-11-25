@@ -28,7 +28,7 @@
 <body>
     <!----------------------------Navigator-------------------->
     <nav class="navbar navbar-expand sticky-top" style="background-color: #000000;">
-        <a class="mll mt-1 mb-1" href="index.html">
+        <a class="dex mll mt-1 mb-1" onclick="window.location.href='index.html'">
             <img src="logo_20.svg" style="width: 65%;" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
@@ -49,14 +49,14 @@
                     <div id="s1" class="input-group-text ">
                         <a class="pr-2" id="sch" href="#"><i class="icon fa fa-search" aria-hidden="true"></i></a>
                         <input id="s2" class="form-control" type="text" placeholder="Search" autocomplete="off"
-                            aria-label="Search" autocorrect="off" />
+                            aria-label="Search" autocorrect="off" disabled />
                 </span>
             </div>
         </div>
         <script>
-            $(".navhome").after(function () {
-                $(".navhome").addClass('button-clicked');
-                $(".navmov").addClass('button-clicked1');
+            $(".navmov").after(function () {
+                $(".navmov").addClass('button-clicked');
+                $(".navhome").addClass('button-clicked1');
             });
         </script>
 
